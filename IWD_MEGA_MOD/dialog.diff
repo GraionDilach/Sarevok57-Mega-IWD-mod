@@ -1,0 +1,5955 @@
+--- F:\IWDEE 1.4\dialog.txt
++++ F:\IWDEE - Sarevok57\dialog.txt
+@@ -599,7 +599,7 @@
+ Exactly. That is why we Easthaveners practice the Tempuran faith and perform the rituals of the Lord of Battles.
+ 
+ 200:
+-Thank you for starting an argument with me. You have proven my point admirably. Good day... idiot.
++Thank you for starting an argument with me. You have proven my point admirably. Good day... idiot.[GHAST 05]
+ 
+ 201:
+ We all must seek our own paths through life. I have chosen the path of the warrior, walking in the bloody footsteps of the Lord of Battles. As a woman, it is difficult to do at times, especially since I am a foreigner to this land. The native barbarians do not believe that foreigners understand what "Tempos" really stands for, and they certainly don't believe that women can be his champions or representatives on Toril. Perhaps someday this will change.
+@@ -2754,7 +2754,7 @@
+ This sarcophagus is open and empty. The lid has been carelessly thrown aside and lies shattered on the floor nearby.
+ 
+ 909:
+-This inlaid stone table contains an inscription: Kresselack, The Black Wolf.
++
+ 
+ 910:
+ This tattered banner is worn with age.
+@@ -7081,7 +7081,7 @@
+ A large monument with giant carvings of an elf and a dwarf as the centerpiece. An inscription between the two reads "Through unity we persevere."
+ 
+ 2327:
+-This enormous round table is ornamented with elaborate dwarven inscriptions.
++
+ 
+ 2328:
+ Crafted in 1021 DR for the warrior Makael the Lean, Turodahel has a bloody military history. Makael was a mercenary who sold his services to anyone with the right amount of coin. Shrewd and crafty by reputation, Makael applied his skills and the power of Turodahel carefully for over three decades. It wasn't until after Makael died of a magical disease that legends about the man started to spring up. It is believed by modern sages that Makael is likely to have killed over five hundred men with his sword over the years. It was widely known that Makael was neither especially strong nor tough. People assumed that it must have been the power of the sword that made his deeds possible. Makael's grave was robbed within a few years of his burial.
+@@ -7107,7 +7107,49 @@
+ This beautiful monument appears to represent dwarven craftsmanship in the art of metallurgy. It also seems to have at one time been something functional.
+ 
+ 2330:
+-This long and slender lance is of astonishing quality and workmanship. The entire length of its shaft appears to have been coated in gold and its handle is inlaid with various precious gems. The inscription upon its stand reads: "The Golden Lance of Kedwyr. Heralded as the greatest horseman to ever ride in battle, Kedwyr died gloriously upon the Fields of the Dead alongside his trusted charger, Onyx."
++This yellowed page, although faded and frayed at the edges, is surprisingly resilient, having the texture of leather. Despite the fact it is written in an unknown script, the words on the page twist and shift as you read over them, translating into the Common tongue in your mind.
++
++...and the third of the four Watchknights fell, 
++his spear planted in the ground against
++Aehirglass's charge. The dragon's wings 
++were as shreds, its wounds were great, 
++but the dragon knew the day was his.
++
++It turned upon the last of the warriors, 
++Erris, the fourth Watchknight. There were
++no other warriors to be seen, for Lord
++Maluradek had still not taken the field.
++Erris rushed in to strike but was snatched
++up in the dragon's grip, and the creature's
++head reared back to bite the Watchknight's
++head from his body.
++
++Yet Aehirglass had not counted on Erris's
++strength. Struggling against the dragon's
++grip, the Watchknight cleaved through its 
++neck with his mighty axe, the blade diving
++into the gap in the scales of the dragon's throat
++left by numerous spear and sword wounds. 
++
++With a mighty cry to Helm, he made two blows
++of one! He reversed his swing to catch the neck
++from the other side as the talons crushed at him, 
++and there was a twin cracking like thunder, 
++as the knight's body snapped in the dragon's grip... 
++
++... and the dragon's head lolled from the neck 
++like a felled tree, then collapsed to the ground, 
++raising a cloud of sand across the Storm-Barrows.
++
++A dragon's death matched with the deaths of four
++Watchknights. What can be said of such a valiant battle,
++only Lord Maluradek knows. He returned many hours
++after the field had fallen silent, but not a tear was
++shed for his fallen guards—his eyes swam only with
++gold and glory.
++
++"The past is dust," was his eulogy to the corpses of
++the Watchknights, "the road ahead is a golden one."
+ 
+ 2331:
+ Hrothgar asked us to find a missing caravan out of Caer-Dineval. The caravan was carrying valuable supplies intended for Easthaven. Hrothgar suggested we take the south bridge out of town and search for the caravan in the hills along the shores of Lac Dinneshere. We are to return to Easthaven and to Hrothgar either with the caravan or with news of its mysterious fate.
+@@ -9393,7 +9435,7 @@
+ This battered, steel helmet is crested with the five serpentine heads of a hydra. The inscription upon its stand reads: "The Helm of Ghardumn Greenaxe. Ghardumn was the captain of the famed adventuring company, the Dragonclaw Clan. The fate of this legendary swordsman remains a mystery, though he is presumed to be dead. He was last seen entering the Marsh of Tun, alone."
+ 
+ 2996:
+-This huge war hammer looks as if it would take the combined strength of two men to wield it. Its thick, steel head is bound with studded bronze bands and is speckled with what appears to be dried blood. The inscription upon its stand reads: "Bonecracker. This magnificent weapon belonged to the legendary warrior, Dumok the Fist, who died in the assault on Dragonspear Castle."
++This battered, steel helmet is crested with the five serpentine heads of a hydra. The inscription upon its stand reads: "The Helm of Ghardumn Greenaxe. Ghardumn was the captain of the famed adventuring company, the Dragonclaw Clan. The fate of this legendary swordsman remains a mystery, though he is presumed to be dead. He was last seen entering the Marsh of Tun, alone."
+ 
+ 2997:
+ And boredom stalked the halls.
+@@ -9438,7 +9480,7 @@
+ Troll
+ 
+ 3011:
+-This is a round shield with a number of wicked barbs protruding from its surface. A flaming sword, the holy symbol of Tempus, has been etched into the center of the shield. The inscription upon its stand reads: "The Shield of Maergeth of the Order of the Steel Fang, slain on the eleventh day of the Battle at Boareskyr Bridge."
++
+ 
+ 3012:
+ The mounted head of this beast resembles that of a large black bull. Closer inspection reveals that the creature's hide is actually composed of thick metal scales. The snout of this peculiar, metal animal has an odd, greenish tint to it.
+@@ -10151,7 +10193,7 @@
+ Ras +2
+ 
+ 3194:
+-Selûne's Promise +1
++Selûne's Promise +3
+ 
+ 3195:
+ Blade of Roses +3
+@@ -10170,8 +10212,8 @@
+ Combat abilities:
+ – 2% of all hits cause the wielder to panic for 1 turn
+ 
+-THAC0: +1, +3 vs. spectral undead
+-Damage: 1d6+2, +4 vs. spectral undead
++THAC0: +3, +5 vs. spectral undead
++Damage: 1d6+4, +6 vs. spectral undead
+ Damage Type: Crushing
+ Speed Factor: 6
+ Proficiency Type: Mace
+@@ -10418,7 +10460,7 @@
+ Shadowed Elven Officer
+ 
+ 3265:
+-Warblade +4
++Warblade +5
+ 
+ 3266:
+ Custhantos
+@@ -10514,7 +10556,7 @@
+ Another classification of undead, skeletal undead are, perhaps, the most common form of undead foe. Necromancers and evil priests use skeletal minions as cheap shock troops when less powerful undead are not available. Some necromancers will use advanced magic to create skeletal undead that are tougher, faster, and more resilient than their common counterparts. Because of their composition, skeletal undead are usually very resistant to slashing attacks and almost immune to missile fire.
+ 
+ 3297:
+-Spectral undead are often considered to be the most dangerous form of undead because they are typically intelligent and quite powerful. Lacking a corporeal form, spectral undead often cannot be hit by non-magical weapons. Also, like most undead, they are largely unaffected by charm magic, cold, poison, and illusions. Spectral undead are usually tied to the material plane by a curse or magical effect. Ghosts, shadows, and wraiths are all common examples of spectral undead.
++Spectral undead are often considered to be the most dangerous form of undead because they are typically intelligent and quite powerful. Lacking a corporeal form, spectral undead often cannot be hit by non-magical weapons. Also, like most undead, they are largely unaffected by charm magic, cold, poison, and illusions. Spectral undead are usually tied to the material plane by a curse or magical effect. Ghosts are a common example of spectral undead.
+ 
+ 3298:
+ Monstrously large spiders create problems all over Faerûn. Some giant spiders are magically created and others are naturally occurring, but they all pose a potential threat to humanoid settlements. There are a wide variety of giant spiders, each with their own strengths and weaknesses. Giant spiders are feared for their powerful fangs and dangerous poison.
+@@ -10529,7 +10571,7 @@
+ These creatures are rare, but extremely deadly opponents. Yuan-ti are an offshoot of a race which ruled Faerûn long before humanoids took control. With snakelike bodies and vaguely human limbs, yuan-ti hide in secret vaults until the time is right to strike out at their enemies. Yuan-ti are extremely intelligent foes with very sophisticated magical talents. They are known for their cunning minds, poisonous traps, and vile religious rituals.
+ 
+ 3302:
+-Chain Contingency—Spell Turning
++Chain Contingency — Spell Turning
+ 
+ 3303:
+ I met the "Lizard King" of Dragon's Eye. He informed me that the upper caves of the volcano belonged to him. He also indicated that he was brought to the caves by someone named Yxunomei. I tried to escape the area by telling the Lizard King I was going to see Yxunomei. He told me he couldn't let me go because his people were starving.
+@@ -14634,7 +14676,17 @@
+ [NOBLEMEN 9] Resembles! That's ridiculous. The signature left behind on the body WAS the mark of the Shadow Thieves. Are you blind and stupid woman!?
+ 
+ 4580:
+-[NOBLEMEN 10] Who would want to mislead us!
++[NOBLEMEN 10] Who would want to mislead us!Spell Turning
++(Abjuration)
++
++Level: 7
++Range: Touch
++Duration: 3 rounds/level
++Casting Time: 7
++Area of Effect: The caster
++Saving Throw: None
++
++This powerful abjuration spell causes the spells cast against the wizard to rebound upon the original caster. This affects a total of 9 spell levels, for example 3 3rd-level or 1 4th and 1 5th-level etc.. This includes spells cast from scrolls and innate spell-like abilities, but excludes area effects that are not centered directly upon the wizard as well as area effects that are stationary, such as Cloudkill and Stinking Cloud. As long as the spell is cast directly at the wizard, it will be reflected back upon the caster. As long as there are levels remaining, the spell will be reflected. For example, if there is only 1 level left and a 3rd-level spell is cast at the wizard, the spell will be absorbed while canceling the spell turning. Don't know how this will work vs. Dispel Magic yet.
+ 
+ 4581:
+ [NOBLEMEN 11] What of the Zhentarim? I've heard that they may be somehow involved.
+@@ -15481,16 +15533,16 @@
+ [MALE CHILDREN 2] You funny lookin'.
+ 
+ 4859:
+-[MALE CHILDREN 3] Loser, loser, loser!
++[MALE CHILDREN 3] Loser loser loser...
+ 
+ 4860:
+-[MALE CHILDREN 4] Ya wanna fight me? Come on, ya wanna fight?
++[MALE CHILDREN 4] You wanna fight me? Come one, you wanna fight?
+ 
+ 4861:
+ [FEMALE CHILDREN 1] I lost my dolly.
+ 
+ 4862:
+-[FEMALE CHILDREN 2] Waaaaaaaaaa!
++[FEMALE CHILDREN 2]
+ 
+ 4863:
+ [FEMALE CHILDREN 3] Ooh, you smell...
+@@ -15571,13 +15623,13 @@
+ [MINERS 4] SO dark down here.
+ 
+ 4889:
+-[SLAVES 2] Help us... please.
++[SLAVES 2] Help us please.
+ 
+ 4890:
+ [SLAVES 3] Save me dear sir, please save me.
+ 
+ 4891:
+-[SLAVES 4] Get me outta this hell hole.
++[SLAVES 4] Get me out of this hell hole.
+ 
+ 4892:
+ [MONKS 1] Praised be the blessed knowledge of Oghma.
+@@ -15730,7 +15782,7 @@
+ [ELF 1] The fair folk rarely have time for small talk.
+ 
+ 4942:
+-[ELF 2] Troubled times are upon us.
++Troubled times are upon us.
+ 
+ 4943:
+ [ELF 3] Soon we shall all be together upon Evermeet.
+@@ -17320,7 +17372,7 @@
+ [GANTOLANDON 1]
+ 
+ 5466:
+-[SLAVES 1]
++
+ 
+ 5467:
+ [UMBERLEE PRIEST 3]
+@@ -18466,25 +18518,25 @@
+ [no text]
+ 
+ 5838:
+-[GHAST 03]
++[ELF 3] Soon we shall all be together upon Evermeet.
+ 
+ 5839:
+ [GHAST 04]
+ 
+ 5840:
+-[GHAST 05]
++
+ 
+ 5841:
+-[GHAST 06]
++
+ 
+ 5842:
+-[GHAST 07] NO SOUND EFFECT----DO NOT USE
++
+ 
+ 5843:
+-[GHAST 08]
++Ah, where so the wind blows, travelers seek shelter... and supplies, mayhap? Good day and cheer to you, <SIRMAAM>; my name is Gerth—I tell by the cut of your cloth and your bearing that you are a visitor, fresh to Kuldahar; is there something you wish to purchase?
+ 
+ 5844:
+-[GHAST 09]
++[GHOUL 01]
+ 
+ 5845:
+ [REVENANT 01]
+@@ -18505,7 +18557,7 @@
+ [REVENANT 08]
+ 
+ 5851:
+-[OGRE 02]
++[OGRE 02] *choking*
+ 
+ 5852:
+ [OGRE 05] NO SOUND EFFECT----DO NOT USE
+@@ -18943,7 +18995,7 @@
+ [BASILISK 06]
+ 
+ 5997:
+-[BASILISK 07] NO SOUND EFFECT----DO NOT USE
++[BASILISK 10] 
+ 
+ 5998:
+ [BASILISK 08]
+@@ -19246,7 +19298,7 @@
+ Through this spell, the caster imbues <PRO_HIMHER>self with the strength and skill of a Fighter of the same level. The priest's Strength score is set to 18/00—even if it is normally higher—<PRO_HISHER> THAC0 becomes that of a Fighter of the same level, and <PRO_HESHE> gains 1 temporary Hit Point per level. This will last for the duration of the spell or until dispelled.
+ 
+ 6089:
+-Dragon's Breath +4
++Dragon's Breath +5
+ 
+ 6090:
+ Blackmist +4
+@@ -19338,7 +19390,7 @@
+ We discovered that the Heartstone was indeed at the temple. Unfortunately, someone seemed to have gotten there first and taken the Gem.
+ 
+ 6113:
+-I found the body of a Talonite priest among the corpses of the slain cultists and their verbeeg guards. He was carrying this vial of strange liquid.
++I found the body of a Talonite priest among the corpses of the slain cultists and their verbeeg guards. There was an ogre carrying this vial of strange liquid.
+ 
+ 6114:
+ A number of the temple's acolytes and verbeeg guards were already dead when we arrived. There was evidence that some were poisoned by what looked to be snake bites.
+@@ -20180,7 +20232,7 @@
+ Hundreds of books line these shelves. Most of them appear weather damaged and ready to crumble.
+ 
+ 6363:
+-The Night's Gift +5
++The Night's Gift +6
+ 
+ 6364:
+ The magic that once maintained this display has long since faded or failed entirely. The display is dark and the glass front is covered with grime. You can see nothing within the tank.
+@@ -20521,7 +20573,7 @@
+ The master is in study... through door. Go in if you wants to speak with the master. Weenog not allowed in study. Master keeps powerful magicks in there. Books, papers, and wizard things that Weenog not understand.
+ 
+ 6422:
+-Armor of Faith +3
++Armor of Faith +4
+ 
+ 6423:
+ No hurt Weenog? Oh, thank you. The master will be pleased you no kill Weenog. Weenog is important... he cleans tower, makes beds, cooks tasty food for the master.
+@@ -20732,10 +20784,6 @@
+ TAZOK
+ 
+ 6489:
+-[Note for Mulahey 2]My servant Mulahey,
+-I have sent you the kobolds and mineral poison that you require. Your task is to poison any iron ore that leaves this mine. Don't reveal your presence to the miners or you will find yourself swamped by soldiers from the local Amnish garrison. My superiors have recently hired on the services of the Black talon mercenaries and the Chill. With these soldiers at my disposal, I should be able to destroy any iron caravans entering the region from the south and east. I don't want to deal with iron coming from the Nashkel mines so don't fail in your duty. 
+-
+-TAZOK
+ 
+ 
+ 6490:
+@@ -21815,7 +21863,7 @@
+ Bastard Sword +1
+ 
+ 6740:
+-Bastard Sword +1, +3 vs. Shapeshifters 
++Bastard Sword +1, +5 vs. Shapeshifters 
+ 
+ 6741:
+ Long Sword 
+@@ -22441,7 +22489,7 @@
+ 
+ STATISTICS:
+ 
+-Weight: 3
++Weight: 4
+ 
+ 6890:
+ Cloak of Protection +2
+@@ -24472,13 +24520,13 @@
+ Weight: 12
+ 
+ 7345:
+-Bastard Sword +1, +3 vs. shapeshifters: Kondar
++Bastard Sword +1, +5 vs. shapeshifters: Kondar
+ At a first glance, this sword appears much like any other. In the presence of any shapeshifting creature, however, the blade becomes warm as its power stirs. Its namesake was the original owner of the weapon, and his tale, though mostly long forgotten, was wrought with treachery and deceit. Rumors persist that he paid a fearsome price for this blade, but with it he revealed the true identities of those that sought to betray him. Their names and crimes, however, are long since lost to history.
+ 
+ STATISTICS:
+ 
+-THAC0: +1
+-Damage: 2d4+1, +3 vs. shapeshifters
++THAC0: +1, +5 vs. shapeshifters
++Damage: 2d4+1, +5 vs. shapeshifters
+ Damage Type: Slashing
+ Speed Factor: 7
+ Proficiency Type: Bastard Sword
+@@ -24527,6 +24575,8 @@
+ 
+ STATISTICS:
+ 
++- Has a 50% chance of dealing an extra 1d4 piercing damage.
++
+ THAC0: +3
+ Damage: 1d6+3 (piercing)
+ Speed Factor: 0
+@@ -25078,6 +25128,7 @@
+ STATISTICS:
+ 
+ Equipped abilities:
++- AC Bonus: +1
+ – Saving Throws: +1
+ – Fire Resistance: +20%
+ – Cold Resistance: +20%
+@@ -26463,7 +26514,7 @@
+ Interesting. Did you come across any arcane material regarding elven mythals?
+ 
+ 7694:
+-Useful indeed! This book is precisely what I've been searching for all these years. You have done me a great service and should be rewarded. Take this artifact as a token of my gratitude.
++Useful indeed! This book is precisely what I've been searching for all these years. You have done me a great service and should be rewarded. Take these artifacts as a token of my gratitude.
+ 
+ 7695:
+ I see. Well, you've come to the right place. I can certainly provide you with a number of useful spells for your spellbook. Of course, I am only willing to offer you certain spells. I fear much of the knowledge I possess is beyond your comprehension. Perhaps, in the future you may be worthy of such advanced knowledge.
+@@ -26475,7 +26526,7 @@
+ I appreciate your interest. If, by some miracle, you find this lost elven outpost and happen upon any materials regarding mythals, please deliver them to me here. I am willing to pay a handsome reward for such a service.
+ 
+ 7698:
+-Shield of Harmony +2
++Shield of Harmony +3
+ 
+ 7699:
+ Well, as you can see, my private study here isn't much of an attraction. But I'm sure there are plenty of other interesting sites to see in Kuldahar. You'd best hurry along if you wish to see them all.
+@@ -26959,6 +27010,10 @@
+ 
+ 7830:
+ This container is almost completely pitch black, with a slight translucency that reveals what appears to be an equally dark liquid contained inside. An inscription, barely readable from wear to the bottle, reads, "Container of Razorvine Extract / Property of Mourns-for-Trees."
++
++STATISTICS:
++
++Weight: 0This bronze key is extremely worn with age and heat, and actually feels very warm to the touch. A deep inscription at the base of the key reads, "Tooth."
+ 
+ STATISTICS:
+ 
+@@ -27264,12 +27319,12 @@
+ Level: 4
+ Sphere: Charm
+ Range: 0
+-Duration: 3 rounds
++Duration: 10 rounds
+ Casting Time: 6
+ Area of Effect: The caster
+ Saving Throw: Neg.
+ 
+-Cloak of Fear bestows the caster with an aura of fear in a 3-ft. radius. All creatures that enter the cloak's area of effect must make a Save vs. Spell or flee in panic for 3 rounds. The aura does not affect undead creatures.
++Cloak of Fear bestows the caster with an aura of fear in a 10-ft. radius. All creatures that enter the cloak's area of effect must make a Save vs. Spell or flee in panic for 10 rounds. The aura does not affect undead.
+ 
+ 7912:
+ Giant Insect
+@@ -27906,7 +27961,7 @@
+ Area of Effect: 1 creature
+ Saving Throw: Neg.
+ 
+-This spell turns a creature to stone. The target is allowed a Save vs. Spell to avoid the effect. Petrification can be reversed with the 6th-level wizard spell Stone to Flesh. This spell works on cadaverous undead (i.e. zombies and ghouls), but not incorporeal and skeletal undead.
++This spell turns a creature to stone. The target is allowed a Save vs. Petrify to avoid the effect. Petrification can be reversed with the 6th-level wizard spell Stone to Flesh. This spell works on cadaverous undead (i.e. zombies and ghouls), but not incorporeal and skeletal undead.
+ 
+ 8066:
+ Ring of Djinni Summoning
+@@ -33371,7 +33426,7 @@
+ Maximum: <MAXIMUM>
+ 
+ 9588:
+-You have been given proficiencies to start your character with. These represent the ability to effectively use weapons. You may choose from any of the selectable proficiencies available to your character class. If your character is a Fighter, <PRO_HESHE> will be able to choose the same proficiency up to five times. This will grant <PRO_HIMHER> additional levels of specialization with the weapon listed. Keep in mind that a character can use any weapon available to <PRO_HISHER> race and class whether <PRO_HESHE> has proficiency with it or not. However, if <PRO_HESHE> attacks using a weapon that <PRO_HESHE> is not proficient with, <PRO_HESHE> suffers a penalty to <PRO_HISHER> attack roll (the penalty varies according to class; check the manual for more information).
++You have been given proficiencies to start your character with. These represent the ability to effectively use weapons. You may choose from any of the selectable proficiencies available to your character class. If your character is a Fighter, <PRO_HESHE> will be able to choose the same proficiency up to five, six, or seven times depending on <PRO_HIMHER> fighter kit. This will grant <PRO_HIMHER> additional levels of specialization with the weapon listed. Keep in mind that a character can use any weapon available to <PRO_HISHER> race and class whether <PRO_HESHE> has proficiency with it or not. However, if <PRO_HESHE> attacks using a weapon that <PRO_HESHE> is not proficient with, <PRO_HESHE> suffers a penalty to <PRO_HISHER> attack roll (the penalty varies according to class; check the manual for more information).
+ 
+ Proficiency Slot Table: *
+ 
+@@ -33385,7 +33440,7 @@
+ 
+ <DOTS5>
+ 
+-* All extra attacks are only available to warrior classes.
++* All extra attacks are only available to Warrior classes, Blades and Swashbucklers.
+ 
+ 9589:
+ LARGE SWORDS: This weapon class allows the character to use Long Swords, Broad Swords, and Scimitars. The Thief is able to take this weapon class, but he is only allowed to use the Long Sword and Broad Sword. The Druid is able to select this class, but is limited to Scimitars alone.
+@@ -37719,6 +37774,7 @@
+ STATISTICS:
+ 
+ Equipped abilities:
++- Move Silently: +20%
+ – Hide In Shadows: +15%
+ 
+ Armor Class: 4 (3 vs. piercing and missile, 2 vs. slashing)
+@@ -38115,7 +38171,7 @@
+ Equipped abilities:
+ – Armor Class: +1
+ – Charisma: -2
+-– Slashing Resistance: +50%
++– Slashing Resistance: +15%
+ – Crushing Resistance: -15%
+ 
+ Weight: 2
+@@ -38417,13 +38473,13 @@
+ Being an Underdark merchant sounds like it could be a dangerous and short career.
+ 
+ 11063:
+-[ELF FEMALE 1] Good day and hello to you.
++[ELF FEMALE 1] Greetings adventurers.
+ 
+ 11064:
+ You're about to satiate my yearly need to kill a manipulative dark elf bastard.
+ 
+ 11065:
+-[ELF FEMALE 2] I much prefer the wooded regions, but one must be flexible in these times.
++[ELF FEMALE 2] The fair folk will inherit the Earth.
+ 
+ 11066:
+ Interesting. Farewell, Nym.
+@@ -38438,7 +38494,7 @@
+ [no text]
+ 
+ 11070:
+-[ELF FEMALE 3] Few of the fair folk concern themselves with the affairs of the state.
++[ELF FEMALE 3] Few of the Fair Folk concern themselves with the affairs of the state.
+ 
+ 11071:
+ Manipulative scum like you should be wiped from the face *and* the bowels of Faerûn. I'll be doing the world a favor when I kill you.
+@@ -38471,13 +38527,13 @@
+ Really? Where have you been?
+ 
+ 11081:
+-[MALE GREETING 4] You need something, stranger?
++[MALE GREETING 4] You need something stranger?
+ 
+ 11082:
+ [MALE GREETING 5] Hello there.
+ 
+ 11083:
+-[MALE GREETING 6] Hi, friend.
++[MALE GREETING 6] Hi friend.
+ 
+ 11084:
+ [MALE GREETING 7] You said something?
+@@ -38507,25 +38563,25 @@
+ [MALE GREETING 12] Yeah mate?
+ 
+ 11093:
+-[MALE GREETING 13] 'Ello pal.
++[MALE GREETING 13] 'Ello Pal.
+ 
+ 11094:
+ [MALE GREETING 14] 'Allo
+ 
+ 11095:
+-[MALE GREETING 15] Heya.
++[MALE GREETING 15] Heya
+ 
+ 11096:
+ [MALE THREAT 1] Dreadfully sorry, but I'm afraid... I'm gonna have ta kill ya.
+ 
+ 11097:
+-[MALE THREAT 2] You got somethin' comin' pal. Just you wait.
++[MALE THREAT 2] You got something coming pal, just you wait.
+ 
+ 11098:
+ [MALE THREAT 3] I've a blade with your name on it.
+ 
+ 11099:
+-[MALE THREAT 4] You're at the end of your rope I'll wager!
++[MALE THREAT 4] You're at the end of your rope I'll wager.
+ 
+ 11100:
+ Ah, well... I have seen many things, been many places. The gem mines of Thay aren't quite as frightening as some might lead you to believe. The depths of the Moonsea *aren't* filled with undead. Oh, and the treasury of Dorn's Deep wasn't very secure even when it was inhabited by the dwarves.
+@@ -38555,10 +38611,10 @@
+ I've come to turn in a bounty, and collect the reward that is duly mine.
+ 
+ 11109:
+-[FEMALE GREETING 2] 'Ello.
++[FEMALE GREETING 2] Hello.
+ 
+ 11110:
+-[FEMALE GREETING 3] 'Allo
++dlich sel
+ 
+ 11111:
+ [FEMALE GREETING 4] 'Eya friend.
+@@ -38675,7 +38731,7 @@
+ [COMMON MAN 1] Glad to meet you, friend.
+ 
+ 11149:
+-[COMMON MAN 2] Leave us alone, will you? Nothin' for you here.
++[NOBLEMAN 5 (CANDLEKEEP, QUINCY) POST] You have returned?! Why do you not just attack the guard if you are in such a hurry to cause trouble. Leave at once lest I call out the alarm.
+ 
+ 11150:
+ [COMMON MAN 3]
+@@ -40006,10 +40062,10 @@
+ [GNOLL 10]
+ 
+ 11567:
+-[SLAVES 2]
++[SLAVES 2] Help us... Please.
+ 
+ 11568:
+-[SLAVES 3]
++[SLAVES 2] Help us... Please.[SLAVES 2] Help us... Please.
+ 
+ 11569:
+ Oh dear!
+@@ -42301,14 +42357,16 @@
+ 
+ This spell creates a 4-inch-diameter sphere that can be hurled unerringly to its target. The orb's effects depend on the level of the wizard:
+ 
+-– 1: Inflicts 1d4 magic damage and blinds the target for one round.
+-– 2: Inflicts 1d6 fire damage and inflicts pain upon the victim (-1 penalty to Armor Class and THAC0) for one round.
+-– 3: Inflicts 1d8 magic damage and burns the victim for 1d3 fire damage.
+-– 4: Inflicts 1d10 magic damage and blinds the target for 4 rounds.
+-– 5 to 6: Inflicts 1d12 magic damage and stuns the target for 3 rounds.
+-– 7 and up: Inflicts 2d8 magic damage and paralyzes the victim for 13 rounds.
+-
+-A successful Save vs. Spell negates all effects.
++– 1: Inflicts 1d4 magic damage and blinds the target if a save vs spell with a +2 bonus is failed for one round.
++– 2: Inflicts 1d6 cold damage and inflicts pain upon the victim if a save vs spell with a +2 bonus is failed (-1 penalty to Armor Class and THAC0) for one round.
++– 3: Inflicts 1d8 fire damage and burns the victim if a save vs spell with a +2 bonus is failed for 1d3 fire damage.
++– 4: Inflicts 1d10 acid damage and blinds the target if a save vs spell with a +2 bonus is failed for 4 rounds.
++– 5 to 6: Inflicts 1d12 magic damage and stuns the target if a save vs spell with a +2 bonus is failed for 3 rounds.
++– 7 to 8: Inflicts 2d8 acid damage and paralyzes the victim if a save vs death with a +2 bonus is failed for 13 rounds.
++- 9 to 10: Inflicts 2d10 fire damage and polymorphs the victim into a rabbit if a save vs polymorph with a +2 bonus is failed for 10 rounds.
++- 11 and up: Inflicts 1d6 cold damage, 1d6 acid damage, 1d6 electrical damage, and 1d6 fire damage and petrifies the victim if a save vs polymorph with a +4 bonus is failed for 20 rounds.
++- Note: There is no saving throw against the damage, only against the secondary effects.
++
+ 
+ 12175:
+ Cloudkill
+@@ -42873,7 +42931,7 @@
+ Level: 1
+ Sphere: All
+ Range: 40 ft.
+-Duration: 6 rounds
++Duration: 10 rounds
+ Casting Time: 9
+ Area of Effect: 30-ft. radius
+ Saving Throw: None
+@@ -43163,7 +43221,7 @@
+ Taerom Fuiruim
+ 
+ 12279:
+-Bentley Mirrorshade
++
+ 
+ 12280:
+ Keldath Ormlyr
+@@ -43353,7 +43411,7 @@
+ Area of Effect: 8-ft. radius
+ Saving Throw: 1/2
+ 
+-When the priest casts Flame Strike, a vertical column of fire roars downward onto a victim chosen by the caster. The spell deals 6d8 points of fire damage to the target and any nearby victims, with a Save vs. Spell for half damage.
++When the priest casts Flame Strike, a vertical column of fire roars downward onto a victim chosen by the caster. The spell deals 1d8 points of fire damage per level of the caster to a maximum of 15d8 damage to the target and any nearby victims, with a Save vs. Spell for half damage.
+ 
+ 12320:
+ Draw Upon Holy Might
+@@ -44124,10 +44182,10 @@
+ [ANGELO 4]
+ 
+ 12546:
+-[MALE CHILDREN 5]
++[MALE CHILDREN LAUGHING]
+ 
+ 12547:
+-[MALE CHILDREN 6]
++[MALE CHILDREN 6][MALE CHILDREN 6]
+ 
+ 12548:
+ [FEMALE CHILDREN 5]
+@@ -44175,7 +44233,7 @@
+ [SLAVES 5]
+ 
+ 12563:
+-[SLAVES 6]
++[MALE CHILDREN 1] Mother said not to talk with strangers.
+ 
+ 12564:
+ [MONKS 5]
+@@ -47571,7 +47629,7 @@
+ [NOBLEMAN 5 (CANDLEKEEP, QUINCY) POST] You have returned?! Why do you not just attack the guard if you are in such a hurry to cause trouble. Leave at once lest I call out the alarm.
+ 
+ 13542:
+-[NOBLEMAN 5 (CANDLEKEEP, QUINCY) POST POST] Um, I find it odd for you to have mistaken my room for yours yet again. Kindly leave.
++[GENERIC MALE INJURY 3]
+ 
+ 13543:
+ [NOBLEMAN 5 (CANDLEKEEP, QUINCY) HOSTILE] I'll not speak a word after what you did!
+@@ -47607,7 +47665,7 @@
+ [NOBLEWOMAN 5 POST] I had thought this function was invitation only. Who let rabble such as you in?
+ 
+ 13554:
+-[NOBLEWOMAN 5 HOSTILE] I'll not have you near me!
++
+ 
+ 13555:
+ [NOBLEWOMAN 6 POST] Something... something is amiss with that large man. Perhaps I have just caught a touch of a fever, but there is something...
+@@ -51698,7 +51756,7 @@
+ 
+ Equipped abilities:
+ – Armor Class: +1
+-– Slashing Resistance: +15%
++– Slashing Resistance: +10%
+ 
+ Combat abilities:
+ – 15% chance target is held for 1 turn (Save vs. Spell negates)
+@@ -51775,7 +51833,7 @@
+ 
+ Equipped abilities:
+ – Armor Class: +1
+-– Slashing Resistance: +15%
++– Slashing Resistance: +10%
+ 
+ Combat abilities:
+ – 1 extra attack per round
+@@ -52089,9 +52147,9 @@
+ 
+ Equipped abilities:
+ – Armor Class: +2
+-– Slashing Resistance: +20%
+-– Piercing Resistance: +20%
+-– Magic Resistance: +15%
++– Slashing Resistance: +10%
++– Piercing Resistance: +10%
++– Magic Resistance: +10%
+ 
+ THAC0: +4
+ Damage: 2d4+4 (crushing)
+@@ -52385,7 +52443,7 @@
+ STATISTICS:
+ 
+ Equipped abilities:
+-– Armor Class: -2
++– Armor Class: -4 penalty
+ 
+ Combat abilities:
+ – 1 extra attack per round
+@@ -52493,14 +52551,14 @@
+ Reinforced Large Shield +2
+ 
+ 14641:
+-The body shield, also known as the kite or tower shield, is a massive metal or wooden shield reaching nearly from the chin to the toe of the user. It must be firmly fastened to the forearm, and the shield hand must firmly grip it at all times. Naturally, this precludes use of the shield hand for anything but holding the body shield in place.
++The body shield, also known as the kite or tower shield, is a massive metal or wooden shield reaching nearly from the chin to the toe of the user. It must be firmly fastened to the forearm, and the shield hand must firmly grip it at all times. Naturally, this precludes use of the shield hand for anything but holding the body shield in place. A few enchantments have been placed on this particular shield, making it much more useful in combat.
+ 
+ STATISTICS:
+ 
+ Equipped abilities:
+ – Armor Class: +3, an extra +1 vs. missile attacks
+-– Crushing Resistance: +15%
+-– Fire Resistance: +15%
++– Crushing Resistance: +10%
++– Fire Resistance: +10%
+ 
+ Requires:
+  14 Strength
+@@ -52521,17 +52579,17 @@
+ This portal requires a key of some sort. You cannot step through without this item.
+ 
+ 14646:
+-The body shield, also known as the kite or tower shield, is a massive metal or wooden shield reaching nearly from the chin to the toe of the user. It must be firmly fastened to the forearm, and the shield hand must firmly grip it at all times. Naturally, this precludes use of the shield hand for anything but holding the body shield in place.
++The body shield, also known as the kite or tower shield, is a massive metal or wooden shield reaching nearly from the chin to the toe of the user. It must be firmly fastened to the forearm, and the shield hand must firmly grip it at all times. Naturally, this precludes use of the shield hand for anything but holding the body shield in place. This shield has been enchanted with many magical properties, making it quite the potent item in terms of protection.
+ 
+ STATISTICS:
+ 
+ Equipped abilities:
+ – Armor Class: +4, an extra +1 vs. missile attacks
+ – THAC0: -2
+-– Slashing Resistance: +15%
+-– Crushing Resistance: +15%
+-– Piercing Resistance: +15%
+-– Fire Resistance: +15%
++– Slashing Resistance: +10%
++– Crushing Resistance: +10%
++– Piercing Resistance: +10%
++– Fire Resistance: +10%
+ 
+ Requires:
+  18 Strength
+@@ -52641,11 +52699,11 @@
+ STATISTICS:
+ 
+ Combat abilities:
+-– 10% chance target is phased (takes 1 damage per second) for 10 seconds
++- Deals an extra 1d2 cold damage per strike.
++– 10% chance of dealing 1 extra damage per 3 seconds for the next 10 seconds.
+ 
+ THAC0: +1
+-Damage: 1d6+1, +1d2 cold
+-Damage Type: Piercing
++Damage: 1d6+1 (piercing)
+ Speed Factor: 2
+ Proficiency Type: Short Sword
+ Type: One-handed
+@@ -53837,8 +53895,8 @@
+ STATISTICS:
+ 
+ Combat abilities:
+-– 50% chance of dealing +2d3 electrical damage
+-– 25% chance target is stunned for 4 seconds
++– 50% chance of dealing +1d3 electrical damage unless a save vs. breah weapon is passed
++– 50% chance target is stunned for 6 seconds unless a save vs. death is passed
+ 
+ THAC0: +4
+ Damage: 1d10+4 (slashing)
+@@ -54225,7 +54283,7 @@
+ STATISTICS:
+ 
+ THAC0: -2
+-Damage: 1d4+3 (crushing)
++Damage: 2d4+3 (crushing)
+ Speed Factor: 4
+ Proficiency Type: War Hammer
+ Type: One-handed
+@@ -61862,7 +61920,15 @@
+ Priest's Quarters
+ 
+ 17230:
+-The cursed girdle of femininity and masculinity, a rare yet oft-discussed magical item, is wrought with a most powerful magic. Anyone unfortunate enough to secure it around their waist instantly finds their gender to be transformed. It is said that, not fifty years past, a nameless court jester was beheaded for presenting the girdle as a gift to Duke Lobelahn's lover.
++The cursed Girdle of Femininity and Masculinity, a rare yet oft-discussed magical item, is wrought with a most powerful magic. Anyone unfortunate enough to secure it around their waist instantly finds their gender to be transformed. It is said that not fifty years past, a nameless court jester was beheaded for presenting the girdle as a gift to Duke Lobelahn's lover.
++
++STATISTICS:
++
++Equipped abilities:
++– Changes the wearer's gender
++– May only be removed with a Remove Curse spell
++
++Weight: 2
+ 
+ 17231:
+ Chrysoberyl is a hard, transparent, green gem which is usually facet-cut. It is said that chrysoberyl has ties to the outer planes and hence its use with battling demonic possession and the undead.
+@@ -62251,7 +62317,7 @@
+ STATISTICS:
+ 
+ Charge abilities:
+-– Fear (Save vs. Spell negates)
++– Fear (Save vs. Wand negates)
+   Range: 100 ft.
+   Duration: 15 rounds
+   Area of Effect: 30-ft. radius
+@@ -62552,7 +62618,7 @@
+ – Can cast double the number of 1st- and 2nd-level wizard spells
+ 
+ Combat abilities:
+-– All cold damage inflicted by the character is increased by 15%
++– All cold damage inflicted by the character is increased by 100%
+ 
+ Weight: 0
+ 
+@@ -63498,7 +63564,7 @@
+ THIEF DEFENSIVE: 
+ 
+ 17593:
+-The thief will attack any enemies he notices who are attacking party members (including himself). He will not move far away from the party leader, so if he's pursuing an enemy he will turn back and return to the party if he has gone too far. If the thief is reduced to 50% or lower Hit Points, then he will run away and then attempt to hide in shadows and avoid combat. (<script>)
++The thief will attempt to hide in shadows when an enemy is not in sight. As soon as the thief is hidden, he will attempt to backstab the closest enemy. (<script>)
+ 
+ 17594:
+ THIEF PASSIVE: 
+@@ -63516,7 +63582,7 @@
+ WIZARD AGGRESSIVE: 
+ 
+ 17599:
+-The mage will begin casting offensive spells against any enemy as soon as he sees them. The mage must have an offensive spell memorized for him to cast a spell. If he does not have an offensive spell memorized, then he will remain where he is standing and use any missile weapon that he possesses. If an enemy engages him in melee combat, then he will attack them with his melee weapon. (<script>)
++The mage will begin casting offensive spells against the nearest enemy as soon as he sees them. The mage must have an offensive spell memorized for him to cast a spell (This also includes summoning spells). If he does not have an offensive spell memorized, then he will remain where he is standing and use any missile weapon that he possesses. If an enemy engages him in melee combat, then he will attack them with his melee weapon. (<script>)
+ 
+ 17600:
+ WIZARD DEFENSIVE: 
+@@ -63528,7 +63594,11 @@
+ WIZARD PASSIVE: 
+ 
+ 17603:
+-The mage will not cast any spells (unless he is ordered). If he is attacked from a distance, then he will reciprocate with missile weapons. If an enemy engages him in melee combat, then he will draw his melee weapon and attack. (<script>)
++This simple silver ring bears an inscription on the interior. It looks like the inscription was carved there by an expert silversmith. "To the people of Kuldahar; should evening fall upon me, and my life be no more, I leave the Evening Shade to you. Please care for her as I did—Eidan, last of the line of Kaivon."
++
++STATISTICS:
++
++Weight: 0
+ 
+ 17604:
+ WIZARD BERSERK: 
+@@ -63540,7 +63610,7 @@
+ CLERIC AGGRESSIVE: 
+ 
+ 17607:
+-The cleric will begin casting offensive spells against any enemy as soon as he sees them. The cleric must have an offensive spell memorized for him to cast a spell. If he does not have an offensive spell memorized, then he will remain where he is standing and use any missile weapon that he possesses. If he does not have a missile weapon, then he will engage the closest enemy with a melee weapon. (<script>)
++The cleric will begin casting offensive spells against the nearest enemy as soon as he sees them. The cleric must have an offensive spell memorized for him to cast a spell (This also includes summoning spells). If he does not have an offensive spell memorized, then he will remain where he is standing and use any missile weapon that he possesses. If he does not have a missile weapon, then he will engage the closest enemy with a melee weapon. (<script>)
+ 
+ 17608:
+ CLERIC DEFENSIVE: 
+@@ -65570,7 +65640,7 @@
+ – Summon Black Knight
+   Summons a fighter-like ally who will automatically attack the nearest enemy. Summoner has no control over the Black Knight
+   Range: 20 ft.
+-  Duration: 200 seconds
++  Duration: 20 rounds
+ 
+ Weight: 0
+ 
+@@ -65702,11 +65772,16 @@
+ This slider controls how fast the area scrolls in response to the keyboard shortcuts.
+ 
+ 18020:
+-This slider controls the difficulty level of the game. The settings are as follows:
+-  INSANE (far right): Monsters do 100% more damage, and characters receive 100% more XP.
+-  HARD (middle right): Monsters do 50% more damage, and characters receive 50% more XP.
++This slider controls the difficulty level of the game. Difficulty affecting harder monster groups and ability and spell usage will be based on when a party member(s) enters an area. Once they enter an area that difficulty will be set for that area and changing the difficulty afterwards will not change the difficulty settings for that area. The settings are as follows:
++  
++  INSANE (far right): Monsters do 100% more damage, and characters receive 100% more XP, More powerful enemies will be spawned into the game than on Hard, and enemies will use their highest level spells and abilities. WARNING: This difficulty can be extremely difficult, this should only be attempted by very skilled players.
++  
++  HARD (middle right): Monsters do 50% more damage, and characters receive 50% more XP, More enemies will be spawned into the game than on Core rules, and enemies will use more abilities and spells than on Core rules.
++  
+   CORE (middle): No damage or XP modifiers.
+-  EASY (middle left): All Hit Point rolls are maximum, characters cannot permanently die, and all spells are learned automatically. Monsters do 25% less damage and characters receive 50% more XP.
++  
++  EASY (middle left): All Hit Point rolls are maximum, characters cannot permanently die, and all spells are learned automatically. Monsters do 25% less damage and characters receive 50% more XP, and enemies will use their weakest spells and abilities only, and a little less enemies will spawn compared to Core rules.
++  
+   STORY MODE (far left): Characters are invulnerable, almost always hit their targets, and receive 100% more XP.
+ 
+ 18021:
+@@ -79670,7 +79745,7 @@
+ Eh? My wife...? What of her?
+ 
+ 22137:
+-Staff Mace
++Staff Mace +2
+ 
+ 22138:
+ Greenstone Amulet
+@@ -82094,12 +82169,12 @@
+ Level: 4
+ Sphere: Law
+ Range: 0
+-Duration: 6 rounds
+-Casting Time: 1
++Duration: 1 round/level
++Casting Time: 4
+ Area of Effect: 30-ft. radius
+ Saving Throw: None
+ 
+-Defensive Harmony allows a group of creatures to act as a single unit for a single battle or encounter, enhancing the coordination of their attacks and tactics. This effect is always centered on the caster but affects all those within a 30-ft. radius. The affected can move outside of this area after the spell is cast and still enjoy the benefits of harmony. While the spell is in effect, each affected creature gains a +4 bonus to their Armor Class. This lasts for 6 rounds or until successfully dispelled.
++Defensive Harmony allows a group of creatures to act as a single unit for a single battle or encounter, enhancing the coordination of their attacks and tactics. This effect is always centered on the caster but affects all those within a 30-ft. radius. The affected can move outside of this area after the spell is cast and still enjoy the benefits of harmony. While the spell is in effect, each affected creature gains a +2 bonus to their Armor Class. This lasts for 1 round per level or until successfully dispelled.
+ 
+ 22831:
+ Insect Plague
+@@ -85117,7 +85192,7 @@
+ Flesh to Stone
+ 
+ 23794:
+-Contingency—Mirror Image
++Contingency — Mirror Image
+ 
+ 23795:
+ These stairs appear to have been under construction for several centuries. They don't lead anywhere.
+@@ -85179,7 +85254,7 @@
+ [DEMONKNIGHT 11] Fear!
+ 
+ 23814:
+-[WEREWOLF, GREATER 01] I will bury you all!
++[WEREWOLF, GREATER 01]
+ 
+ 23815:
+ [WEREWOLF 02]
+@@ -85209,10 +85284,10 @@
+ [WEREWOLF, GREATER 04]
+ 
+ 23824:
+-[WEREWOLF, GREATER 05]
++[WEREWOLF, GREATER 06]
+ 
+ 23825:
+-[WEREWOLF, GREATER 06]
++[WEREWOLF, GREATER 07]
+ 
+ 23826:
+ [DRADEEL 01] You're not figments, are you? I'm not wasting any more time talking to figments!
+@@ -85623,10 +85698,22 @@
+ 
+ 
+ 23962:
+-
++Arla's Dragonbane +3
+ 
+ 23963:
+-
++None know better than halflings the value of a well-placed stone when confronting a larger foe. This particular weapon was the property of a young woman named Arla Surestep, one of the few small folk that left the hearth to seek adventure. Legend speaks of the diminutive Arla using this sling to place a well-sharpened pebble through the skull of a green dragon in mid-flight, though the same tale in another tavern places the stone squarely in the creature's hindquarters for more humorous than lethal effect. It would seem that halflings prefer entertainment over accuracy when it comes to their history.
++
++STATISTICS:
++
++THAC0: +3
++Damage: +3 (missile)
++Speed Factor: 3
++Proficiency Type: Sling
++Type: One-handed
++Requires:
++ 3 Strength
++
++Weight: 0
+ 
+ 23964:
+ 
+@@ -85659,7 +85746,7 @@
+ 
+ 
+ 23974:
+-
++The Pratical Defense +3
+ 
+ 23975:
+ 
+@@ -90528,7 +90615,7 @@
+ – +1 bonus to Armor Class at 1st level, plus an additional +1 bonus every 5 levels.
+ – +1 bonus to hit and damage rolls every 5 levels.
+ – May Specialize (two slots) in any melee weapon available to Thieves.
+-– May place 3 slots into Two-Weapon Style.
++– May place 5 slots into Two-Weapon Style.
+ 
+ Disadvantages:
+ – May not use Backstab ability.
+@@ -92897,17 +92984,7 @@
+ Secret Word
+ 
+ 25885:
+-Secret Word
+-(Abjuration)
+-
+-Level: 4
+-Range: Visual range of the caster
+-Duration: Instant
+-Casting Time: 4
+-Area of Effect: 1 creature
+-Saving Throw: None
+-
+-When this spell is cast at a target creature it will dispel one spell protection of 5th level and lower. The spells that are affected by this are minor spell turning, minor globe of invulnerability, and spell immunity. The target's Magic Resistance, if any, does not affect this spell.
++
+ 
+ 25886:
+ A werewolf? How can that be? I'm certain that the wolf that attacked me is behind these killings. Not some cursed man-beast.
+@@ -93035,17 +93112,17 @@
+ Breach
+ 
+ 25915:
+-Breach
+-(Abjuration)
+-
+-Level: 5
+-Range: Visual range of the caster
+-Duration: Instant
+-Casting Time: 5
+-Area of Effect: 1 creature
+-Saving Throw: None
+-
+-When this spell is cast at a creature, it breaches and dispels all of the specific protections on a target creature. Here is a complete list of all the spells that are dispelled by breach: shield, protection circle, resist fear, protection from fire/cold, fireshield, protection from acid, protection from electricity, protection from magic energy, protection from the elements, and protection from energy. The target's Magic Resistance, if it has any, does not affect this spell. Is this rebounded by spell turning spells??????
++The mad necromancer-lich N'Ashtar Nikadeemus forged this helmet from the bones of his own parents. His highest ranked general would wear it when he rode into battle, using it to instantly slay the commanders of the opposing army. After that, the skeletal armies of N'Ashtar would overrun their demoralized enemies. When N'Ashtar finally fell, the Skull of Death was supposedly destroyed.
++
++STATISTICS:
++
++Charge abilities:
++– Death Spell
++  Slays creatures with fewer than 8 Hit Dice
++  Range: 50 ft.
++  Area of Effect: 30-ft. radius
++
++Weight: 2
+ 
+ 25916:
+ We heard that one of the trappers in town was found dead in the forest. Do you know anything about it?
+@@ -93156,20 +93233,31 @@
+ Area of Effect: 1 creature
+ Saving Throw: Special
+ 
+-When this spell is cast upon a target creature there will be two major effects. The first is that the creature's Magic Resistance will be lowered by 10% + 1% per level of the caster. The second is that it will cancel one spell protection of 6th level and lower on creature. For example, if this spell was cast by a 15th-level wizard the target creature would lose 25% magic resistance from <PRO_HISHER> current total reducing it to 0 if less than that remains as well as canceling one 6th level or lower spell protection. The list of spells that this includes is minor spell deflection, minor spell turning, spell deflection, minor globe of invulnerability, spell immunity and globe of invulnerability. Magic Resistance does not affect this spell, nor do any of the spell protections. The resistance remains lowered for 1 round per level of the caster.
++When this spell is cast upon a target creature there will be two major effects. The first is that the creature's Magic Resistance will be lowered by 10% + 1% per level of the caster. The second is that it will cancel one spell protection of 6th level and lower on creature. For example, if this spell was cast by a 15th-level wizard the target creature would lose 25% magic resistance from <PRO_HISHER> current total reducing it to 0 if less than that remains as well as canceling one 6th level or lower spell protection. The list of spells that this includes is minor spell deflection, minor spell turning, spell deflection, minor globe of invulnerability, spell immunity and globe of invulnerability. Magic Resistance does not affect this spell, nor do any of the spell protections. The resistance remains lowered for 1 round per level of the caster.These potentially dangerous arrows are exceedingly rare, typically only appearing as individual items. As weapons, they are abysmally poor. As strategic tools, they are quite useful. These arrows were frequently used by melee fighters with competent bow skills. Once they had fired off their Translocation Arrow, they could enter melee and finish a protected target at close range.
++
++STATISTICS:
++
++Combat abilities:
++– On a successful hit, the user is transported next to the target
++
++THAC0: -3
++Damage: 1d3 (missile)
++Launcher: Bow
++
++Weight: 0
+ 
+ 25936:
+-True Sight
+-(Divination)
+-
+-Level: 6
+-Range: Visual range of the caster
+-Duration: Instant
+-Casting Time: 6
+-Area of Effect: 20-ft. radius
+-Saving Throw: None
+-
+-When cast at a point designated by the wizard this spell will cancel all illusion/phantasm spells in the area. The spells that are affected by this are reflected image, invisibility, mirror image, non-detection, improved invisibility, shadow door, mislead, project image, and simulacrum. It is important to note that this spell Indiscriminately dispels all illusion/phantasm spells so this includes the caster and any friendly creatures in the area as well as enemies. The area of effect is roughly a 20-ft. radius around the target. The target's Magic Resistance, if any, does not come into effect with this spell.
++The mad necromancer-lich N'Ashtar Nikadeemus forged this helmet from the bones of his own parents. His highest ranked general would wear it when he rode into battle, using it to instantly slay the commanders of the opposing army. After that, the skeletal armies of N'Ashtar would overrun their demoralized enemies. When N'Ashtar finally fell, the Skull of Death was supposedly destroyed.
++
++STATISTICS:
++
++Charge abilities:
++– Death Spell
++  Slays creatures with fewer than 8 Hit Dice
++  Range: 50 ft.
++  Area of Effect: 30-ft. radius
++
++Weight: 2
+ 
+ 25937:
+ Improved Haste
+@@ -94590,17 +94678,7 @@
+ Hjollder told us he was going to defy banishment and return to the barbarian camp in secret. The camp is well guarded and would be difficult, if not impossible, to enter. Perhaps he means to hide in the forest nearby. We should search for him there.
+ 
+ 26330:
+-Chain Contingency
+-(Necromancy)
+-
+-Level: 9
+-Range: 0
+-Duration: Special
+-Casting Time: 1 turn
+-Area of Effect: The Caster
+-Saving Throw: None
+-
+-who knows what this will do eventually
++
+ 
+ 26331:
+ By exposing Wylfdene before the council, we've succeeded in stopping the war between the barbarians and the Ten Towns. However, it seems our quest is far from over. Hjollder believes that the corrupt spirit that fled Wylfdene's body may still pose a threat to his people. We've agreed to journey by ship to an island on the Sea of Moving Ice. Once there, we are to hunt down the flown spirit and put an end to its evil once and for all.
+@@ -96931,17 +97009,17 @@
+ STATISTICS:
+ 
+ Combat abilities:
+-– 25% chance target is stunned
++– 50% chance target must make a save vs. death or be stunned for 1 round
+ 
+ THAC0: +4
+-Damage: 1d12+4 (slashing)
++Damage: 1d10+4 (slashing)
+ Speed Factor: 8
+ Proficiency Type: Axe
+ Type: One-handed
+ Requires:
+- 10 Strength
+-
+-Weight: 10
++ 19 Strength
++
++Weight: 15
+ 
+ 27036:
+ This fine broad sword is of unusual construction. The blade is crafted from an unknown dull black metal, but the edge appears to be of the finest silver. Fiery, red runes have been etched the entire length of the blade. When examined closely, the runes writhe with a life of their own. The hilt and guard of the sword have been carved from solid ruby.
+@@ -98612,7 +98690,49 @@
+ exhausting it while hoarding his own for 
+ one final strike against the beast... 
+ 
+-[Fragment ends]
++[Fragment ends]This yellowed page, although faded and frayed at the edges, is surprisingly resilient, having the texture of leather. Despite the fact it is written in an unknown script, the words on the page twist and shift as you read over them, translating into the Common tongue in your mind.
++
++...and the third of the four Watchknights fell, 
++his spear planted in the ground against
++Aehirglass's charge. The dragon's wings 
++were as shreds, its wounds were great, 
++but the dragon knew the day was his.
++
++It turned upon the last of the warriors, 
++Erris, the fourth Watchknight. There were
++no other warriors to be seen, for Lord
++Maluradek had still not taken the field.
++Erris rushed in to strike but was snatched
++up in the dragon's grip, and the creature's
++head reared back to bite the Watchknight's
++head from his body.
++
++Yet Aehirglass had not counted on Erris's
++strength. Struggling against the dragon's
++grip, the Watchknight cleaved through its 
++neck with his mighty axe, the blade diving
++into the gap in the scales of the dragon's throat
++left by numerous spear and sword wounds. 
++
++With a mighty cry to Helm, he made two blows
++of one! He reversed his swing to catch the neck
++from the other side as the talons crushed at him, 
++and there was a twin cracking like thunder, 
++as the knight's body snapped in the dragon's grip... 
++
++... and the dragon's head lolled from the neck 
++like a felled tree, then collapsed to the ground, 
++raising a cloud of sand across the Storm-Barrows.
++
++A dragon's death matched with the deaths of four
++Watchknights. What can be said of such a valiant battle,
++only Lord Maluradek knows. He returned many hours
++after the field had fallen silent, but not a tear was
++shed for his fallen guards—his eyes swam only with
++gold and glory.
++
++"The past is dust," was his eulogy to the corpses of
++the Watchknights, "the road ahead is a golden one."
+ 
+ 27464:
+ This yellowed page, although faded and frayed at the edges, is surprisingly resilient, having the texture of leather. Despite the fact it is written in an unknown script, the words on the page twist and shift as you read over them, translating into the Common tongue in your mind.
+@@ -99182,7 +99302,15 @@
+ 
+ 
+ 27611:
+-
++The traveling adventurer could ask for no better a suit of armor in all the land. Specially commissioned by Bolhur "Thunderaxe" at GREAT expense, this suit was his most prized, even if not his most ornate. Eminently practical, Bolhur demanded armor that would offer superior protection while hampering him in the least. By "hampering" he did not just mean in movement or weight, though this suit is just over one-third the weight of normal plate mail: His ideal suit should also be able to withstand the rigors of his wanderings with little maintenance. This is not to say that Bolhur "Thunderaxe" neglected his armors (to say as such would get your ears boxed) but the regime of spit and polish required for a "gentleman's" suit was beyond his caring. Save the tassels and gilding of full plate for kings and heads of state; a working dwarf cares more for utility than looks.
++
++STATISTICS:
++
++Armor Class: 0 (-3 vs. slashing)
++Requires:
++ 11 Strength
++
++Weight: 18
+ 
+ 27612:
+ 
+@@ -105625,7 +105753,7 @@
+ 
+ 
+ 29736:
+-Contingency—Stoneskin
++Contingency — Stoneskin
+ 
+ 29737:
+ 
+@@ -109243,7 +109371,7 @@
+ 
+ 
+ 30942:
+-Contingency—Spell Immunity
++Contingency — Spell Immunity
+ 
+ 30943:
+ 
+@@ -112785,10 +112913,14 @@
+ Master (3 slots): The character receives +3 to hit, +3 to damage, and (for warriors only) an extra 1/2 attack per round with the selected weapon.
+ 
+ 32119:
+-High Master (4 slots): The character receives +3 to hit, +4 to damage, -1 to Speed Factor, and (for warriors only) an extra 1/2 attack per round with the selected weapon.
++Specialized Master (4 slots): The character receives +3 to hit, +4 to damage, -1 to Speed Factor, and (for warriors only) an extra 1/2 attack per round with the selected weapon.
+ 
+ 32120:
+-Grand Master (5 slots): The character receives +3 to hit, +5 to damage, -3 to Speed Factor, and (for warriors only) an extra attack per round with the selected weapon. This extra attack is in addition to the bonus already provided by weapon specialization, so a 9th-level Fighter with Grand Mastery would attack 3 times per round.
++High Master (5 slots): The character receives +3 to hit, +5 to damage, -2 to Speed Factor, and (for warriors only) an 1/2 extra attack per round with the selected weapon. This extra attack is in addition to the bonus already provided by weapon specialization, so a 9th-level Fighter with High Mastery would attack 2 and 1/2 times per round.
++
++Grand Master (6 slots): The character receives +4 to hit, +6 to damage, -2 Speed Factor, and (for warriors only) an extra attack per round with the selected weapon. This extra attack is in addition to the bonus already provided by weapon specialization, so a 12th-level Fighter with Grand Mastery would attack 2 and 1/2 times per round.
++
++Supreme Master (7 slots): The character receives +5 to hit, +7 to damage, -3 Speed Factor, and (for warriors only) an extra attack per round with the selected weapon. This extra attack is in addition to the bonus already provided by weapon specialization and high master, so a 15th-level Fighter with Supreme Mastery would attack 3 and 1/2 times per round.
+ 
+ 32121:
+ 
+@@ -123328,7 +123460,7 @@
+ Heal all enemies in the area.
+ 
+ 35420:
+-Improved haste on all enemies in the area.
++
+ 
+ 35421:
+ Summon an extra hostile monster into the area.
+@@ -126064,17 +126196,7 @@
+ Spell Trigger
+ 
+ 35829:
+-Spell Trigger
+-(Invocation/Evocation)
+-
+-Level: 8
+-Range: 0
+-Duration: Permanent until activated
+-Casting Time: 9
+-Area of Effect: The caster
+-Saving Throw: None
+-
+-This spell allows a wizard to store spells in a magical ability (accessed via the Special Abilities menu) that is created by the spell. This item, the trigger, can store three spells to be released simultaneously, all of which must be of 6th level or lower. A wizard can only possess one spell trigger at a time, and the trigger cannot be given to other characters. Once the spell trigger is used, the icon will disappear from the Special Abilities button.
++
+ 
+ 35830:
+ Symbol, Fear
+@@ -133534,8 +133656,8 @@
+ 
+ – May wear helmets.
+ – May wear any armor and use any weapon.
+-– May achieve Grand Mastery (five slots) with any weapon class.
+-– May achieve Specialization (two slots) in any fighting style and allocate three slots in Two-Weapon Style.
++– May achieve Grand Mastery (six slots) with any weapon class.
++– May achieve High Mastery (five slots) in any fighting style and allocate four slots in Two-Weapon Style.
+ – Hit Die: d10
+ 
+ Prime Requisites For Dual-Classing: Strength
+@@ -133560,6 +133682,7 @@
+ Disadvantages:
+ – Becomes winded after berserking: -2 penalty to Armor Class, to-hit rolls, and damage rolls.
+ – May not Specialize in ranged weapons.
++– May achieve Only High Mastery (five slots) with any weapon class and four slots with any weapon fighting style.
+ 
+ 37095:
+ Berserker
+@@ -133588,6 +133711,8 @@
+ KENSAI: This class's name, which means "sword saint" in the common tongue, refers to a warrior who has been specially trained to be one with <PRO_HISHER> weapon. The kensai is deadly, fast, and trained to fight without the protection of armor. (Note: Despite its common name, a Kensai may use any melee weapon with which <PRO_HESHE> is proficient.)
+ 
+ Advantages:
++– May achieve Supreme Mastery (seven slots) with any weapon class.
++– May achieve High Mastery (five slots) with any fighting style except for Sword and Shield.
+ – +2 bonus to Armor Class.
+ – +1 to hit and damage rolls every 3 levels.
+ – -1 bonus to Speed Factor every 4 levels.
+@@ -133597,7 +133722,7 @@
+ 
+ Disadvantages:
+ – May not wear any armor.
+-– May not use ranged weapons (both missile and thrown).
++– May not use ranged weapons.
+ – May not wear gauntlets or bracers.
+ 
+ 37101:
+@@ -133619,8 +133744,9 @@
+ 
+ Disadvantages:
+ – Race restricted to dwarf.
+-– May not exceed High Mastery (four slots) in axes and war hammers.
++– May not exceed Specialized Mastery (four slots) in axes and war hammers.
+ – May not exceed Specialization (two slots) in any other weapon.
++- May not exceed Mastery in any weapon style except for Sword and Shield style
+ 
+ 37104:
+ Dwarven Defender
+@@ -133636,8 +133762,8 @@
+ – May wear helmets.
+ – May wear any armor and use any weapon.
+ – May not exceed Specialization (two slots) in any weapon class.
+-– May achieve Specialization (two slots) in any fighting style.
+-– Begins Specialized (two slots) in Two-Weapon Style and may place a third slot into it. 
++– May achieve Mastery (three slots) in any fighting style.
++– Begins Specialized (two slots) in Two-Weapon Style and may place up to five slots into it. 
+ – May select a racial enemy, which grants a +4 bonus to hit and damage rolls against the selected enemy race.
+ – May use the Tracking ability at will (once per round).
+ 
+@@ -133668,7 +133794,7 @@
+ 
+ Advantages:
+ – +1 to hit and damage rolls with any missile weapon every 3 levels.
+-– May achieve Grandmastery (5 slots) in longbows, shortbows, and crossbows.
++– May achieve Supreme Mastery (7 slots) in longbows, shortbows, and crossbows.
+ – May use the Called Shot ability once per day. Gains one use at level 4 and an additional use every 4 levels thereafter.
+ 
+ CALLED SHOT: All successful ranged attacks within the next 10 seconds have the following cumulative effects besides normal damage, according to the level of the Archer:
+@@ -133679,7 +133805,7 @@
+ 
+ Disadvantages:
+ – May not wear any metal armor.
+-– May only become Proficient (one slot) with melee weapons.
++– May only become Proficient (one slot) with melee weapons and fighting styles except for two weapon fighting which they can max out at three slots.
+ – May not use the Charm Animal ability.
+ 
+ 37112:
+@@ -133769,7 +133895,7 @@
+ – May wear helmets.
+ – May wear any armor and use any weapon.
+ – May not exceed Specialization (two slots) in any weapon class.
+-– May achieve Specialization (two slots) in any fighting style and allocate three slots in Two-Weapon Style.
++– May achieve Mastery (three slots) in any fighting style.
+ – May use Lay On Hands ability once per day to heal a target for 2 Hit Points per level of the Paladin. This ability has no effect on undead, constructs, or extraplanar creatures.
+ – May use the Cure Disease ability once per day.
+ – May use the Detect Evil ability at will (once per round).
+@@ -133935,7 +134061,7 @@
+ – May wear any armor.
+ – May only use non-bladed, non-piercing weapons (war hammer, club, flail, mace, quarterstaff, sling).
+ – May only become Proficient (one slot) in any weapon class.
+-– May only become Proficient (one slot) in any fighting style.
++– May only become Proficient (one slot) in any fighting style except they can place three slots in Sword and Shield.
+ – May Turn Undead.
+ – May cast priest spells.
+ – Hit Die: d8
+@@ -134305,7 +134431,7 @@
+ – May not equip shields larger than bucklers.
+ – May only use the following weapons: long sword, short sword, katana, scimitar, dagger, club, quarterstaff, crossbow, shortbow, dart, sling.
+ – May only become Proficient (one slot) in any weapon class.
+-– May only become Proficient (one slot) in any fighting style.
++– May only become Proficient (one slot) in any fighting style except for Single Weapon and Two-weapon Fighting style, they map place up to three slots in these styles.
+ – May distribute 25 points per level (40 at level 1) in thieving abilities: Open Locks, Pick Pockets, Find Traps, Move Silently, Hide In Shadows, Detect Illusion, Set Traps.
+ – Starts with base scores of 10% in Open Locks, 5% in Find Traps, 15% in Pick Pockets, 10% in Move Silently, and 5% in Hide in Shadows.
+ – May backstab for increased damage:
+@@ -134409,11 +134535,12 @@
+ – +1 bonus to Armor Class at 1st level, plus an additional +1 bonus every 5 levels.
+ – +1 bonus to hit and damage rolls every 5 levels.
+ – May Specialize (two slots) in any melee weapon available to Thieves.
+-– May place 3 slots into Two-Weapon Style.
++– May place 5 slots into Single Weapon and Two-Weapon Style.
+ 
+ Disadvantages:
+ – May not backstab.
+ – May not perform sneak attacks or crippling strikes.
++– May only distribute 15 skill points ( 30 at level 1) per level among thieving skills.
+ 
+ 37231:
+ Swashbuckler
+@@ -134497,7 +134624,7 @@
+ BLADE: The Blade is an expert fighter and adventurer whose bardic acting abilities make <PRO_HIMHER> appear more intimidating and fearsome. This Bard's fighting style is flashy and entertaining, but is also lethally dangerous.
+ 
+ Advantages:
+-– May place 3 slots in Two-Weapon Style.
++– May place 5 slots in Two-Weapon Style.
+ – May use the Offensive Spin and Defensive Spin abilities once per day. Gains one use each at level 1 and an additional use each every 4 levels thereafter.
+ 
+ OFFENSIVE SPIN: During the next 4 rounds, the Blade's movement rate doubles and <PRO_HESHE> gains a +2 bonus to hit and damage rolls as well as an extra attack per round. All attacks deal maximum damage for the duration. Offensive Spin may not be used in conjunction with the Haste or Improved Haste spells.
+@@ -134726,7 +134853,7 @@
+ 
+ – May not wear armor heavier than splint mail.
+ – May not exceed Specialization (two slots) with any weapon class.
+-– May achieve Specialization (two slots) in any fighting style and allocate three slots in Two-Weapon Style.
++– May achieve Mastery (three slots) in any fighting style.
+ – Moves 2 points faster than other characters.
+ – Immune to backstab.
+ – May use the Rage ability once per day. Gains one use at level 1 and an additional use every 4 levels thereafter.
+@@ -134746,7 +134873,7 @@
+ <FIGHTERTYPE>/<MAGESCHOOL>
+ 
+ 37270:
+-FIGHTER/MAGE: This character can use the abilities of a Fighter and a Mage, though they cannot cast spells while wearing armor. They may Specialize in, but not Master, any weapon they can use.
++FIGHTER/MAGE: This character can use the abilities of a Fighter and a Mage, though they cannot cast spells while wearing armor. They may Specialize in, but not Master, any weapon they can use except for fighting styles.
+ 
+ Gnomes can choose this multi-class, but become Fighter/Illusionists by default. Gnomes are the only race that can combine a specialist Mage class in a multi-class.
+ 
+@@ -134754,13 +134881,13 @@
+ <FIGHTERTYPE>/<MAGESCHOOL>
+ 
+ 37272:
+-FIGHTER/MAGE: This character can use the abilities of a Fighter and a Mage, though they cannot cast spells while wearing armor. They may Specialize in, but not Master, any weapon they can use.
++FIGHTER/MAGE: This character can use the abilities of a Fighter and a Mage, though they cannot cast spells while wearing armor. They may Specialize in, but not Master, any weapon they can use except for fighting styles.
+ 
+ 37273:
+ <FIGHTERTYPE>/cleric
+ 
+ 37274:
+-FIGHTER/CLERIC: This character can use the abilities of a Fighter and a Cleric, though weapons are restricted to only those allowed by the Cleric's ethos. They may Specialize in, but not Master, any weapon they can use.
++FIGHTER/CLERIC: This character can use the abilities of a Fighter and a Cleric, though weapons are restricted to only those allowed by the Cleric's ethos. They may Specialize in, but not Master, any weapon they can use except for fighting styles.
+ 
+ 37275:
+ <FIGHTERTYPE> / Cleric
+@@ -134769,7 +134896,7 @@
+ <FIGHTERTYPE>/thief
+ 
+ 37277:
+-FIGHTER/THIEF: This character can use the abilities of a Fighter and a Thief, though they cannot use their thieving skills while wearing more than studded leather armor. They may Specialize in, but not Master, any weapon they can use.
++FIGHTER/THIEF: This character can use the abilities of a Fighter and a Thief, though they cannot use their thieving skills while wearing more than studded leather armor. They may Specialize in, but not Master, any weapon they can use except for fighting styles.
+ 
+ 37278:
+ <FIGHTERTYPE> / Thief
+@@ -134778,13 +134905,13 @@
+ <FIGHTERTYPE>/<MAGESCHOOL>/thief
+ 
+ 37280:
+-FIGHTER/MAGE/THIEF: This character can use the abilities of a Fighter, Mage, and Thief, though they cannot use their thieving skills while wearing more than studded leather armor and cannot cast spells while wearing any armor. They may Specialize in, but not Master, any weapon they can use.
++FIGHTER/MAGE/THIEF: This character can use the abilities of a Fighter, Mage, and Thief, though they cannot use their thieving skills while wearing more than studded leather armor and cannot cast spells while wearing any armor. They may Specialize in, but not Master, any weapon they can use except for fighting styles.
+ 
+ 37281:
+ <FIGHTERTYPE> / <MAGESCHOOL> / Thief
+ 
+ 37282:
+-FIGHTER/MAGE/THIEF: This character can use the abilities of a Fighter, Mage, and Thief, though they cannot use their thieving skills while wearing more than studded leather armor and cannot cast spells while wearing any armor. They may Specialize in, but not Master, any weapon they can use.
++FIGHTER/MAGE/THIEF: This character can use the abilities of a Fighter, Mage, and Thief, though they cannot use their thieving skills while wearing more than studded leather armor and cannot cast spells while wearing any armor. They may Specialize in, but not Master, any weapon they can use except for fighting sytles.
+ 
+ 37283:
+ <MAGESCHOOL>/thief
+@@ -134794,12 +134921,16 @@
+ 
+ Gnomes can choose this multi-class, but become Illusionist/Thieves by default. Gnomes are the only race that can combine a specialist Mage class in a multi-class.
+ 
++- MAGE/THIEVES can only specialize in Single Weapon and Two Weapon Fighting Styles.
++
+ 37285:
+ <MAGESCHOOL> / Thief
+ 
+ 37286:
+ MAGE/THIEF: This character can use the abilities of a Mage and a Thief, though Mage spells cannot be cast while wearing armor.
+ 
++- MAGE/THIEVES can only specialize in Single Weapon and Two Weapon Fighting Styles.
++
+ 37287:
+ cleric/<MAGESCHOOL>
+ 
+@@ -134808,59 +134939,69 @@
+ 
+ Gnomes can choose this multi-class, but become Cleric/Illusionists by default. Gnomes are the only race that can combine a specialist Mage class in a multi-class.
+ 
++-CLERIC/MAGES can only Specialize in Sword and Shield Sytle.
++
+ 37289:
+ Cleric / <MAGESCHOOL>
+ 
+ 37290:
+ CLERIC/MAGE: This character can use the abilities of a Cleric and a Mage, though weapons are restricted to only those allowed by the Cleric's ethos, and Mage spells cannot be cast while wearing armor.
+ 
++-CLERIC/MAGES can only Specialize in Sword and Shield Sytle.
++
+ 37291:
+ cleric/thief
+ 
+ 37292:
+ CLERIC/THIEF: This character can use the abilities of a Cleric and a Thief, though weapons are restricted to only those allowed by the Cleric's ethos. Thieving skills cannot be used while wearing more than studded leather armor.
+ 
++- CLERIC/THIEVES can specialize in any Weapon Fighting Sytle except for Two-Handed Weapon Style.
++
+ 37293:
+ Cleric / Thief
+ 
+ 37294:
+ CLERIC/THIEF: This character can use the abilities of a Cleric and a Thief, though weapons are restricted to only those allowed by the Cleric's ethos. Thieving skills cannot be used while wearing more than studded leather armor.
+ 
++- CLERIC/THIEVES can specialize in any Weapon Fighting Sytle except for Two-Handed Weapon Style.CLERIC/THIEF: This character can use the abilities of a Cleric and a Thief, though weapons are restricted to only those allowed by the Cleric's ethos. Thieving skills cannot be used while wearing more than studded leather armor.
++
++- CLERIC/THIEVES can specialize in any Weapon Fighting Sytle except for Two-Handed Weapon Style.
++
+ 37295:
+ <FIGHTERTYPE>/druid
+ 
+ 37296:
+-FIGHTER/DRUID: This character can use the abilities of a Fighter and a Druid, though weapons are restricted to only those allowed by the Druid's ethos. This character may Specialize in, but not Master, any weapon they can use.
++FIGHTER/DRUID: This character can use the abilities of a Fighter and a Druid, though weapons are restricted to only those allowed by the Druid's ethos. This character may Specialize in, but not Master, any weapon they can use except for Fighting Styles.
+ 
+ 37297:
+ <FIGHTERTYPE> / Druid
+ 
+ 37298:
+-FIGHTER/DRUID: This character can use the abilities of a Fighter and a Druid, though weapons are restricted to only those allowed by the Druid's ethos. This character may Specialize in, but not Master, any weapon they can use.
++FIGHTER/DRUID: This character can use the abilities of a Fighter and a Druid, though weapons are restricted to only those allowed by the Druid's ethos. This character may Specialize in, but not Master, any weapon they can use except for Fighting Styles.
+ 
+ 37299:
+ <FIGHTERTYPE>/<MAGESCHOOL>/cleric
+ 
+ 37300:
+-FIGHTER/MAGE/CLERIC: This character can use the abilities of a Fighter, Mage, and Cleric, though they are restricted to weapons allowed by the Cleric's ethos and cannot cast Mage spells while wearing armor. This character may Specialize in, but not Master, any weapon they can use.
++FIGHTER/MAGE/CLERIC: This character can use the abilities of a Fighter, Mage, and Cleric, though they are restricted to weapons allowed by the Cleric's ethos and cannot cast Mage spells while wearing armor. This character may Specialize in, but not Master, any weapon they can use except for Fighting Styles.
+ 
+ 37301:
+ <FIGHTERTYPE> / <MAGESCHOOL> / Cleric
+ 
+ 37302:
+-FIGHTER/MAGE/CLERIC: This character can use the abilities of a Fighter, Mage, and Cleric, though they are restricted to weapons allowed by the Cleric's ethos and cannot cast Mage spells while wearing armor. This character may Specialize in, but not Master, any weapon they can use.
++FIGHTER/MAGE/CLERIC: This character can use the abilities of a Fighter, Mage, and Cleric, though they are restricted to weapons allowed by the Cleric's ethos and cannot cast Mage spells while wearing armor. This character may Specialize in, but not Master, any weapon they can use except for Fighting Sytles.
+ 
+ 37303:
+ cleric/ranger
+ 
+ 37304:
+-CLERIC/RANGER: This character can use the abilities of a Cleric and a Ranger, though weapons are restricted to only those allowed by the Cleric's ethos. This character may Specialize in, but not Master, any weapon they can use.
++CLERIC/RANGER: This character can use the abilities of a Cleric and a Ranger, though weapons are restricted to only those allowed by the Cleric's ethos. This character may Specialize in, but not Master, any weapon they can use except for Fighting Styles.
+ 
+ 37305:
+ Cleric / Ranger
+ 
+ 37306:
+-CLERIC/RANGER: This character can use the abilities of a Cleric and a Ranger, though weapons are restricted to only those allowed by the Cleric's ethos. This character may Specialize in, but not Master, any weapon they can use.
++CLERIC/RANGER: This character can use the abilities of a Cleric and a Ranger, though weapons are restricted to only those allowed by the Cleric's ethos. This character may Specialize in, but not Master, any weapon they can use except for Fighting Styles.
+ 
+ 37307:
+ Grizzly Bear
+@@ -135534,6 +135675,7 @@
+ 
+ Dwarves have the following traits:
+ – +2 bonus to Saving Throws vs. Paralysis/Poison/Death, vs. Rod/Staff/Wand, and vs. Spell, with additional bonuses based on Constitution.
++- +1 THAC0 bonus with axes.
+ – Infravision.
+ – +10% Open Locks, +15% Find Traps, +5% Detect Illusion, +10% Set Traps.
+ – +1 Constitution, –1 Dexterity, –2 Charisma.
+@@ -135588,7 +135730,7 @@
+ 
+ Half-orcs have the following traits:
+ – Infravision.
+-– +1 Strength, +1 Constitution, -2 Intelligence.
++– +1 Strength, +1 Constitution, -2 Intelligence, -2 Charisma.
+ 
+ 37506:
+ Half-Orc
+@@ -135706,7 +135848,7 @@
+ SPELLCASTER DEFEND (Fighter, Ranger, Paladin): 
+ 
+ 37543:
+-The Fighter will act like a normal Fighter, attacking enemies with whatever weapon is equipped. If a Mage or Cleric in the party is injured to 50% of its Hit Points, the Fighter will defend them, attacking their attackers. (<script>)
++
+ 
+ 37544:
+ THIEF AGGRESSIVE: 
+@@ -135724,19 +135866,19 @@
+ THIEF ADVENTURER: 
+ 
+ 37549:
+-The Thief will constantly, and to the exclusion of all else, search for traps. If attacked, the Thief ignores enemies and will continue detecting traps. (<script>)
++
+ 
+ 37550:
+ THIEF SCOUT: 
+ 
+ 37551:
+-The scout Thief will try to stay hidden. This script is useful if you need to use your Thief to explore areas but don't want them attacking every enemy they encounter. They will only engage in combat if an enemy detects their presence. (<script>)
++This bare, wooden mounting plaque has an inscription carved into it. The inscription reads: "Invisible Stalker"The scout Thief will try to stay hidden. This script is useful if you need to use your Thief to explore areas but don't want them attacking every enemy they encounter. They will only engage in combat if an enemy detects their presence. (<script>)
+ 
+ 37552:
+ WIZARD AGGRESSIVE: 
+ 
+ 37553:
+-The Mage will begin casting offensive spells against any enemy as soon as <PRO_HESHE> sees them. The Mage must have an offensive spell memorized for <PRO_HIMHER> to cast a spell. If <PRO_HESHE> does not have an offensive spell memorized, then <PRO_HESHE> will remain where <PRO_HESHE> is standing and use any missile weapon that <PRO_HESHE> possesses. If an enemy engages <PRO_HIMHER> in melee combat, then <PRO_HESHE> will attack them with <PRO_HISHER> melee weapon. (<script>)
++The Mage will begin casting offensive spells against the closest enemy as soon as <PRO_HESHE> sees them. The Mage must have an offensive spell memorized for <PRO_HIMHER> to cast a spell (This also includes summoning spells). If <PRO_HESHE> does not have an offensive spell memorized, then <PRO_HESHE> will remain where <PRO_HESHE> is standing and use any missile weapon that <PRO_HESHE> possesses. If an enemy engages <PRO_HIMHER> in melee combat, then <PRO_HESHE> will attack them with <PRO_HISHER> melee weapon. (<script>)
+ 
+ 37554:
+ WIZARD DEFENSIVE: 
+@@ -135754,19 +135896,19 @@
+ WIZARD BERSERK: 
+ 
+ 37559:
+-The Mage will begin casting offensive spells against any enemy as soon as <PRO_HESHE> sees them. The Mage must have an offensive spell memorized for <PRO_HIMHER> to cast a spell. If <PRO_HESHE> does not have an offensive spell memorized, then <PRO_HESHE> will draw a melee weapon and attack the closest enemy. This is a dangerous script, as a Mage does not have the armor or Hit Points to survive long in melee combat. (<script>)
++The Mage will begin casting offensive spells against any enemy as soon as <PRO_HESHE> sees them. The Mage must have an offensive spell memorized for <PRO_HIMHER> to cast a spell. If <PRO_HESHE> does not have an offensive spell memorized, then <PRO_HESHE> will draw a melee weapon and attack the closest enemy. This is a dangerous script, as a Mage does not have the armor or Hit Points to survive long in melee combat. (<script>)Not exactly. While exploring the fabled ruins of Myth Drannor, I came across an old, tattered manuscript buried amid the rubble of an abandoned library. The manuscript made several references to an elven outpost located somewhere within the Spine of the World Mountains. Naturally, I came here to find the settlement. Thus far, I've been unable to locate it.
+ 
+ 37560:
+ CLERIC AGGRESSIVE: 
+ 
+ 37561:
+-The Cleric will begin casting offensive spells against any enemy as soon as <PRO_HESHE> sees them. The Cleric must have an offensive spell memorized for <PRO_HIMHER> to cast a spell. If <PRO_HESHE> does not have an offensive spell memorized, then <PRO_HESHE> will remain where <PRO_HESHE> is standing and use any missile weapon that <PRO_HESHE> possesses. If <PRO_HESHE> does not have a missile weapon, then <PRO_HESHE> will engage the closest enemy with a melee weapon. (<script>)
++The Cleric will begin casting offensive spells against the closest enemy as soon as <PRO_HESHE> sees them. The Cleric must have an offensive spell memorized for <PRO_HIMHER> to cast a spell (This also includes summoning spells). If <PRO_HESHE> does not have an offensive spell memorized, then <PRO_HESHE> will remain where <PRO_HESHE> is standing and use any missile weapon that <PRO_HESHE> possesses. If <PRO_HESHE> does not have a missile weapon, then <PRO_HESHE> will engage the closest enemy with a melee weapon. (<script>)
+ 
+ 37562:
+ CLERIC DEFENSIVE: 
+ 
+ 37563:
+-The Cleric will cast defensive spells on <PRO_HIMHER>self and then move about the battlefield, healing <PRO_HISHER> companions. If necessary, <PRO_HESHE> will defend <PRO_HIMHER>self, attacking with ranged or melee weapons depending on how close <PRO_HISHER> enemies are to <PRO_HISHER>. (<script>)
++The cleric will attack any enemies who are attacking party members (including himself). <PRO_HESHE> will not move far away from the party leader, so if <PRO_HESHE> is pursuing an enemy <PRO_HESHE> will turn back and return to the party if <PRO_HESHE> has gone too far. Whenever a party member is reduced to 50% Hit Points or less, the cleric will use a healing spell to bring up their Hit Points (the cleric must have such a spell memorized). (<script>)
+ 
+ 37564:
+ DRUID OFFENSIVE/DEFENSIVE: 
+@@ -136187,7 +136329,7 @@
+ Detecting Traps
+ 
+ 37700:
+-Improved Haste
++
+ 
+ 37701:
+ Spell Trigger
+@@ -136351,11 +136493,19 @@
+ Two-Handed Weapon Style
+ 
+ 37728:
+-TWO-HANDED: This fighting style allows the character to use a two-handed melee weapon and receive special bonuses.
+-
+-Proficient (1 slot): The wielder gets a +1 bonus to damage rolls, a -2 bonus to Speed Factor, and the ability to score critical hits on a roll of 19 or 20 (instead of just 20) when using a two-handed weapon.
+-
+-Specialized (2 slots): The wielder gets a further -2 bonus to Speed Factor.
++TWO-HANDED: This fighting style allows the character to use a two-handed melee weapon without penalty and receive special bonuses.
++
++Not Proficient ( 0 slots): When wielding a two-handed weapon without any proficiency you get a -2 damage penalty, -1 to hit penalty, a +1 AC penalty, and a +2 speed factor penalty.
++
++Proficient (1 slot): The wielder no longer gets penalties for using a two-handed weapon and gets a -1 bonus to Speed Factor.
++
++Specialized (2 slots): The wielder gets a further -1 bonus to Speed Factor, and +1 to damage rolls.
++
++Mastery (3 slots): The wielder gets another +1 bonus to damage rolls, another -1 bonus to speed factor, and will score critical hits with a natural 19 or 20.
++
++Specialized Mastery (4 slots): The wielder gains a +1 bonus to AC and another -1 bonus to speed factor.
++
++High Mastery (5 slots): The wielder gains a total bonus of +3 to damage, -1 bonus to AC, -5 bonus to speed factor, and scores critical hits on a natural 19 or 20.
+ 
+ NOTE: Magical two-handed weapons are more powerful than their single-handed counterparts. This counterbalances the fact that you can't use a second weapon or shield when using a two-handed weapon.
+ 
+@@ -136365,9 +136515,17 @@
+ 37730:
+ SWORD AND SHIELD: Anyone can pick up a shield and get its basic protection bonuses, but by spending slots on this fighting style, an adventurer can maximize the benefits received.
+ 
+-Proficient (1 slot): The wielder gets a -2 bonus to AC against missile weapons.
+-
+-Specialized (2 slots): The wielder gets a -4 bonus to AC against missile weapons.
++Not Proficient (0 slots): The wielder gets a -2 penalty to hit rolls if they use a shield without proficiency.
++
++Proficient (1 slot): The wielder no longer gets a penalty while using a shield, and the wielder gets a -1 bonus to AC against missile weapons.
++
++Specialized (2 slots): The wielder gets another -1 bonus to AC against missile weapons.
++
++Mastery (3 slots): The wielder gets a +1 to AC bonus, and another -1 bonus to AC against missile weapons.
++
++Specialized Mastery (4 slots): The wielder gets another -1 bonus to AC against missile weapons.
++
++High Mastery (5 slots): The wielder gets a total of a -2 bonus to AC, and a total of a -4 bonus to AC against missile weapons.
+ 
+ NOTE: Despite the name of this style, any one-handed melee weapon in combination with a shield will receive the aforementioned bonuses.
+ 
+@@ -136377,21 +136535,31 @@
+ 37732:
+ SINGLE-WEAPON: This fighting style is for characters who do not wish to use a shield but want some bonus when using a one-handed melee weapon.
+ 
+-Proficient (1 slot): The wielder gets a -1 bonus to AC and inflicts critical damage on an attack roll of 19 or 20.
+-
+-Specialized (2 slots): The wielder gets a -2 bonus to AC and inflicts critical damage on an attack roll of 19 or 20.
++Proficient (1 slot): The wielder gets a -1 bonus to AC.
++
++Specialized (2 slots): The wielder gets a further -1 bonus to AC and a +1 to damage bonus.
++
++Mastery (3 slots): The wielder gets a -1 bonus to speed factor and scores critical hits on a natural 19 or 20.
++
++Specialized Mastery (4 slots): The wielder gets a further -1 bonus to AC.
++
++High Mastery (5 slots): The wielder gets a total bonus of +2 to damage rolls, +1 to hit rolls, -3 to AC, -2 to speed factor, and scores a critical hit on a natural 19 or 20.
+ 
+ 37733:
+ Two Weapon Style
+ 
+ 37734:
+-TWO-WEAPON: This fighting style allows the character to use two melee weapons at the same time with fewer penalties. A character wielding two weapons without a slot in this fighting style would incur a -4 penalty to attack rolls with the main weapon and a -8 penalty with the off-hand weapon. 
+-
+-Proficient (1 slot): The wielder's penalties are reduced to -2 with the main weapon and -6 with the off-hand weapon.
+-
+-Specialized (2 slots): The wielder's penalties are reduced to 0 with the main weapon and -4 with the off-hand weapon.
+-
+-Master (3 slots): The wielder's penalties are reduced to 0 with the main weapon and -2 with the off-hand weapon.
++TWO-WEAPON: This fighting style allows the character to use two melee weapons at the same time with fewer penalties. A character wielding two weapons without a slot in this fighting style would incur a -1 penalty to damage in the main weapon, a -3 penalty to damage in the off-hand weapon, a -6 penalty to attack rolls with the main weapon and a -8 penalty with the off-hand weapon, and a +1 penalty to speed factor. 
++
++Proficient (1 slot): The wielder's penalties are reduced to -1 damage in the off-hand weapon, -4 with the main weapon and -6 with the off-hand weapon. (The main hand damage penalty and speed factor penalty are also gone.)
++
++Specialized (2 slots): The wielder's penalties are reduced to -2 with the main weapon and -4 with the off-hand weapon. (Also with the off-hand weapon penalty gone.)
++
++Mastery (3 slots): The wielder's penalties are reduced to 0 with the main weapon and -2 with the off-hand weapon.
++
++Specialized Mastery (4 slots): The wielder's penalties are reduced to 0 with the main weapon and -2 with the off-hand weapon, and the wielder gains a -1 bonus to speed factor.
++
++High Mastery (5 slots): The wielder no longer gets penalties to hit with either weapon, and the wielder gets a further +1 bonus to damage on the off-hand weapon, and a -1 bonus to AC.
+ 
+ 37735:
+ Wild color changes
+@@ -136667,7 +136835,7 @@
+ contingency
+ 
+ 37826:
+-Contingency—Stoneskin
++Contingency — Stoneskin
+ 
+ 37827:
+ You feel very ill, and you have thrown up your previous meal. Your head is fuzzy, and you are confused as to why you are sick. Then you remember what Lothander had told you. You've been poisoned! Lothander wasn't lying after all, and only he has the cure.
+@@ -142448,9 +142616,11 @@
+ 
+ STATISTICS:
+ 
+-THAC0: +4
+-Damage: 1d12+4 (slashing)
+-Speed Factor: 6
++- Deals an extra 1d3 cold damage per successful strike.
++
++THAC0: +5
++Damage: 1d12+5 (slashing)
++Speed Factor: 5
+ Proficiency Type: Two-handed Sword 
+ Type: Two-handed
+ Requires:
+@@ -142529,9 +142699,9 @@
+ 
+ STATISTICS:
+ 
+-THAC0: +3
+-Damage: 1d6+13 (piercing)
+-Speed Factor: 3
++THAC0: +6
++Damage: 1d6+12 (piercing)
++Speed Factor: 0
+ Proficiency Type: Spear
+ Type: Two-handed
+ Requires:
+@@ -142695,10 +142865,10 @@
+ 
+ STATISTICS:
+ 
+-THAC0: +3
+-Damage: 1d6+3, +3 acid damage
++THAC0: +5
++Damage: 1d6+5, +3 acid damage
+ Damage Type: Crushing
+-Speed Factor: 4
++Speed Factor: 2
+ Proficiency Type: Club
+ Type: One-handed
+ Requires:
+@@ -143158,7 +143328,7 @@
+ – Returns to the wielder's hand when thrown
+ 
+ THAC0: +3
+-Damage: 2d4+3, +1d2 fire damage
++Damage: 1d4+3, +1d2 fire damage
+ Damage Type: Missile
+ Speed Factor: 1
+ Proficiency Type: Dagger
+@@ -143221,8 +143391,8 @@
+ 
+ STATISTICS:
+ 
+-THAC0: +4
+-Damage: 1d10, +1 cold damage, +1 fire damage, +1 electrical damage, +1 acid damage, +1 poison damage
++THAC0: +5
++Damage: 1d10+5, +1 cold damage, +1 fire damage, +1 electrical damage, +1 acid damage, +1 poison damage
+ Damage Type: Piercing
+ Speed Factor: 5
+ Proficiency Type: Halberd
+@@ -143376,7 +143546,7 @@
+ Equipped abilities:
+ – Fire Resistance: +50%
+ 
+-Armor Class: -1 (-4 vs. slashing, -2 vs. piercing and missile)
++Armor Class: 0 (-3 vs. slashing, -1 vs. piercing and missile)
+ Requires:
+  8 Strength
+ 
+@@ -143411,9 +143581,10 @@
+ STATISTICS:
+ 
+ Equipped abilities:
+-– Hide In Shadows: +20%
+-
+-Armor Class: 3 (5 vs. piercing and missile)
++– Hide In Shadows: +25%
++- Move Silently: +25%
++
++Armor Class: 2 (4 vs. piercing and missile)
+ Requires:
+  3 Strength
+ 
+@@ -143557,6 +143728,8 @@
+ 
+ STATISTICS:
+ 
++- Wearer is immune to all poisons.
++
+ Armor Class: 0 (-2 vs. slashing, 2 vs. crushing)
+ Requires:
+  8 Strength
+@@ -143666,8 +143839,9 @@
+ 
+ Equipped abilities:
+ – Saving Throws: +1
+-
+-Armor Class: 1 (-1 vs. crushing, 0 vs. piercing and missile)
++- 10% Magic Resistance
++
++Armor Class: 0 (-2 vs. crushing, -1 vs. piercing and missile)
+ Requires:
+  8 Strength
+ 
+@@ -143718,7 +143892,7 @@
+ STATISTICS:
+ 
+ Equipped abilities:
+-– Regenerate 2 Hit Points per turn
++– Regenerate 4 Hit Points per turn
+ 
+ Weight: 2
+ 
+@@ -143778,6 +143952,13 @@
+ 
+ Equipped abilities:
+ – Armor Class: +5
++- Fire Resistance: +5%
++- Acid Resistance: +5%
++- Cold Resistance: +5%
++- Electricity Resistance: +5%
++- Magic Resistance: +5%
++- Saving Throw Bonus: +1
++- Physical Damage Resistance: +5%
+ 
+ Requires:
+  12 Strength
+@@ -143817,7 +143998,7 @@
+ STATISTICS:
+ 
+ Equipped abilities:
+-– Armor Class: +3
++– Armor Class: +4
+ – Immunity to charm, confusion, domination, and hold
+ 
+ Requires:
+@@ -145928,7 +146109,7 @@
+ Symbol, Death is a powerful enchantment that allows the wizard to inscribe a symbol on the ground or any other surface. The symbol will remain there until someone comes too close, at which point it will explode, causing all those within the area to make a Save vs. Death or die. Creatures with more than 60 current Hit Points are immune to this effect.
+ 
+ 39968:
+-Spell Trigger—Fired
++Spell Trigger — Fired
+ 
+ 39969:
+ Spell Sequencer—Fired
+@@ -147984,7 +148165,7 @@
+ I think I could probably add this as a standard for the shield. I'm not sure what, exactly, that would do for Stoutward's abilities.
+ 
+ 40453:
+-And it's a solid day of work. But since you've rescued Sheemish, I'll waive most of the costs. How about 1,000 gold?
++And it's a solid day of work. But since you've rescued Sheemish, I'll waive most of the costs. How about 10,000 gold?
+ 
+ 40454:
+ If you change your mind, let me know.
+@@ -147996,7 +148177,7 @@
+ Sure, that sounds like a bargain.
+ 
+ 40457:
+-And it's a solid day of work. How about 4500 gold?
++And it's a solid day of work. How about 25,000 gold?
+ 
+ 40458:
+ I don't have enough gold at the moment. Perhaps later.
+@@ -148032,7 +148213,7 @@
+ I'll take it slow—let's say three days to finish—and make sure it's right, as dragon scales don't grow on trees.
+ 
+ 40469:
+-My commission is 5000 gold.
++My commission is 10,000 gold.
+ 
+ 40470:
+ For dragon scale armor? Yes, let's do it.
+@@ -148522,9 +148703,10 @@
+ STATISTICS:
+ 
+ Equipped abilities:
+-– Armor Class: +2
++– Armor Class: +3
+ – Strength: +1
+-– Maximum Hit Points: +10
++– Maximum Hit Points: +15
++- +1 bonus to all saves
+ – No protection against missile attacks
+ 
+ Requires:
+@@ -149727,3 +149909,4071 @@
+ 
+ 40851:
+ Enabling this option will prevent your characters from taking more damage on difficulty settings that are higher than Core Rules. The additional enemies that spawn when playing on Hard or Insane difficulty settings will still appear, even if this setting is in effect.
++
++40852:
++Villain
++
++40853:
++True Hero
++
++40854:
++Dagger of Throwing +1: Acidtooth
++This throwing knife is imbued with magical acid, and was supposedly carved from an extracted green dragon tooth. Tavern tales suggest that the beast is still alive, her anger fueling the enchantment within the weapon. Though fanciful, the story is consistent, and it is said the dagger returns to the thrower "as though on wings."
++
++STATISTICS:
++
++Combat abilities:
++– Returns to the wielder's hand when thrown
++
++THAC0: +1
++Damage: 1d4+1, +1 acid damage
++Damage Type: Missile
++Speed Factor: 1
++Proficiency Type: Dagger
++Type: One-handed
++Requires: 3 Strength
++
++Weight: 1
++
++40855:
++Acid Tooth +1
++
++40856:
++Quiver of Plenty +1
++
++40857:
++This quiver has the craftmanship of Conlan and the magical assistance of Orrick to create this quiver that will never run out of magically enchanted arrows, quite useful for anyone who wishes to do some deep dungeon diving without needing the hassle to bring extra quivers of arrows with them.
++
++Magical Properties:
++- Quiver holds infinite arrows +1
++
++THAC0: +1
++Damage: 1d6+1 (missile)
++Launcher: Bow
++
++Weight: 0
++
++40858:
++Case of Plenty +1
++
++40859:
++This Case has the craftmanship of Conlan and the magical assistance of Orrick to create this case that will never run out of magically enchanted bolts, quite useful for anyone who wishes to do some deep dungeon diving without needing the hassle to bring extra cases of bolts with them.
++
++Magical Properties:
++- Case holds infinite bolts +1
++
++THAC0: +1
++Damage: 1d8+1 (missile)
++Launcher: Crossbow
++
++Weight: 0
++
++40860:
++Bag of Plenty +1
++
++40861:
++This Bag has the craftmanship of Conlan and the magical assistance of Orrick to create this bag that will never run out of magically enchanted bullets, quite useful for anyone who wishes to do some deep dungeon diving without needing the hassle to bring extra bags of bullets with them.
++
++Magical Properties:
++- Bag holds infinite bullets +1
++
++THAC0: +1
++Damage: 1d4+2 (missile)
++Launcher: Sling
++
++Weight: 0
++
++40862:
++Quiver
++
++40863:
++This is a magical quiver which seems to hold an ungodly amount of arrows, although you aren't quite sure on how this quiver seems to do this.
++
++40864:
++This is a magical case which seems to hold an ungodly amount of bolts, although you aren't quite sure on how this case seems to do this.
++
++40865:
++Case
++
++40866:
++This is a magical bag which seems to hold an ungodly amount of bullets, although you aren't quite sure on how this quiver seems to do this.
++
++40867:
++Bag
++
++40868:
++Verbeeg Elite
++
++40869:
++Acolyte Archer
++
++40870:
++Krugg
++
++40871:
++Shadowed Elven Champion
++
++40872:
++Neo-Orog Champion
++
++40873:
++You will suffer! YOU WILL ALL SUFFER!
++
++40874:
++Follow, if only to protect the weak that fell beacuse of you.
++
++40875:
++You BORE me mageling.
++
++40876:
++Enough, I haven't the time for this.
++
++40877:
++The pain will only be passing.
++
++40878:
++You are but a gnat, compared to my power.
++
++40879:
++Patience, soon it will all end.
++
++40880:
++No doubt you are brimming with concern.
++
++40881:
++Of coarse, see to it as quickly as possible.
++
++40882:
++Don't worry, nothing any worse than what I am going to do to your friend.
++
++40883:
++Don't worry, it will all be over soon.
++
++40884:
++Soon it won't matter who comes.
++
++40885:
++They act sooner than we had anticipated, no matter they will only prove a slight delay.
++
++40886:
++I did not forsee this.
++
++40887:
++Of coarse.
++
++40888:
++Uhn.
++
++40889:
++AaaaaaAAAAH.
++
++40890:
++Rage, Hate, This is your death! I will end your petty little lives!
++
++40891:
++DIE!DIE! All of you DIE!
++
++40892:
++It is time for more...Experiments.
++
++40893:
++Enough! I will no longer listen to the babbling of ignorant children.
++
++40894:
++Death Spell
++
++40895:
++You will all suffer!
++
++40896:
++You live yet!
++
++40897:
++Well, you are a strong one indeed, you resist beyond all reason.
++
++40898:
++When the oppurtunity comes accept the gifts offered to you.
++
++40899:
++Hm hm heh heh heh heh heh.
++
++40900:
++I will tell our friends of the dark of our coming, we will plan our assult from here.
++
++40901:
++Must I be interrupted at every turn? Enough of this!
++
++40902:
++Obviously a danger as you can see.
++
++40903:
++You made inquires in town I have agents and eyes, security is quite important.
++
++40904:
++I trust you have good reason to be entering this place.
++
++40905:
++I hope you are awake, it is time for another...test.
++
++40906:
++Frost Salamander Guard
++
++40907:
++Fire Giant Elite
++
++40908:
++Spell Turning
++
++40909:
++Protected from magical weapons.
++
++40910:
++Blackblood +5
++
++40911:
++Wyrm Tribe Champion
++
++40912:
++Ogre Chieftan
++
++40913:
++Agazzar
++
++40914:
++Chain Contingency - Spell Turning
++
++40915:
++Chain Contingency - Improved Mantle
++
++40916:
++Chain Contingency - Mislead
++
++40917:
++Contingency - Protection From Magical Weapons
++
++40918:
++Tattoo of Power - Stoneskin
++
++40919:
++No! I must flee!
++
++40920:
++This place will be your tomb!
++
++40921:
++lich damaged
++
++40922:
++lich death
++
++40923:
++You should not have come to this place!
++
++40924:
++You'll suffer before you die I promise!
++
++40925:
++This is your end!
++
++40926:
++I will be pleased to carve out your heart!
++
++40927:
++What?! Who are you?! No doubt intruders coming to plunder the Forge. Although it matters not, because today you die mortals!
++
++40928:
++Eh? What be this? Adventuring fools coming to defile the temple more? You would have thought that the priests and giants would have taken care of you! No matter, I will destroy you myself then!
++
++40929:
++Amulet of the Seldarine
++
++40930:
++This amulet has been blessed and enchanted from the Tree of Life in Suldanessellar, this amulet protects the wearer against all forms of enchantments and spells. 
++ 
++STATISTICS:
++
++Equipped abilities:
++– Saving Throws: +1
++– Magic Resistance: +10%
++
++Weight: 1
++
++40931:
++Pride of the Legion
++
++40932:
++This armor was crafted with the most meticulous of detail, every plate, strap and fitting has been perfectly placed together to not only make this armor perfect for combat, but also less cumbersome. It also has many enchanments placed on it as well, making this one of the finest suits of armor in all the realms.
++
++STATISTICS: 
++
++Armor Class: -1 (-5 vs. slashing, -4 vs. piercing and missile)
+++25 % Magic Damage Resistance
+++5 % Magic Resistance
+++10 % Resistance bonus to Cold
+++10 % Resistance bonus to Electricity
+++2 Saving throw bonus vs. Breath Weapon
++
++Weight: 40
++
++40933:
++Blue Dragon Scale +4
++
++40934:
++The light but durable scales of the blue dragon provide excellent protection against weapons and all forms of electricity.
++
++STATISTICS:
++
++Equipped abilities:
++– Electrical Resistance: +50%
++
++Armor Class: -1 (-7 vs. slashing, -2 vs. piercing and missile)
++Requires:
++ 15 Strength
++
++Weight: 20
++
++40935:
++These gem-studded leather gloves are enchanted so as to augment the skills of any Bard. 
++
++STATISTICS:
++
++Equipped abilities:
++– Armor Class: +1
++– THAC0: +1
++– Can memorize one 2nd-, 3rd-, and 4th-level wizard spell
++
++Weight: 1
++
++40936:
++Wondrous Gloves
++
++40937:
++Golden Ioun Stone
++
++40938:
++Highly sought out by wizards, this ioun stone raises the intelligence of those who possess it.
++
++STATISTICS:
++
++Equipped abilities:
++– Intelligence: +1
++
++Weight: 0
++
++40939:
++Silver Ioun Stone
++
++40940:
++Perhaps the silver and gray in this stone hints at the knowledge that only comes with age and experience.
++
++STATISTICS:
++
++Equipped abilities:
++– Wisdom: +1
++
++Weight: 0
++
++40941:
++Handmaiden's Mace
++
++40942:
++This mace has been crafted finely by the drow and specially treated to survive the glare of the sun. It was made for surface raids by the subterranean race... and its black metal glistens with a dark poison that seems to be generated from within and causes incredible damage upon a successful impact.
++
++The mace seems almost alive and warm to the touch, and slithers away from those whom it does not like... namely drow or those who are similar enough to not make a difference. In the hands of anyone else, the mace becomes mere dead weight.
++
++STATISTICS:
++
++Combat abilities:
++– Hit target must save vs. Poison or suffer 2 points of damage per round for 1 turn
++
++THAC0: +2
++Damage: 1d6+3 (crushing)
++Speed Factor: 6
++Proficiency Type: Mace
++Type: One-handed
++
++Weight: 7
++
++40943:
++Darksteel Shield +4
++
++40944:
++Fashioned from dwarven darksteel, this heavily enchanted shield provides more protection than most suits of armor. Legend holds that it was meant to be presented as a gift to the dwarvish hero Glimred Heavyhand, but he disappeared on his ill-fated quest into the bowels of the Marching Mountains before the work was completed. With Glimred gone, the shield was sold to the highest bidder—though the dwarven smiths refused to divulge the mysterious buyer's identity. 
++
++STATISTICS:
++
++Armor Class: +5, an extra +1 vs. missile attacks
++Requires:
++ 15 Strength
++
++Weight: 8
++
++40945:
++King's Impaler +6
++
++40946:
++Vorpal Bastard Sword +4
++
++40947:
++This sword's blade is mind bogglingly sharp, almost to the point that you would think this were a katana. The magic infused with this weapon is very powerful and not only does it protect the wielder from death magic, this sword has been known to slice the head right off of it's opponents as if it were air.
++
++STATISTICS:
++
++- Immune to death magic while equipped
++- 10% chance to make enemy struck save vs death at a -4 penalty or die
++
++THAC0: +4
++Damage: 2d4+4 (slashing)
++Speed Factor: 4
++Proficiency Type: Bastard Sword
++Type: One-handed
++Requires:
++ 11 Strength
++
++Weight: 7
++
++40948:
++Vorpal Hit
++
++40949:
++Way of the Warrior +4
++
++40950:
++The where abouts for this Katana's origin are highly unknown. The fact that a Katana can even become an even more perfect weapon is almost unbelievable. Although rumor has it that this weapon had dealings with two brothers from a long far land, long ago making it's history as much a mystery as how this blade has become so powerful.
++
++STATISTICS:
++
++- +1 Bonus to all saving throws
++- +1 AC Bonus
++- +5% Magic Resistance Bonus
++
++Thac0 Bonus: +4
++Damage: 1d10+4 (slashing)
++Speed Factor: 0
++Proficiency Type: Katana
++Type: One-handed
++Requires:
++ 6 Strength
++
++Weight: 6
++
++40951:
++Death Lich
++
++40952:
++Male Patriarch
++
++40953:
++Female Matriarch
++
++40954:
++Orok the Destroyer
++
++40955:
++Kerj
++
++40956:
++Darsa
++
++40957:
++*Quaffs a potion*
++
++40958:
++Remorhaz Hive Mother
++
++40959:
++Crystal Golem
++
++40960:
++Warrior of the North
++
++40961:
++Warrior of Ice
++
++40962:
++Ice Shaman
++
++40963:
++Sage of Ice
++
++40964:
++Ice Lich
++
++40965:
++Boomerang Dart +3
++
++40966:
++The small size of this weapon belies its great power. Immediately after striking its target, this dart reappears in the hand of the wielder, ready to be hurled again.
++
++STATISTICS:
++
++Combat abilities:
++– Returns to the wielder's hand when thrown
++
++THAC0: +3
++Damage: 1d3+3 (missile)
++Speed Factor: 0
++Proficiency Type: Dart
++Type: One-handed
++
++Weight: 0
++
++40967:
++Iron Golem Battle Cry
++
++40968:
++Iron Golem Attack
++
++40969:
++Iron Golem Select 1
++
++40970:
++Iron Golem Select 2
++
++40971:
++Iron Golem Select 3
++
++40972:
++Iron Golem Damage
++
++40973:
++Iron Golem Death
++
++40974:
++Stone Golem Battle Cry
++
++40975:
++Stone Golem Attack
++
++40976:
++Stone Golem Damage
++
++40977:
++Stone Golem Death
++
++40978:
++Your existance ends here mortal!
++
++40979:
++You're nothing before the power of death!
++
++40980:
++Come...The embrace awaits you.
++
++40981:
++Male Vampire Damage
++
++40982:
++Male Vampire Death
++
++40983:
++This does not end here fool!
++
++40984:
++Your blood is rather inviting.
++
++40985:
++I shall feast on your heart!
++
++40986:
++Be honored! For you shall feed me!
++
++40987:
++Death awaits you... But not I!
++
++40988:
++Female Vampire Damage
++
++40989:
++Female Vampire Death
++
++40990:
++I shall return fool!
++
++40991:
++I am the predator that lives amongst you.
++
++40992:
++Shade Lich
++
++40993:
++Chosen of Sekolah
++
++40994:
++Sahuagin Battle Cry
++
++40995:
++Sahuagin Select
++
++40996:
++Sahuagin Damage
++
++40997:
++Sahuagin Death
++
++40998:
++Chosen of Sekolah Sage
++
++40999:
++Chain Contingency Fired
++
++41000:
++Chain Contingency - Protection From Magical Weapons
++
++41001:
++Chain Contingency - Spell Turning
++
++41002:
++Chain Contingency - Mislead
++
++41003:
++Tattoo of Power - Protection From Magical Weapons
++
++41004:
++Contingency Fired
++
++41005:
++Contingency - Spell Deflection
++
++41006:
++Chain Contingency - Stone Skin
++
++41007:
++Well, you are a strong one indeed! You resist beyond all reason.
++
++41008:
++Fire Giant BC
++
++41009:
++Fire Giant ATT
++
++41010:
++Fire Giant DMG
++
++41011:
++Fire Giant DTH
++
++41012:
++Lower Fire Resistance
++
++41013:
++Wing Buffet
++
++41014:
++Red Dragon Breath
++
++41015:
++Dragon Fear
++
++41016:
++Red Dragon
++
++41017:
++Red Dragon Scales
++
++41018:
++There are a large number of scales salvaged from the red dragon. Legend has it they can be magically forged into powerful armor.
++
++STATISTICS:
++
++Weight: 15
++
++41019:
++Time to perish manling!
++
++41020:
++dragon attack
++
++41021:
++dragon damage
++
++41022:
++dragon death
++
++41023:
++It is, as they, your funeral.
++
++41024:
++Oh... Bother..
++
++41025:
++Can I comission armor from these red dragon scales?
++
++41026:
++What was involved in making Red Dragon Scale again?
++
++41027:
++Welcome back. I was just putting a last coat of polish on the red dragon armor.
++
++41028:
++skeleton battle cry 1
++
++41029:
++skeleton battle cry 2
++
++41030:
++skeleton warrior damage
++
++41031:
++skeleton warrior death
++
++41032:
++Giant Ice Troll
++
++41033:
++troll bc1
++
++41034:
++troll damage
++
++41035:
++troll death
++
++41036:
++troll bc2
++
++41037:
++troll bc3
++
++41038:
++Justice shall be swift and final!
++
++41039:
++acolyte damage
++
++41040:
++acolyte death
++
++41041:
++All of the faithful are welcome here.
++
++41042:
++May the gods protect me!
++
++41043:
++Umber Hulk Elder
++
++41044:
++umber hulk bc1
++
++41045:
++umber hulk damage
++
++41046:
++umber hulk death
++
++41047:
++umber hulk bc2
++
++41048:
++EARTH BC1
++
++41049:
++EARTH BC2
++
++41050:
++EARTH DMG
++
++41051:
++EARTH DTH
++
++41052:
++FIRE BC1
++
++41053:
++FIRE BC2
++
++41054:
++FIRE DMG
++
++41055:
++FIRE DTH
++
++41056:
++AIR BC1
++
++41057:
++AIR BC2
++
++41058:
++AIR DMG
++
++41059:
++AIR DTH
++
++41060:
++WATER BC1
++
++41061:
++WATER BC2
++
++41062:
++WATER DMG
++
++41063:
++WATER DTH
++
++41064:
++You feel gale force type winds rushing in on you while you rest sucking you into a small tornadoe.
++
++41065:
++You hear the sounds of loud foot steps as the smell of moss grows stronger as it comes towards you.
++
++41066:
++The smell of fire and brimstone fills your nostrils as the sound of cackling advances towards you.
++
++41067:
++The rushing sounds of waves start to ring in your ears. You think it's a dream but it is quite real indeed as the waves are coming for you.
++
++41068:
++I will crush you puny one!
++
++41069:
++You and mine kind not get along!
++
++41070:
++Goblin Shaman
++
++41071:
++Orc Sorcerer
++
++41072:
++gob sha bc1
++
++41073:
++gob sha dmg
++
++41074:
++gob sha dth
++
++41075:
++gob sha sel
++
++41076:
++orc sor bc1
++
++41077:
++orc sor dmg
++
++41078:
++orc sor dth
++
++41079:
++orc sor sel
++
++41080:
++Ettin Chieftan
++
++41081:
++ettin bc1
++
++41082:
++ettin damage
++
++41083:
++ettin death
++
++41084:
++ettin sel
++
++41085:
++ettin bc2
++
++41086:
++Lower Cold Resistance
++
++41087:
++WHITE DRAGON DAMAGE
++
++41088:
++WHITE DRAGON DEATH
++
++41089:
++WHITE DRAGON BC1
++
++41090:
++WHITE DRAGON BC2
++
++41091:
++WHITE DRAGON BC3
++
++41092:
++I'll whipe your filthy lineage right out of the realms!
++
++41093:
++You deserve no less than death... And no more!
++
++41094:
++What can it be now?
++
++41095:
++Let us speak and be done with this!
++
++41096:
++kelly dmg
++
++41097:
++kelly dth
++
++41098:
++I should've joined the army.
++
++41099:
++I can take Drizzt with both my arms tied behind my back!
++
++41100:
++*yawn*
++
++41101:
++Today I saw a girl with the biggest pair of diddeys I've ever seen!
++
++41102:
++guard dmg
++
++41103:
++guard dth
++
++41104:
++Your death lies here fool!
++
++41105:
++I shall enjoy gutting you like the dog your are!
++
++41106:
++This is your end I assure you!
++
++41107:
++mar dmg
++
++41108:
++mar dth
++
++41109:
++Death will only be the beginning for you.
++
++41110:
++Now the time has come for you to pay!
++
++41111:
++This is your end!
++
++41112:
++kay dmg
++
++41113:
++kay dth
++
++41114:
++You are welcome in my sight.
++
++41115:
++You'll have to excuse me if I stare, as you're not quite what I was expecting. From all I've been told, I was expecting someone... Larger.
++
++41116:
++Crossing me is the last mistake you'll make!
++
++41117:
++Alright, enough of this, time to die!
++
++41118:
++seth dmg
++
++41119:
++seth dth
++
++41120:
++Yes I'm still here.
++
++41121:
++I thank you for your assistance, but I'm done with you for now. Leave me to my work.
++
++41122:
++Ugh, another time then!
++
++41123:
++Alright, you and me, let's go!
++
++41124:
++I give! I give!
++
++41125:
++thief dmg
++
++41126:
++thief dth
++
++41127:
++You're a piece of iron you are!
++
++41128:
++Stay back! Or you'll regret it!
++
++41129:
++I can break and arm or a leg for a copper or two.
++
++41130:
++Do not question the matron mothers.
++
++41131:
++The path to supremecy for a male, lies either in the bed chamber, or the books of the mages
++
++41132:
++To walk apart from house and queens to walk into the grave.
++
++41133:
++drow damage
++
++41134:
++drow dth
++
++41135:
++The drow rule supreme!
++
++41136:
++In the name of Lloth, we fight!
++
++41137:
++Through destiny and might, we shall rule supreme.
++
++41138:
++Victory for the spider queen!
++
++41139:
++The best surfacer is a dead surfacer!
++
++41140:
++drow sol dmg
++
++41141:
++drow sol dth
++
++41142:
++At your command
++
++41143:
++At your command.
++
++41144:
++So, the stoic adventurers have found their way down to my lair.
++
++41145:
++You meddling fools! Your victory shall be short lived!
++
++41146:
++Die! Insolent whelps!
++
++41147:
++Ah ha ha ha ha ha ha ha
++
++41148:
++Your efforts are futile!
++
++41149:
++Tremble before the might of my sorcery!
++
++41150:
++Your feeble skills are no match for my magic!
++
++41151:
++mal dmg
++
++41152:
++mal dth
++
++41153:
++bone gol bc
++
++41154:
++bone gol dmg
++
++41155:
++bon gol dth
++
++41156:
++bon gol sel
++
++41157:
++Yeah mate?
++
++41158:
++Hmm?
++
++41159:
++Dreadfully sorry, but I'm afraid, I'm gonna have ta kill ya.
++
++41160:
++Sorry friend! But you got a date.. Down under!
++
++41161:
++I'd rather we just skip the small talk, and get straight to the killin'.
++
++41162:
++mark dmg
++
++41163:
++mark dth
++
++41164:
++Bone Golem
++
++41165:
++A derivative of the long sword, the two-handed sword is significantly longer, both in blade and hilt. Its primary function is cleaving mounted knights and breaking up pike formations. This magical version is even more capable of such functions, serving as a fearful reminder of what comes of the union between weapons and sorcery.
++
++STATISTICS:
++
++THAC0: +2
++Damage: 1d10+2 (slashing)
++Speed Factor: 8
++Proficiency Type: Two-handed Sword
++Type: Two-handed
++Requires:
++ 14 Strength
++
++Weight: 10
++
++41166:
++Hmm... Yes?
++
++41167:
++You.. You wouldn't hurt a gnome would you?
++
++41168:
++I just came here to find some turnips I swear!
++
++41169:
++*whistles*
++
++41170:
++Back off! Yer knee caps are at me mercy!
++
++41171:
++osw dmg
++
++41172:
++osw dth
++
++41173:
++YIEEE! RUN! RUN!
++
++41174:
++You're rather out landish folk to be wanderin' 'round here.
++
++41175:
++Nasty times are comin' I reckon.
++
++41176:
++I wish I had my old tabacco pipe.
++
++41177:
++Queer things have been afoot lately.
++
++41178:
++You got something comin' pal... Just you wait!
++
++41179:
++hobart dmg
++
++41180:
++hobart dth
++
++41181:
++I've a blade with your name on it!
++
++41182:
++You said something?
++
++41183:
++You need something stranger?
++
++41184:
++Something on your mind?
++
++41185:
++I'll crush your face I will! Make you dead and done!
++
++41186:
++conlan dmg
++
++41187:
++conlan dth
++
++41188:
++Yes?
++
++41189:
++Hello there.
++
++41190:
++What do you need?
++
++41191:
++You got somethin' coming pal... Just you wait!
++
++41192:
++orrick dmg
++
++41193:
++orrick dth
++
++41194:
++Malavon's Corrosive Fog
++(Evocation)
++
++Level: 9
++Range: Visual range of the caster
++Duration: 15 rounds
++Casting Time: 9
++Area of Effect: 24-ft. radius
++Saving Throw: 1/2
++
++This spell is of Malavon's making, and is quite deadly indeed. All those in the area of effect will suffer 14d6 acid damage for each round they stay in the area of effect. There is a save vs. spell allowed, which will make the target only take half damage, but the saving throw comes with a -2 penalty. A sinister spell to match a sinister creator.
++
++41195:
++Beware! Or you'll be soon hanin' from yer tongue.
++
++41196:
++I trust that all is well?
++
++41197:
++I'll taste yer mettle with cold steel!
++
++41198:
++dwarf dmg
++
++41199:
++dwarf dth
++
++41200:
++You've made a fatal error in judgement!
++
++41201:
++fem dmg
++
++41202:
++fem dth
++
++41203:
++You are welcome in my sight.
++
++41204:
++You want some whiskey?
++
++41205:
++I got some cheap bear for ya.
++
++41206:
++*burp* I got to stop dippin' into me own ale...
++
++41207:
++I got me some nice lookin' waitresses don't I? eh heh, heh heh hee
++
++41208:
++bartender dmg
++
++41209:
++bartender dth
++
++41210:
++You're at the end of your rope I'll wager!
++
++41211:
++Spell Trigger Fired
++
++41212:
++Spell Trigger - Protection From Magical Weapons
++
++41213:
++Spell Trigger - Spell Deflection
++
++41214:
++Spell Trigger - Mislead
++
++41215:
++Spell Sequencer Fired
++
++41216:
++Spell Sequencer - Stoneskin
++
++41217:
++Spell Sequencer - Mirror Image
++
++41218:
++Spell Sequencer - Improved Invisibility
++
++41219:
++Minor Spell Sequencer Fired
++
++41220:
++Minor Spell Sequencer - Mirror Image
++
++41221:
++Minor Spell Sequencer - Blur
++
++41222:
++No doubt you are brimming with concern.
++
++41223:
++Rage! Hate! This is your death! I will end your petty little lives!
++
++41224:
++You will suffer! You will all suffer!
++
++41225:
++DIE! DIE! All of you DIE!
++
++41226:
++jon dmg
++
++41227:
++jon dth
++
++41228:
++They act sooner than we had anticipated. No matter they will only prove a slight delay.
++
++41229:
++Follow... If only to protect the weak that fell because of you.
++
++41230:
++You are but a gnat compared to my power.
++
++41231:
++Of coarse, see to it as quickly as possible.
++
++41232:
++When the oppurtunity comes accept the gifts offered to you.
++
++41233:
++It is time for more... Experiments...
++
++41234:
++Enough! I will no longer listen to the babbling of ignorant children!
++
++41235:
++Wow! An adventurer!
++
++41236:
++child boy dmg
++
++41237:
++child boy dth
++
++41238:
++You ain't from around here. I knows it!
++
++41239:
++Don't hurt me!
++
++41240:
++I didn't do anything!
++
++41241:
++sirine int
++
++41242:
++sirine dmg
++
++41243:
++sirine dth
++
++41244:
++sirine select
++
++41245:
++Fools! To cross my path.
++
++41246:
++Yer a stranger.
++
++41247:
++Um...Hello.
++
++41248:
++I don't know you at all! You don't live here.
++
++41249:
++child female dmg
++
++41250:
++child female dth
++
++41251:
++gob arch sel
++
++41252:
++gob arch rare sel
++
++41253:
++gob arch dmg
++
++41254:
++gob arch dth
++
++41255:
++gob arch bc
++
++41256:
++gob axe bc
++
++41257:
++gob axe dmg
++
++41258:
++gob axe dth
++
++41259:
++gob axe sel
++
++41260:
++gob axe rare sel
++
++41261:
++Hmm?
++
++41262:
++Glad to meet ya friend.
++
++41263:
++Leave us alone will ya? Nothing for you here.
++
++41264:
++male com dmg
++
++41265:
++male com dth
++
++41266:
++Yeah?
++
++41267:
++Pleased to make your acquaintance.
++
++41268:
++Leave me be! Or the guard will have you!
++
++41269:
++female com dmg
++
++41270:
++female com dth
++
++41271:
++Raaaagh! Help...!
++
++41272:
++You? Who are you?
++
++41273:
++everard dmg
++
++41274:
++everard dth
++
++41275:
++Sorry friend, but you've got a date... Down under.
++
++41276:
++hroth dmg
++
++41277:
++hroth dth
++
++41278:
++This folk are under my protection, and anyone who woould seek to do harm to them in any way, shall answer to me.
++
++41279:
++Tis your lives to waste!
++
++41280:
++I'm a gentle man at heart... At least when I'm not slaughtering the stupid.
++
++41281:
++I've sparred with demons from the Nine Hells themselves! I shall barely break a sweat here today!
++
++41282:
++*sigh* All this chatter is fine, but I've places I would rather be.
++
++41283:
++drizzt dmg
++
++41284:
++drizzt dth
++
++41285:
++By Moradin's hammer.
++
++41286:
++I need a swig, or some strong dwarven ale.
++
++41287:
++Me temper's bad enough without ye botherin' me!
++
++41288:
++Yer chatterin' is starting to wear on me nerves!
++
++41289:
++dwarf dmg
++
++41290:
++dwarf dth
++
++41291:
++Ah, yer a handsome bunch ain't cha?
++
++41292:
++Me youngins are waitin'.
++
++41293:
++You fool adventurers better be responsible out there!
++
++41294:
++female dmg
++
++41295:
++female dth
++
++41296:
++Ha ha ha ha ha ha, ah heh heh *burp* 'cuse me.
++
++41297:
++*vomits* *cough* Corn...? When did I eats corn?
++
++41298:
++drunk dmg
++
++41299:
++drunk dth
++
++41300:
++Woah... Why are the streets so wobbly?
++
++41301:
++I need some ale! *burp* eh.
++
++41302:
++Mercy! Have mercy!
++
++41303:
++Greetings, your power impresses.
++
++41304:
++What do you want amongst the faithful?
++
++41305:
++Bow down before the gods and beg for mercy!
++
++41306:
++You will pray for death when I am done with you!
++
++41307:
++The gods are unforgiving fool!
++
++41308:
++priest dmg
++
++41309:
++priest dth
++
++41310:
++elmin dmg
++
++41311:
++elmin dth
++
++41312:
++If I wanted your opinion I would have asked for it.
++
++41313:
++Hnn, onward... To futility.
++
++41314:
++*yawn* certainly I shall collapse from exhastion, before I fall on the battle field.
++
++41315:
++Another victim in our hopeless crusade.
++
++41316:
++xan dmg
++
++41317:
++xan dth
++
++41318:
++The majesty of the forest makes me feel... Insignificant.
++
++41319:
++I'll do what I can, but expect very little.
++
++41320:
++I hope what you say was well intentioned.
++
++41321:
++bug bc1
++
++41322:
++bug dmg
++
++41323:
++bug dth
++
++41324:
++bug sel
++
++41325:
++bug rare sel
++
++41326:
++cyclops bc
++
++41327:
++cyclops sel
++
++41328:
++cyclops dmg
++
++41329:
++cyclops dth
++
++41330:
++cyclops rare sel
++
++41331:
++sword bc1
++
++41332:
++sword dmg
++
++41333:
++sword dth
++
++41334:
++sword sel
++
++41335:
++Spell Sequencer - Fire Shield Red
++
++41336:
++Spell Sequencer - Fire Shield Blue
++
++41337:
++Minor Spell Sequencer - Mirror Image
++
++41338:
++Minor Spell Sequencer - Shield
++
++41339:
++Chain Contingency - Mantle
++
++41340:
++Chain Contingency - Minor Spell Turning
++
++41341:
++Chain Contingency - Minor Spell Turning
++
++41342:
++corn bc1
++
++41343:
++corn bc2
++
++41344:
++corn sel
++
++41345:
++corn dmg
++
++41346:
++corn dth
++
++41347:
++belh bc1
++
++41348:
++belh bc2
++
++41349:
++belh bc3
++
++41350:
++belh dmg
++
++41351:
++belh dth
++
++41352:
++belh sel 1
++
++41353:
++belh sel 2
++
++41354:
++belh rare sel 1
++
++41355:
++belh rare sel 2
++
++41356:
++Chain Contingency - Stoneskin
++
++41357:
++Spell Trigger - Protection From Magical Energy
++
++41358:
++orc bc1
++
++41359:
++orc bc2
++
++41360:
++orc dmg
++
++41361:
++orc dth
++
++41362:
++orc sel
++
++41363:
++orc rare sel
++
++41364:
++orc bow bc1
++
++41365:
++orc bow bc2
++
++41366:
++orc bow dmg
++
++41367:
++orc bow dth
++
++41368:
++orc bow sel
++
++41369:
++orc bow rare sel
++
++41370:
++Elite Accuracy.
++
++41371:
++Elite Strike.
++
++41372:
++chick sel
++
++41373:
++There ain't nobody here but us chickens.
++
++41374:
++chick dmg
++
++41375:
++chick dth
++
++41376:
++gnoll sel
++
++41377:
++gnoll rare sel 1
++
++41378:
++gnoll sel 2
++
++41379:
++Die scum!
++
++41380:
++gnoll dmg
++
++41381:
++gnoll dth
++
++41382:
++*heavy breathing*
++
++41383:
++Gnoll Ring Leader
++
++41384:
++You smell the stink of Orcs approach you while you rest. Thankfully it's putrid enough thank it wakes you just in time.
++
++41385:
++Goblins are afoot! Good thing you were able to grab your weapon in time...
++
++41386:
++The cry of Goblins awakens you from your rest, you see the pack ready their bows...
++
++41387:
++You hear the cackling of Gnolls approaching you, luckily you awake in time not to be devoured...
++
++41388:
++Who are you?
++
++41389:
++I welcome you with out stretched hand.
++
++41390:
++I trust you are here in good faith.
++
++41391:
++My the gods look upon you kindly.
++
++41392:
++All of the faithful are welcome here.
++
++41393:
++Justice shall be swift and final!
++
++41394:
++priest dmg
++
++41395:
++priest dth
++
++41396:
++May the gods protect me!
++
++41397:
++You are welcome here.
++
++41398:
++Good day to you.
++
++41399:
++Justice shall be swift and final!
++
++41400:
++Waaaaaaaah!
++
++41401:
++Woooooh!
++
++41402:
++hjoll sel 1
++
++41403:
++hjoll sel 2
++
++41404:
++Hey sexy... Do you want to take a look at me diddeys?
++
++41405:
++Well if you want to go strappin' with this snab, you'll first have to give up the socket money.
++
++41406:
++I'm a fine looking strumpet ain't I?
++
++41407:
++Are ya interested in some thrills darlin'?
++
++41408:
++maid dmg
++
++41409:
++maid dth
++
++41410:
++As always, the pleasure is mine.
++
++41411:
++Do not anger me!
++
++41412:
++You shall pay for this... And pay dearly!
++
++41413:
++Suffer!
++
++41414:
++I see... What do you intend to do?
++
++41415:
++Snow Ogre
++
++41416:
++Pounding steps of Yetis comes rushing towards you. You quickly grab your weapons and get ready for battle.
++
++41417:
++The loud steps of Ogres approaches you. Thankfully you awake in time to not become Ogre pudding.
++
++41418:
++iwd shad bc
++
++41419:
++iwd shad sel
++
++41420:
++iwd shad rare sel
++
++41421:
++iwd shad dmg
++
++41422:
++iwd shad dth
++
++41423:
++shad bc1
++
++41424:
++shad bc2
++
++41425:
++shad sel
++
++41426:
++shad rare sel
++
++41427:
++shad dmg
++
++41428:
++shad dth
++
++41429:
++Lesser Shade
++
++41430:
++Strength drain.
++
++41431:
++You feel the touch of death approaching you. Perhaps sleeping in the mountains isn't the greatest idea...
++
++41432:
++yeti bc1
++
++41433:
++yeti bc2
++
++41434:
++yeti dmg
++
++41435:
++yeti chief dmg
++
++41436:
++yeti dth
++
++41437:
++yeti sel
++
++41438:
++yeti rare sel
++
++41439:
++Shadow
++
++41440:
++Shadow
++Shadows are malevolent, undead creatures that drain strength from their victims with their chilling touch. Those so afflicted can look forward to becoming a shadow themselves if contact continues. 
++
++41441:
++Elemental
++
++41442:
++Elemental
++Elementals are sentient beings that can possess bodies made of one of the four basic elements that make up the Prime Material Plane: air, earth, fire, and water.
++
++41443:
++Golem
++
++41444:
++Golem
++"Golem" is a broad term that covers many types of magical constructs. Most are humanoid, though they can be of inhuman size, and most require magical means to destroy them.
++
++41445:
++Lycanthrope
++
++41446:
++Lycanthrope
++The werewolf is the classic lycanthrope, a person that changes into an animal, though the term can also refer to animals that change into people. Lycanthropy can be a curse or an inherited condition.
++
++41447:
++Basilisk
++
++41448:
++Minotaur
++
++41449:
++Myconid
++
++41450:
++The basilisk is called "king" because it is reputed to have on its head a mitre or crown shaped crest. Stories of the basilisk show that it is not completely distinguished from the cockatrice. The basilisk is alleged to be hatched by a cockerel from the egg of a serpent or toad (the reverse of the cockatrice, which was hatched from a cockerel's "egg" incubated by a serpent or toad). Basilisks are also know for their deadly ability of a petrifying gaze, so great care should be taken if one is ever encountered.
++
++41451:
++Minotaurs were evil giant muscular humanoids with fur-covered bodies and bull-like heads. It was once believed that all minotaurs were male; actually cursed humans that had been altered by the gods or a demon lord to become a minotaur. That legend proved false as female minotaurs became more prevalent over the years. They loved to dwell within maze-like caverns or ruins, where their innate sense of direction prevented them from getting lost. They lured travelers into their maze-like homes, where the minotaurs had the advantage over their unfortunate prey.
++
++41452:
++Myconids live in the underdark in various colonies called circles, a circle consists of twenty or more myconids who live together work together and meld together. Myconids are brightly colored fungi creatures who come in all shapes and sizes.Their physical features vary greatly from circle to circle and even within the circles themselves. The inside of a myconid has a soft texture similar to that of a mushroom however their bones are near the surface, and are hard and have a seemingly metallic feel.
++
++41453:
++ghast bc
++
++41454:
++ghast dmg
++
++41455:
++ghast dth
++
++41456:
++ghast sel
++
++41457:
++ghast rare sel
++
++41458:
++ghoul bc1
++
++41459:
++ghoul bc2
++
++41460:
++ghoul dmg
++
++41461:
++ghoul dth
++
++41462:
++ghoul sel
++
++41463:
++ghoul rare sel
++
++41464:
++Die...!
++
++41465:
++bone skel bc2
++
++41466:
++bone skel war dmg
++
++41467:
++bone skel war dth
++
++41468:
++bone skel war sel
++
++41469:
++bone skel war rare sel 
++
++41470:
++Skeleton Elite
++
++41471:
++Skeleton Elite Archer
++
++41472:
++Demonic Ghoul
++
++41473:
++mummy bc
++
++41474:
++mummy sel
++
++41475:
++mummy dmg
++
++41476:
++mummy dth
++
++41477:
++mummy rare sel
++
++41478:
++wight bc1
++
++41479:
++wight bc2
++
++41480:
++wight sel
++
++41481:
++wight dmg
++
++41482:
++wight dth
++
++41483:
++wight rare sel
++
++41484:
++You here the rustling of old bones approaching you. Obviously resting in a crypt full of evil will do that sometimes...
++
++41485:
++The horrid smell of carrion and deaths wafts over you as you are approached by over grown maggots.
++
++41486:
++Demonic Ghast
++
++41487:
++demo bc
++
++41488:
++demo sel
++
++41489:
++Heh heh ha ha ha ha ha ha...
++
++41490:
++demo dmg
++
++41491:
++demo dth
++
++41492:
++ghost bc1
++
++41493:
++ghost bc 2
++
++41494:
++ghost sel
++
++41495:
++ghost rare sel
++
++41496:
++ghost dmg
++
++41497:
++ghost dth
++
++41498:
++Ring of Acuity
++
++41499:
++The origins of this ring are unclear, and while its enchantments share similarities with historical examples of Rings of Wizardry, there is something strange in how it feels, either in the weight of the metal or in the aura it projects, and it does not function the same. It was likely found on some distant plane and, as such, its maker will remain a mystery to you.
++
++STATISTICS:
++
++Equipped abilities:
++– The wearer can memorize 2 extra 2nd-level spells, 1 extra 3rd-level spell, and 1 extra 4th-level spell
++
++Weight: 0
++
++41500:
++verb bc1
++
++41501:
++verb bc2
++
++41502:
++verb sel
++
++41503:
++verb dmg
++
++41504:
++verb dth
++
++41505:
++Aye? Speak yer mind if ye must.
++
++41506:
++To glory! And all the women that come with it!
++
++41507:
++On your guard fools!
++
++41508:
++saemon dmg
++
++41509:
++saemon dth
++
++41510:
++Care to dance?
++
++41511:
++Another time, another place!
++
++41512:
++I trust you are here in good faith.
++
++41513:
++May the gods look upon you kindly.
++
++41514:
++The sound of thunder comes roaring towards you while you rest. Good thing Verbeegs aren't all that great at subterfuge.
++
++41515:
++The sound of pounding steps comes upon you, which must means Ogres are about.
++
++41516:
++*Uses wand*
++
++41517:
++Watch your words... I'm in a very foul mood.
++
++41518:
++The longer the fight, the sweeter your blood when i kill you!
++
++41519:
++I will have your head!
++
++41520:
++No begging's going to help you now.
++
++41521:
++Oh sure, touch me like you know me! Now I kill you twice!
++
++41522:
++Maybe you will stay quiet when you're dead!
++
++41523:
++Do I look like I enjoy being prodded by strangers? Stow the pointer mouse boy!
++
++41524:
++tazok dmg
++
++41525:
++tazok dth
++
++41526:
++Die... Meat!
++
++41527:
++Hisss...
++
++41528:
++Your time is done primates!
++
++41529:
++It is useless to resist!
++
++41530:
++Appearances can be deceiving monkey!
++
++41531:
++Give yourself up! Your death will be less... Painful!
++
++41532:
++Time to fillet some meat!
++
++41533:
++dopple sel
++
++41534:
++dopple dmg
++
++41535:
++dopple dth
++
++41536:
++Who is thisss...? More meat monkeys that pay tribute to thisss temple...? No... I see that you are intrudersss such as I. No doubt here trying to save these worthlessss foolsss from their doom... Come monkey, and face darkness...
++
++41537:
++The sounds of howls start to flood your dreams. Until you wake up and realized those howls weren't from dreams but indeed from real wolves!
++
++41538:
++clay gol bc1
++
++41539:
++clay gol sel
++
++41540:
++clay gol dmg
++
++41541:
++clay gol dth
++
++41542:
++Allo mate! You look a friendly face.
++
++41543:
++You'll fell the sting in my boot if you bother me further!
++
++41544:
++female com 2 dmg
++
++41545:
++female com 2 dth
++
++41546:
++Hey friend! Good to meet a fine sod such as yourself.
++
++41547:
++Bugger off! It will be a blade for yer back side elsewise.
++
++41548:
++male com 2 dmg
++
++41549:
++male come 2 dth
++
++41550:
++liz man bc
++
++41551:
++liz man dmg
++
++41552:
++liz man dth
++
++41553:
++liz man sel
++
++41554:
++liz man rare sel
++
++41555:
++strong liz man bc
++
++41556:
++strong liz man dmg
++
++41557:
++strong liz man dth
++
++41558:
++liz king int
++
++41559:
++liz king bc
++
++41560:
++liz king dmg
++
++41561:
++liz king dth
++
++41562:
++liz king sel
++
++41563:
++liz king rare sel
++
++41564:
++The smell of swamp and mildew starts to invade your nostrils, which must mean lizardmen are about.
++
++41565:
++Nightmares start to overwhelm your mind as you wake up in a gasp to see eight legged fiends coming to devour you...
++
++41566:
++You are more than welcome in my sight.
++
++41567:
++You have my greetings faithful one.
++
++41568:
++My god protects me and watches us all.
++
++41569:
++I am here to serve.
++
++41570:
++You are an affront to all I believe in!
++
++41571:
++female cleric dmg
++
++41572:
++female cleric dth
++
++41573:
++Fiend! Fiend!
++
++41574:
++troll bc
++
++41575:
++troll sel
++
++41576:
++weak troll dmg
++
++41577:
++weak troll dth
++
++41578:
++troll rare sel
++
++41579:
++I like the look of you... Welcome...
++
++41580:
++Why do you disturb my meditations?
++
++41581:
++Perhaps the gods have need of you.
++
++41582:
++Please the gods or die as a worm!
++
++41583:
++Your death will come slow and painful!
++
++41584:
++evil female priest dmg
++
++41585:
++evil female priest dth
++
++41586:
++I'll not die for you fools!
++
++41587:
++cold wight bc
++
++41588:
++cold wight bc2
++
++41589:
++cold wight dmg
++
++41590:
++cold wight dth
++
++41591:
++cold wight sel
++
++41592:
++You wake up with an unnatural chill. No doubt from the evil that is about...
++
++41593:
++Etheral vapors flow over you while you wake, obviously something not truely from this world is near by...
++
++41594:
++poison zom bc
++
++41595:
++poison zom sel
++
++41596:
++poison zom dmg
++
++41597:
++poison zom dth
++
++41598:
++poison zom rare sel
++
++41599:
++Best you might peace with your demons... Before I send you to might 'em!
++
++41600:
++Methinks you'll be pushing up daisies before the eve is through.
++
++41601:
++Yeah?
++
++41602:
++Fear my wrath! For it is great indeed!
++
++41603:
++If you start runnin'... You might just make it home alive...
++
++41604:
++Hmm?
++
++41605:
++safana dth
++
++41606:
++safana dmg
++
++41607:
++You think I'd surrender myself to the likes of you? That's a laugh!
++
++41608:
++When I'm good, I'm very very good... But when I'm bad... I'm better.
++
++41609:
++I love it when you speak to me that way.
++
++41610:
++Between two evils, I always choose the one I...  Haven't tried.
++
++41611:
++Oh I feel so... Sensual.
++
++41612:
++Mmmh... I keep very pleasent company.
++
++41613:
++I've been looking for... Strong men like... Yourselves.
++
++41614:
++Nothing's worth dieing for.
++
++41615:
++The sounds of hissing wakes you from your slumber. Obviously it wasn't a good idea to rest in their territory...
++
++41616:
++You are awaken by purple beings whose eyes seem to seep deep into your soul, as if consuming you from the inside...
++
++41617:
++I trust all is well?
++
++41618:
++Away with you!
++
++41619:
++Back off you! Or face the consequences.
++
++41620:
++Suffer!
++
++41621:
++You made a fatal error in judgement1
++
++41622:
++Knowledge used wisely is the most powerful of tools.
++
++41623:
++Excuse me, but I am late for my classes.
++
++41624:
++monk dmg
++
++41625:
++monk dth
++
++41626:
++yuanti elite bc1
++
++41627:
++yuanti elite bc2
++
++41628:
++yuanti elite dmg
++
++41629:
++yuanti elite dth
++
++41630:
++yuanti elite sel
++
++41631:
++yuanti priest bc
++
++41632:
++yuanti priest bc2
++
++41633:
++yuanti priest dmg
++
++41634:
++yuanti priest dth
++
++41635:
++yuanti priest sel
++
++41636:
++yuanti bc
++
++41637:
++yuanti bc2
++
++41638:
++yuanti dmg
++
++41639:
++yuanti dth
++
++41640:
++yuanti sel
++
++41641:
++hit bc1
++
++41642:
++hit bc2
++
++41643:
++hit dmg
++
++41644:
++hit dth
++
++41645:
++hit sel
++
++41646:
++Animate Denomic Undead
++
++41647:
++Summon Hosts of the Damned
++
++41648:
++Spirit of the Tannari unleashed
++
++41649:
++Spirit of the Tannari - Stoneskin
++
++41650:
++Spirit of the Tannari - Mirror Image
++
++41651:
++It cannot be...
++
++41652:
++abiz dmg
++
++41653:
++Your doom awaits...
++
++41654:
++All will suffer!
++
++41655:
++Ah, the small manlings have come back. What were you hoping to gain from destroying the Marilith? A sense of hope? Respite? HA! You will never find peace here fools! Now suffer and fall before me! 
++
++41656:
++ice troll bc
++
++41657:
++ice troll bc2
++
++41658:
++ice troll sel
++
++41659:
++ice troll dmg
++
++41660:
++ice troll dth
++
++41661:
++ice troll rare sel
++
++41662:
++Phasing jaunt
++
++41663:
++Minor jaunt
++
++41664:
++Etheral body
++
++41665:
++Power of the Fiend Lords - Retribution
++
++41666:
++Power of the Fiend Lords - Improved Mantle
++
++41667:
++Power of the Fiend Lords - Spell Turning
++
++41668:
++Power of the Fiend Lords - Stoneskin
++
++41669:
++Power of the Fiend Lords - Vengeance
++
++41670:
++Power of the Fiend Lords - Protection From Magical Weapons
++
++41671:
++Power of the Fiend Lords - Spell Deflection
++
++41672:
++Power of the Fiend Lords - Protection From Magical Energy
++
++41673:
++Power of the Fiend Lords - Hatred
++
++41674:
++Power of the Fiend Lords - Stoneskin
++
++41675:
++Power of the Fiend Lords - Fire Shield Red
++
++41676:
++Power of the Fiend Lords - Fire Shield BLue
++
++41677:
++You feel the chill of death creep towards you while you rest. Perhaps this isn't the best area to rest in...
++
++41678:
++You've been awaken by some of the tormented of the Severed Hand. Attack you must, or else you will become one of them...
++
++41679:
++The overwhelming smell of rotting sinew advances towards you, looking for no remorse or pity, only your death...
++
++41680:
++Shadowed Goblin Shaman
++
++41681:
++dlich bc
++
++41682:
++dlich sel
++
++41683:
++dlich dmg
++
++41684:
++dlich dth
++
++41685:
++Shade
++
++41686:
++Shadowed High Elven Mage
++
++41687:
++Shadowed High Elven Cleric
++
++41688:
++I am the law!
++
++41689:
++Every crime, must be punished!
++
++41690:
++You there! Give me 50 push ups!
++
++41691:
++flam fist dmg
++
++41692:
++flam fist dth
++
++41693:
++Pseudonatural Wraith Spider
++
++41694:
++Cosmic Power Unleashed
++
++41695:
++orog bc1
++
++41696:
++orog bc2
++
++41697:
++orog dmg
++
++41698:
++orog dth
++
++41699:
++orog sel
++
++41700:
++ettin bc1
++
++41701:
++ettin bc2
++
++41702:
++ettin sel
++
++41703:
++ettin dmg
++
++41704:
++ettin dth
++
++41705:
++ettin rare sel
++
++41706:
++mycon bc1
++
++41707:
++mycon bc2
++
++41708:
++mycon sel
++
++41709:
++mycon rare sel
++
++41710:
++mycon dmg blue
++
++41711:
++mycon dth blue
++
++41712:
++mino bc1
++
++41713:
++mino bc2
++
++41714:
++mino dmg
++
++41715:
++mino dth
++
++41716:
++mino sel
++
++41717:
++Drow Warrior
++
++41718:
++Drow Priestess
++
++41719:
++Lloth be praised! All victory is her doing!
++
++41720:
++Watch all about wearily, and the goddess may give you the gift of continued life.
++
++41721:
++If the queen of the demon web pits calls for your heart, you shall surrender it gladly!
++
++41722:
++All glory for the dark mother!
++
++41723:
++drow pri dth
++
++41724:
++drow pri dmg
++
++41725:
++None shall escape the wrath of the dark mother!
++
++41726:
++The sound of stomping and metal clanging harshly wakes you from your slumber, and good thing to, because you are beset by Orogs!
++
++41727:
++The aroma of fungus and mold starts to drown out your dreams. When you awake you see lumbering mushrooms coming towards you...
++
++41728:
++orog great bc1
++
++41729:
++orog great bc2
++
++41730:
++orog great dmg
++
++41731:
++orog great dth
++
++41732:
++orog great sel
++
++41733:
++You are awaken by the sound of hard breathing and ravenous rage. Obviously that is not a good sign...
++
++41734:
++Drow Elite Warrior
++
++41735:
++umber bc1
++
++41736:
++umber bc2
++
++41737:
++umber sel
++
++41738:
++umber dmg
++
++41739:
++umber dth
++
++41740:
++The sound of noisy chittering awakes you. As you rise you see that you have been awaken by huge green monsters!
++
++41741:
++I"ll wipe your filthy lineage right out of the realms!
++
++41742:
++You deserve no less than death... And no more.
++
++41743:
++Contingency - Stoneskin
++
++41744:
++Contingency - Mirror Image
++
++41745:
++clay gol bc1
++
++41746:
++clay gol sel
++
++41747:
++clay gol dmg
++
++41748:
++clay gol dth
++
++41749:
++This effect will give you a +1 bonus to attacks, damage rolls and saving throws for a limited time.
++
++41750:
++This effect will give you a +2 armor class bonus for a limited time.
++
++41751:
++This effect will give a +2 bonus to your attack rolls and saving throws for a limited time.
++
++41752:
++This effect will give a +2 bonus to attacks, damage rolls and saving throws, it will also grant an extra attack per round and make you immune to charm and hold spells for a limited time. Once this spell wears off, you will become fatigued.
++
++41753:
++Power of the Guardian
++
++41754:
++sal frost bc
++
++41755:
++sal frost dmg
++
++41756:
++sal frost dth
++
++41757:
++sal sel
++
++41758:
++sal fire bc
++
++41759:
++sal fire dmg
++
++41760:
++sal fire dmg
++
++41761:
++Be ye friend? Or be ye dead?
++
++41762:
++I'll speak when I wills it, not 'cause your proddin'.
++
++41763:
++silence dmg
++
++41764:
++silence dth
++
++41765:
++An abrupt sensation of cold flows over you while you rest. You awake to find yourself beset by snake like humanoids covered in frost...
++
++41766:
++The harshness of Winter has found it's way to you while you rest, except this time it doesn't come with pleasantries...
++
++41767:
++Pact of the Salamander
++
++41768:
++Ogre Mage of the North
++
++41769:
++female com 3 dmg
++
++41770:
++female com 3 dth
++
++41771:
++male com 2 dmg
++
++41772:
++male com 2 dth
++
++41773:
++Test
++
++41774:
++bugbear bc1
++
++41775:
++bugbear bc2
++
++41776:
++bugbear sel
++
++41777:
++bugbear att
++
++41778:
++bugbear dmg
++
++41779:
++bugbear dth
++
++41780:
++Bugbear Priest
++
++41781:
++The heavy flail is a sturdy wooden handle attached to an iron rod, a wooden rod with spikes, or a spiked iron ball. Between the handle and its implement is either a hinge or chain link. The weapon was originally used as a tool for threshing grain.
++
++STATISTICS:
++
++Damage: 1d10 (crushing)
++Speed Factor: 9
++Proficiency Type: Flail/Morning Star
++Type: One-handed
++Requires:
++ 18 Strength
++
++Weight: 20
++
++41782:
++The heavy flail is a sturdy wooden handle attached to an iron rod, a wooden rod with spikes, or a spiked iron ball. Between the handle and its implement is either a hinge or chain link. The weapon has been enhanced magically, effectively forming a bond between the weapon and its wielder.
++
++STATISTICS:
++
++THAC0: +1
++Damage: 1d10+1 (crushing)
++Speed Factor: 8
++Proficiency Type: Flail/Morning Star
++Type: One-handed
++Requires:
++ 18 Strength
++
++Weight: 14
++
++41783:
++Heavy Flail
++
++41784:
++Heavy Flail +1
++
++41785:
++Go away manling, I can't stand the smell of your stench.
++
++41786:
++Didn't you hear me the first time lout? Leave me be scum.
++
++41787:
++Death welcomes you!
++
++41788:
++demon kni sel
++
++41789:
++Here you will fall!
++
++41790:
++tanari dmg
++
++41791:
++tanari dth
++
++41792:
++Gift of the Darkness
++
++41793:
++joril dmg
++
++41794:
++joril dth
++
++41795:
++frost giant bc1
++
++41796:
++frost giant bc2
++
++41797:
++frost giant sel
++
++41798:
++frost gaint dmg
++
++41799:
++frost giant dth
++
++41800:
++A pack of angry trolls awake you from your dreams, and it was just getting to the good part...
++
++41801:
++Two-Handed Axe of the Giants +2
++
++41802:
++This weapon was given to Gorg as a gift when he was a smaller lad, if being around 8 feet tall is small to you that is. It was a present given to him when he finished his training at his tribe from a far off land. The fact that you have this weapon in your possesion must mean it was not easy to aquire because Gorg doesn't go anywhere without his axe.
++
++STATISTICS:
++
++Combat abilities:
++- There is a 50% chance that on every hit, the enemy must make a save vs. breath weapon or take an extra 1d4 cold and 1d4 fire damage.
++
++Fire Resistance Bonus: +30%
++Cold Resistance Bonus: +30%
++THAC0: +2
++Damage: 1d10+2 (slashing)
++Speed Factor: 7
++Proficiency Type: Axe
++Type: Two-handed
++Requires:
++ 15 Strength
++
++Weight: 8
++
++41803:
++Come before me.
++
++41804:
++What is this? Who is this impertinent fool that comes before me and dares to speak?
++
++41805:
++Your death will be agonizing!
++
++41806:
++matron dmg
++
++41807:
++matron dth
++
++41808:
++Things go well on the surface, the temple of their false god has been defiled...
++
++41809:
++Their presence sickens me, kill them.
++
++41810:
++Another day fool! Another day!
++
++41811:
++Gift of Auril unleashed
++
++41812:
++Gift of Auril - Stoneskin
++
++41813:
++Gift of Auril - Fire Shield Red
++
++41814:
++Gift of Auril - Fire Shield Blue
++
++41815:
++Gift of Auril - Mirror Image
++
++41816:
++troll snow bc1
++
++41817:
++troll snow bc2
++
++41818:
++snow troll sel
++
++41819:
++troll snow dmg
++
++41820:
++troll snow dth
++
++41821:
++troll snow rare sel
++
++41822:
++troll giant dmg
++
++41823:
++troll giant dth
++
++41824:
++Trap Ice Storm
++
++41825:
++Trap Cone of Cold
++
++41826:
++female child dmg 4
++
++41827:
++
++
++41828:
++sal fire bc
++
++41829:
++sal fre dmg
++
++41830:
++sal fire dth
++
++41831:
++sal sel
++
++41832:
++[MINERS 5]
++
++41833:
++[MINERS 6]
++
++41834:
++[SLAVES 5]
++
++41835:
++[SLAVES 6]
++
++41836:
++[SLAVES 1]
++
++41837:
++Offensive Mode Activated
++
++41838:
++Self Repair Mode Initiated
++
++41839:
++Advanced Targeting Mode Set
++
++41840:
++Error. Unit Termination.
++
++41841:
++EARTH SEL
++
++41842:
++FIRE SEL
++
++41843:
++WATER SEL
++
++41844:
++Why am I here? Answer me!
++
++41845:
++I felt as you do once... Brace yourself for what comes next... I'll tell you that much.
++
++41846:
++slayer dmg
++
++41847:
++slayer dth
++
++41848:
++Power of the Voice Heard
++
++41849:
++Power of the Voice - Improved Haste
++
++41850:
++Power of the Voice - Draw Upon Holy Might
++
++41851:
++Power of the Voice - Armor of Faith
++
++41852:
++Power of the Voice - Haste
++
++41853:
++rhino beet bc1
++
++41854:
++rhino beet bc2
++
++41855:
++rhino beet dmg
++
++41856:
++rhino beet dth
++
++41857:
++rhino beet sel
++
++41858:
++You seek my death? A fool's errand!
++
++41859:
++You cannot win!
++
++41860:
++aran dmg
++
++41861:
++aran dth
++
++41862:
++Ah, I know a discerning eye when I see one.
++
++41863:
++Wonders I have seen, but I save the best for you.
++
++41864:
++Who are you?
++
++41865:
++mycon dmg red
++
++41866:
++mycon dth red
++
++41867:
++shriek dmg
++
++41868:
++shriek dth
++
++41869:
++shriek sel
++
++41870:
++Kraken Tattoo of Power Unleashed
++
++41871:
++Kraken Tattoo of Power - Mirror Image
++
++41872:
++You have been awken by something, but you are not sure what, but you know that danger is afoot.
++
++41873:
++You slumber becomes interrupted by a sudden increase in blistering heat, and when you awake, you see salamanders writhed in flame...
++
++41874:
++Drow High Priestess
++
++41875:
++Monster Summoning VIII
++
++41876:
++Monster Summoning IX
++
++41877:
++Chimera
++
++41878:
++Feyr
++
++41879:
++chimera bc1
++
++41880:
++chimera bc2
++
++41881:
++chimera att1
++
++41882:
++chimera att2
++
++41883:
++chimera att3
++
++41884:
++chimera sel
++
++41885:
++chimera dmg
++
++41886:
++chimera dth
++
++41887:
++feyr bc1
++
++41888:
++feyr bc2
++
++41889:
++feyr att1
++
++41890:
++feyr att2
++
++41891:
++feyr sel
++
++41892:
++feyr rare sel
++
++41893:
++feyr dmg
++
++41894:
++feyr dth
++
++41895:
++Psionic Gaze
++
++41896:
++Psionic Stun
++
++41897:
++Hill Giant
++
++41898:
++Spell Trigger - Stoneskin
++
++41899:
++You will not stand in my way.
++
++41900:
++Die fools!
++
++41901:
++illas dmg
++
++41902:
++illas dth
++
++41903:
++They're too powerful! Retreat!
++
++41904:
++Contingency - Heal
++
++41905:
++Contingency - Cure Critical Wounds
++
++41906:
++demilich bc
++
++41907:
++demilich dmg
++
++41908:
++demilich dth
++
++41909:
++Gauntlets of Crushing
++
++41910:
++A foreigner from the east who went by the name of Floating Bear became well-known through the Sword Coast. Unarmed and unarmored, he bested many powerful warriors. One night, in the arms of a lady of the night, he whispered his secret. His martial arts training was supplemented by the thin gauntlets he wore, which allowed him to hit more accurately and with harder punches than bare fists would normally allow. The woman stole the gloves and took the next boat out. Floating Bear soon left, returning to his homeland.
++
++STATISTICS:
++
++Equipped abilities:
++– THAC0: +3 when attacking with fists
++– Damage: +3 when attacking with fists
++
++Weight: 2
++
++41911:
++Lost Soul of the Idol
++
++41912:
++Gift of the Lost Soul
++
++41913:
++This ring has been empowered by the soul of Carnoer, a monk who seeked the death of Lyfes, for killing his family. For years Carnoer chased after Lyfes, but Lyfes knew, and he toyed with him all those years, knowing Carnoer would never get to him.
++
++It was not all in vain though, Caernor was a very skilled monk, and on his travels his disciplined increased, and his power grew. Being completely fueled by the determination of one day getting to Lyfes, Carnoer continued to increase in power and skill, waiting for the day he would finally catch up to his foe.
++
++Unfortunately though, Lyfes was no push over, especially for the fact that Lyfes was "contaminated" with divine blood, spilt from the heavens on to him when he was a babe, and because of that, Lyfes' power grew expodentially. Also being a monk he was incredibly qucik, and was infused with the power of sorcery as well. His god like heritage was proving to be very benificial to his predicament. The problem being, Lyfes' divine power was getting to him, and Lyfes believed that the only way to save the world, would be to destroy anyone or anything that was more powerful than a peasant.
++
++So with that, Lyfes began his crusade of slaughtering powerful beings and being quite successful at it. The more he slaughtered, the stronger he became. Although ironically, he wasn't a phsycopath, he never went out of his way to hurt or kill the weak, although if they were injured or killed by accident, he took no notice. Many people believed Lyfes to be evil, but Lyfes never saw it that way, and he refused to believe so, for his thought processing was above others he thought, and he only had one goal in mind: Cleanse the world of powerful beings, so the common folk may be at piece from them.
++
++Through Lyfes' escapades, he angered a wyrm dragon so much to the point, that the wyrm went out of it's way to hunt Lyfes himself. It finally found Lyfes in a small village; The village where Carnoer lived. Lyfes wasn't going to apologize for his dealings, and it enraged the wyrm, causing them to go to battle. Many people perished in the battle includeing the wyrm, it would have been quite a sight to see, that a human of divine blood taking down a dragon all by himself, which is completely unheard of.
++
++Not everybody in the village perished that day though, there was one other survivor, which was Carnoer, who was only 5 at the time, who watched his parents perish in the battle between the two powers. Lyfes noticed Carnoer afterwards, and smiled at him then disappeared into the horizon. Carnoer was left all by himself, with no one or nothing, and somehow he managed to travel to the nearby city without getting molested by anyone for the days travel.
++
++He found himself at Silver City. A city built on top of an enormous lake, which was rich with silver deposits at it's depths. Carnoer was quickly accepted into a monastery when he was picked up by someone he refered to as his "Uncle". For the years that followed Carnoer trained at the monastery, becoming more and more skilled at martial arts, and then one day Lyfes came to Silver City, looking for the strongest beings there; To continue his quest of "cleansing" the world. Well Uncle wasn't going to have any of that, and he went to go stop Lyfes, and it looked like Uncle was actually giving Lyfes a hard time at first, but then Lyfes smiled and finished Uncle off in a heart beat, all the while Carnoer watching, another one close to him has fallen, Lyfes noticed Carnoer when he finished his uncle off smiled at him, and then disappeared. 
++
++Carnoer was 18 now, and twice now he saw the same man take the ones close to him down, and the rage and furry boiling inside of him was taking over, and his inner ki was burning for retribution. Carnoer had one thing on his mind; Stop Lyfes once and for all.
++
++So Carnoer set out to find Lyfes and take him down once and for all. On his journeys all he could hear is how Lyfes was killing beings of great power, all by himself, without a whim or a care, and the rage for the innocents was burning inside Carnoer, he could feel it in his dreams, it would haunt him, but he welcomed it, it fueled him, and even Carnoer's Ki was even fueling off of his rage, making his skin and bones tougher, making him stronger and faster. With Carnoer's Ki increasing he used his power to help as many people as possible regardless of power and race, especially the ones that Lyfes had affected.
++
++Then finally, years later, came the time for confrontation. Lyfes was pleased to see Carnoer come for him, Lyfes heard of the power that Carnoer was gaining, and it filled Lyfes with glee to know that he would take Carnoer down and continue the world cleansing.
++
++The battle was fierce, even to the point where Lyfes was showing frustration in the skill and ability of Carnoer, but Carnoer had a weakness; His pure rage. It was undisciplined, it wasn't focused enough, and Lyfes waited for the right time, risking his own life for the perfect shot. The moment finally came and Lyfes dilevered a crippling blow to Carnoer and Carnoer wasn't able to recover from it. Lyfes stood over Carnoer, smiled and then finished him off.
++
++Carnoer's spirit was never able to rest after falling in battle, so it was placed into this ring, hoping to one day destroy Lyfes and rid the world of his existance. The ring offers many protections to aid the wearer in battle, to hopefully make it so another one doesn't have to fall to those of greater power.
++
++STATISTICS:
++
++Equipped abilities:
++- Wearer regenerates 1 HP per round
++- Armor Class: +1
++- Saving Throws: +1
++- Magic Resistance: +10%
++- Fire Resistance: +10%
++- Cold Resistance: +10%
++- Acid Resistance: +10%
++- Electrical Resistance: +10%
++
++41914:
++Power of the Inner Soul
++
++41915:
++Who beckons?
++
++41916:
++Who walks in the temple of I...? Speak of yourself... You are almost beyond the sight of I.
++
++41917:
++As you wish, we battle!
++
++41918:
++rift dmg
++
++41919:
++This is the end of things... Rest your mind in my heart... Rest...
++
++41920:
++Enough!
++
++41921:
++Suffer.
++
++41922:
++poqu dmg
++
++41923:
++poqu dth
++
++41924:
++Greetings child of Ilmater, how are you today?
++
++41925:
++It seems that my campaign here has run it's coarse. It was time to move on in any event.
++
++41926:
++All you seek, all you have ever sought, can be found through me and the glorious suffering of my god.
++
++41927:
++So I kicked him in the head 'till he was dead. Ha ha ha ha.
++
++41928:
++*farts* Whoa... Now that was a stinker... Ha ha ha ha ha
++
++41929:
++Stop picking your nose.
++
++41930:
++bandit dmg
++
++41931:
++bandit dth
++
++41932:
++horse 1
++
++41933:
++horse 2
++
++41934:
++coran dmg
++
++41935:
++coran dth
++
++41936:
++Oh, it's you again.
++
++41937:
++Greetings citizens, I trust you'll be keeping your weapons at your sides.
++
++41938:
++Surrender! Or I will be forced to kill you!
++
++41939:
++inspec dmg
++
++41940:
++inspec dth
++
++41941:
++There's a disgustingly sick person out there, and I simply don't have the man power to protect everyone.
++
++41942:
++This isn't over! Not by a long shot!
++
++41943:
++Spell Trigger - True Seeing
++
++41944:
++Spell Trigger - Remove Magic
++
++41945:
++Spell Trigger - Death Spell
++
++41946:
++I trust that all is well?
++
++41947:
++I've no time to speak to one such as you.
++
++41948:
++Beware... Or you will soon be hangin' from yer tongue!
++
++41949:
++I'll taste your mettle with cold steel.
++
++41950:
++What is it?
++
++41951:
++My blade shall cut you to ribbons!
++
++41952:
++Flee or fall!
++
++41953:
++kiser dmg
++
++41954:
++kiser dth
++
++41955:
++I must escape.
++
++41956:
++I am already cognizant of your actions.
++
++41957:
++We must flee to fight another day!
++
++41958:
++No mercy for those who oppose us!
++
++41959:
++vic dmg
++
++41960:
++vic dth
++
++41961:
++Shar guides my hand.
++
++41962:
++Destiny awaits.
++
++41963:
++Chain Contingency - Globe of Invulnerability
++
++41964:
++Chain Contingency - Protection From Energy
++
++41965:
++Chain Contingency - Mantle
++
++41966:
++Chain Contingency - Protection From Magical Energy
++
++41967:
++Chain Contingency - Spell Deflection
++
++41968:
++harpy bc1
++
++41969:
++harpy bc2
++
++41970:
++harpy dmg
++
++41971:
++harpy dth
++
++41972:
++harpy sel
++
++41973:
++The obnoxious noice of heavy screams rains down on you while you rest. You awake to see that Harpies are swooping in for the kill...
++
++41974:
++ice gol bc1
++
++41975:
++ice gol bc2
++
++41976:
++ice gol sel
++
++41977:
++ice gol dmg
++
++41978:
++ice gol dth
++
++41979:
++female fiend dth
++
++41980:
++No no! I must be away...
++
++41981:
++djinni bc
++
++41982:
++djinni sel
++
++41983:
++djinni dmg
++
++41984:
++djinni dth
++
++41985:
++Spell Trigger - Globe of Invulnerability
++
++41986:
++Spell Sequencer - FireShield Red
++
++41987:
++Test of the Luremaster - Selfishness
++
++41988:
++Test of the Luremaster - Pride
++
++41989:
++Test of the Luremaster - Greed
++
++41990:
++Test of the Luremaster - Fear
++
++41991:
++Test of the Luremaster - Wrath
++
++41992:
++rak bc
++
++41993:
++rak sel
++
++41994:
++rak dmg
++
++41995:
++rak dth
++
++41996:
++WAT WEIRD BC1
++
++41997:
++WAT WEIRD BC2
++
++41998:
++WAT WEIRD SEL
++
++41999:
++WAT WEIRD DMG
++
++42000:
++WAT WEIRD DTH
++
++42001:
++spec knight bc
++
++42002:
++spec knight sel
++
++42003:
++spec knight dmg
++
++42004:
++spec knight dth
++
++42005:
++behold gauth bc
++
++42006:
++behold gauth sel
++
++42007:
++behold gauth att
++
++42008:
++behold gauth dmg
++
++42009:
++behold gauth dth
++
++42010:
++behold bc
++
++42011:
++behold att
++
++42012:
++behold dmg
++
++42013:
++behold dth
++
++42014:
++You brought this on yourselves!
++
++42015:
++Oh, piffle.
++
++42016:
++dmnkni dam
++
++42017:
++Gah... Back to the planes I suppose...
++
++42018:
++Why hello there, a prime is it? I thought we've been drawn into the Prime Material Plane, but I couldn't be sure with all this... Interference.
++
++42019:
++I see we got some rather unsporting primes to deal with.
++
++42020:
++[LICH 01]
++
++42021:
++[LICH 02]
++
++42022:
++[LICH 03]
++
++42023:
++[LICH 06]
++
++42024:
++[LICH 07]
++
++42025:
++ghost bc
++
++42026:
++ghost sel
++
++42027:
++ghost dmg
++
++42028:
++ghost dth
++
++42029:
++You wake just in time to see an amorphous collection of jelly coming to consume you while you rest...
++
++42030:
++Prepare to be eviscerated fool!
++
++42031:
++Care to dance?
++
++42032:
++This will be a slow and painful process.
++
++42033:
++You will suffer, oh yes.
++
++42034:
++Plant a blade in your innards I will!
++
++42035:
++evil dmg
++
++42036:
++evil dth
++
++42037:
++Another time, another place!
++
++42038:
++You are awaken by the howling of wolf like creatures, unfortunately it wasn't wolves that awoke you...
++
++42039:
++barb bc
++
++42040:
++barb att1
++
++42041:
++barb att2
++
++42042:
++barb dmg
++
++42043:
++barb dth
++
++42044:
++barrow bc
++
++42045:
++barrow sel
++
++42046:
++barrow dmg
++
++42047:
++barrow dth
++
++42048:
++drown bc
++
++42049:
++drown sel
++
++42050:
++drown dmg
++
++42051:
++drown dth
++
++42052:
++virgin bc
++
++42053:
++virgin sel
++
++42054:
++virgin dmg
++
++42055:
++virgin dth
++
++42056:
++virgin rare sel
++
++42057:
++Unh, what you want?
++
++42058:
++I watching you!
++
++42059:
++Speak manling, speak quick.
++
++42060:
++You and mine kind not get along!
++
++42061:
++Raaargh! You die! You die!
++
++42062:
++I will crush you puny one!
++
++42063:
++BARB DMG
++
++42064:
++BARB DTH
++
++42065:
++There are many ways of dealing with such as you.
++
++42066:
++You won't outlive the day.
++
++42067:
++I've seen just about enogh of you.
++
++42068:
++You'll get what you deserve right quick!
++
++42069:
++I'll have you dead!
++
++42070:
++FEMALE EVIL DMG
++
++42071:
++FEMALE EVIL DTH
++
++42072:
++Another time then!
++
++42073:
++You awake to the horror of a giant insect like creature coming in for the kill.
++
++42074:
++remor bc
++
++42075:
++remor bc2
++
++42076:
++remor dmg
++
++42077:
++remor dth
++
++42078:
++The hard foot steps of ice wakes you from your dreams...
++
++42079:
++seer sel
++
++42080:
++seer att
++
++42081:
++seer dmg
++
++42082:
++seer dth
++
++42083:
++scrag bc
++
++42084:
++scrag sel
++
++42085:
++scrag dmg
++
++42086:
++scrag dth
++
++42087:
++The dank smell of sewage and salt overwhelms you while you rest, obviously there's something fishy about...
++
++42088:
++lich bc
++
++42089:
++lich sel
++
++42090:
++lich dmg
++
++42091:
++lich dth
++
++42092:
++sahu bc
++
++42093:
++sahu sel
++
++42094:
++sahu dmg
++
++42095:
++sahu dth
++
++42096:
++vody bc
++
++42097:
++vody dmg
++
++42098:
++vody dth
++
++42099:
++vody sel
++
++42100:
++Spirit of the Dragon - Inner Life
++
++42101:
++Spirit of the Dragon - Spell Turning
++
++42102:
++Spirit of the Dragon - Protection From Magical Weapons
++
++42103:
++Spirit of the Dragon - Stoneskin
++
++42104:
++Spirit of the Dragon - Desire
++
++42105:
++Spirit of the Dragon - Hope
++
++42106:
++Spirit of the Dragon - Protection From Fire
++
++42107:
++Clan Battlehammer's Stoutward +2
++
++42108:
++Heavy Flail +3
++
++42109:
++The heavy flail is a sturdy wooden handle attached to an iron rod, a wooden rod with spikes, or a spiked iron ball. Between the handle and its implement is either a hinge or chain link. The weapon has been enhanced magically, effectively forming a bond between the weapon and its wielder.
++
++STATISTICS:
++
++THAC0: +3
++Damage: 1d10+3 (crushing)
++Speed Factor: 6
++Proficiency Type: Flail/Morning Star
++Type: One-handed
++Requires:
++ 18 Strength
++
++Weight: 12
+
