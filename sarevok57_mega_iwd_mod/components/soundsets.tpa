@@ -1,0 +1,12 @@
+COPY ~%MOD_FOLDER%/soundsets~ ~override~
+
+ACTION_FOR_EACH CRE IN ~ACCALIA~ BEGIN
+	COPY_EXISTING ~%CRE%.CRE~ ~override~
+		SAY INITIAL_MEETING ~You are welcome in my sight.~ [GGFEM01]
+		SAY BATTLE_CRY1 ~This is your end!~ [GGFEM02]
+		SAY BATTLE_CRY2 ~You've made a fatal error in judgment!~ [GGFEM03]
+		SAY DAMAGE ~~ [GGFEM04]
+		SAY DYING ~~ [GGFEM05]
+		SAY SELECT_COMMON1 ~You are welcome in my sight.~ [GGFEM01]
+END
+
