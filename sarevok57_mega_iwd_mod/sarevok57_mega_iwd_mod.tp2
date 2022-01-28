@@ -1,0 +1,39 @@
+BACKUP ~sarevok57_mega_iwd_mod/backup~
+SUPPORT ~https://forums.beamdog.com/discussion/63639~
+// VERSION ~~
+
+BEGIN ~Sarevok57's IWDEE Difficulty Revamp~
+DESIGNATED 10
+LABEL SAREVOK57-IWDEE-DIFFICULTY
+REQUIRE_PREDICATE GAME_IS ~iwdee~ ~This component requires Icewind Dale: Enhanced Edition.~
+
+INCLUDE ~sarevok57_mega_iwd_mod/components/difficulty.tpa~
+
+BEGIN ~IWDEE: Soundsets for Everyone!~
+DESIGNATED 20
+LABEL SAREVOK57-IWDEE-NPC-SOUNDS
+REQUIRE_PREDICATE GAME_IS ~iwdee~ ~This component requires Icewind Dale: Enhanced Edition.~
+
+INCLUDE ~sarevok57_mega_iwd_mod/components/soundsets.tpa~
+
+BEGIN ~Sarevok57's Item Pack~
+// includes the HQ bastard sword recolor and the IWDEE weapon tweaks
+DESIGNATED 30
+LABEL SAREVOK57-IWDEE-ITEM-PACK
+REQUIRE_PREDICATE GAME_IS ~iwdee~ ~This component requires Icewind Dale: Enhanced Edition.~
+
+INCLUDE ~sarevok57_mega_iwd_mod/components/itempack.tpa~
+
+/*
+
+BEGIN ~IWDEE: More Music Tracks~
+DESIGNATED 30
+LABEL SAREVOK57-IWDEE-MUSIC
+REQUIRE_PREDICATE GAME_IS ~iwdee~ ~This component requires Icewind Dale: Enhanced Edition.~
+
+BEGIN ~Sarevok57's Weapon Proficiency Revamp~
+DESIGNATED 40
+LABEL SAREVOK57-IWDEE-WEAPON-PROFS
+REQUIRE_PREDICATE GAME_IS ~iwdee~ ~This component requires Icewind Dale: Enhanced Edition.~
+	
+*/
