@@ -1,8 +1,39 @@
 
-//Individual creature changes
+COPY ~%MOD_FOLDER%/scripts~    ~override~
+
+
+// Individual creature changes
+// Spells: use Sarevok57 spell tables where applicable, however if there are spare slots, duplicate further spells from Sarevok57 and vanilla tables
 
 COPY_EXISTING ~ACCALIA.CRE~ ~override~
 	ADD_CRE_ITEM ~POTN20~ #1 #0 #0 ~IDENTIFIED~ ~QITEM~
 	ADD_CRE_ITEM ~POTN08~ #1 #0 #0 ~IDENTIFIED~ ~QITEM~
 	ADD_CRE_ITEM ~POTN17~ #1 #0 #0 ~IDENTIFIED~ ~QITEM~
+
+COPY_EXISTING ~ACOLYTE.CRE~ ~override~
+	WRITE_ASCII 0x260 ~5SCLER02~
+	WRITE_BYTE 0x234 7
+	WRITE_BYTE 0x235 1 //was 6 in OG and 7 in Sarevok57 mod, but this is a single-class cleric, this makes no sense
+	WRITE_BYTE 0x236 1 //was 6 in OG and 7 in Sarevok57 mod, but this is a single-class cleric, this makes no sense
+	ADD_CRE_ITEM ~BLUN01~ #0 #0 #0 ~IDENTIFIED~ ~WEAPON~ ~EQUIP~
+	// ADD_CRE_ITEM ~RNDTRE9A~ #0 #0 #0 ~QITEM~ //TO-DO
+	ADD_KNOWN_SPELL ~SPPR114~ #0 ~priest~
+	ADD_KNOWN_SPELL ~SPPR220~ #1 ~priest~
+	ADD_KNOWN_SPELL ~SPPR330~ #2 ~priest~
+	ADD_KNOWN_SPELL ~SPPR304~ #2 ~priest~
+	ADD_KNOWN_SPELL ~SPPR314~ #2 ~priest~
+	REMOVE_MEMORIZED_SPELLS
+	ADD_MEMORIZED_SPELL ~SPPR114~ #0 ~priest~ (3)
+	ADD_MEMORIZED_SPELL ~SPPR112~ #0 ~priest~ (1)
+	ADD_MEMORIZED_SPELL ~SPPR105~ #0 ~priest~ (2)
+	ADD_MEMORIZED_SPELL ~SPPR220~ #1 ~priest~ (2)
+	ADD_MEMORIZED_SPELL ~SPPR208~ #1 ~priest~ (2)
+	ADD_MEMORIZED_SPELL ~SPPR213~ #1 ~priest~ (2)
+	ADD_MEMORIZED_SPELL ~SPPR206~ #1 ~priest~ (2)
+	ADD_MEMORIZED_SPELL ~SPPR330~ #2 ~priest~ (1)
+	ADD_MEMORIZED_SPELL ~SPPR303~ #2 ~priest~ (2)
+	ADD_MEMORIZED_SPELL ~SPPR304~ #2 ~priest~ (1)
+	ADD_MEMORIZED_SPELL ~SPPR314~ #2 ~priest~ (2)
+	ADD_MEMORIZED_SPELL ~SPPR420~ #3 ~priest~ (2)
+
 
