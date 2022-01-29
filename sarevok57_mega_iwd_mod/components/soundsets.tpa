@@ -8,9 +8,10 @@ ACTION_FOR_EACH CRE IN ~ACCALIA~ BEGIN
 		SAY DAMAGE ~~ [GGFEM04]
 		SAY DYING ~~ [GGFEM05]
 		SAY SELECT_COMMON1 ~You are welcome in my sight.~ [GGFEM01]
+		BUT_ONLY
 END
 
-ACTION_FOR_EACH CRE IN ~ACOLYTE~ BEGIN
+ACTION_FOR_EACH CRE IN ~ACOLYTE ACOLYTED~ BEGIN
 	COPY_EXISTING ~%CRE%.CRE~ ~override~
 		SAY INITIAL_MEETING ~All of the faithful are welcome here.~ [GPRIM04]
 		SAY MORALE ~May the gods protect me!~ [GPRIM08]
@@ -22,4 +23,5 @@ ACTION_FOR_EACH CRE IN ~ACOLYTE~ BEGIN
 		SAY SELECT_COMMON2 ~I trust you are here in good faith.~ [GPRIM02]
 		SAY SELECT_COMMON3 ~May the gods look upon you kindly.~ [GPRIM03]
 		SAY SELECT_COMMON4 ~All of the faithful are welcome here.~ [GPRIM04]
+		BUT_ONLY
 END
