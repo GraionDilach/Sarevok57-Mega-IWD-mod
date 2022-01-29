@@ -1,0 +1,663 @@
+IF
+	Difficulty(HARDEST)
+	Global("Hardest","LOCALS",0)
+THEN
+	RESPONSE #100
+		SetGlobal("Hardest","LOCALS",1)
+END
+
+IF
+	Difficulty(HARDEST)
+	Global("Hardest","LOCALS",0)
+THEN
+	RESPONSE #100
+		SetGlobal("Hardest","LOCALS",1)
+		SetGlobal("Hard","LOCALS",2)
+		SetGlobal("Normal","LOCALS",2)
+		SetGlobal("Easy","LOCALS",2)
+END
+
+IF
+	Difficulty(HARD)
+	Global("Hard","LOCALS",0)
+THEN
+	RESPONSE #100
+		SetGlobal("Hardest","LOCALS",2)
+		SetGlobal("Hard","LOCALS",1)
+		SetGlobal("Normal","LOCALS",2)
+		SetGlobal("Easy","LOCALS",2)
+END
+
+IF
+	Difficulty(NORMAL)
+	Global("Normal","LOCALS",0)
+THEN
+	RESPONSE #100
+		SetGlobal("Hardest","LOCALS",2)
+		SetGlobal("Hard","LOCALS",2)
+		SetGlobal("Normal","LOCALS",1)
+		SetGlobal("Easy","LOCALS",2)
+END
+
+IF
+	DifficultyLT(NORMAL)
+	Global("Easy","LOCALS",0)
+THEN
+	RESPONSE #100
+		SetGlobal("Hardest","LOCALS",2)
+		SetGlobal("Hard","LOCALS",2)
+		SetGlobal("Normal","LOCALS",2)
+		SetGlobal("Easy","LOCALS",1)
+END
+
+IF
+	Global("Hardest","LOCALS",1)
+	Global("HardestWand","LOCALS",0)
+	See(NearestEnemyOf(Myself))
+	HasItem("WAND02",Myself)  // Wand of Fear
+THEN
+	RESPONSE #100
+		UseItem("WAND02",NearestEnemyOf(Myself))  // Wand of Fear
+		DisplayString(Myself,41516)  // *Uses wand*
+		SetGlobal("HardestWand","LOCALS",1)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	Global("Hardest","LOCALS",1)
+	Global("HardestPrep","LOCALS",0)
+	OR(13)
+		See([PC.0.0.MAGE])
+		See([PC.0.0.BARD])
+		See([PC.0.0.CLERIC])
+		See([PC.0.0.DRUID])
+		See([PC.0.0.SORCERER])
+		See([PC.0.0.CLERIC_MAGE])
+		See([PC.0.0.MAGE_THIEF])
+		See([PC.0.0.FIGHTER_MAGE])
+		See([PC.0.0.FIGHTER_MAGE_THIEF])
+		See([PC.0.0.FIGHTER_CLERIC])
+		See([PC.0.0.FIGHTER_MAGE_CLERIC])
+		See([PC.0.0.CLERIC_THIEF])
+		See([PC.0.0.FIGHTER_DRUID])
+	!StateCheck(LastSeenBy(Myself),STATE_SILENCED)
+THEN
+	RESPONSE #100
+		Spell(LastSeenBy(Myself),CLERIC_DISPEL_MAGIC)  // SPPR303.SPL (Dispel Magic)
+		SetGlobal("HardestPrep","LOCALS",1)
+		Continue()
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	Global("Hardest","LOCALS",1)
+	Global("HardestHeal","LOCALS",0)
+	HPPercentLT(Myself,51)
+THEN
+	RESPONSE #100
+		ApplySpell(Myself,CLERIC_CURE_SERIOUS_WOUNDS)  // SPPR401.SPL (Cure Serious Wounds)
+		SetGlobal("HardestHeal","LOCALS",1)
+END
+
+IF
+	HaveSpell(CLERIC_STATIC_CHARGE)  // SPPR420.SPL (Static Charge)
+	See(NearestEnemyOf(Myself))
+	Global("Hardest","LOCALS",1)
+	Global("HardestSpell","LOCALS",0)
+THEN
+	RESPONSE #100
+		Help()
+		Spell(NearestEnemyOf(Myself),CLERIC_STATIC_CHARGE)  // SPPR420.SPL (Static Charge)
+		SetGlobal("HardestSpell","LOCALS",1)
+END
+
+IF
+	HaveSpell(CLERIC_GLYPH_OF_WARDING)  // SPPR304.SPL (Glyph of Warding)
+	See(NearestEnemyOf(Myself))
+	Global("Hardest","LOCALS",1)
+	Global("HardestSpell","LOCALS",1)
+THEN
+	RESPONSE #100
+		Help()
+		Spell(NearestEnemyOf(Myself),CLERIC_GLYPH_OF_WARDING)  // SPPR304.SPL (Glyph of Warding)
+		SetGlobal("HardestSpell","LOCALS",2)
+END
+
+IF
+	HaveSpell(CLERIC_UNHOLY_BLIGHT)  // SPPR314.SPL (Unholy Blight)
+	See(NearestEnemyOf(Myself))
+	Global("Hardest","LOCALS",1)
+	Global("HardestSpell","LOCALS",2)
+THEN
+	RESPONSE #100
+		Help()
+		Spell(NearestEnemyOf(Myself),CLERIC_UNHOLY_BLIGHT)  // SPPR314.SPL (Unholy Blight)
+		SetGlobal("HardestSpell","LOCALS",3)
+END
+
+IF
+	HaveSpell(CLERIC_CAUSE_MEDIUM_WOUNDS)  // sppr330.SPL (Cause Medium Wounds)
+	See(NearestEnemyOf(Myself))
+	Global("Hardest","LOCALS",1)
+	Global("HardestSpell","LOCALS",3)
+THEN
+	RESPONSE #100
+		Help()
+		Spell(NearestEnemyOf(Myself),CLERIC_CAUSE_MEDIUM_WOUNDS)  // sppr330.SPL (Cause Medium Wounds)
+		SetGlobal("HardestSpell","LOCALS",4)
+END
+
+IF
+	HaveSpell(CLERIC_HOLD_PERSON)  // SPPR208.SPL (Hold Person)
+	See(NearestEnemyOf(Myself))
+	Global("Hardest","LOCALS",1)
+	Global("HardestSpell","LOCALS",4)
+	!StateCheck(LastSeenBy(Myself),STATE_HELPLESS)
+THEN
+	RESPONSE #100
+		Help()
+		Spell(NearestEnemyOf(Myself),CLERIC_HOLD_PERSON)  // SPPR208.SPL (Hold Person)
+		SetGlobal("HardestSpell","LOCALS",5)
+END
+
+IF
+	HaveSpell(CLERIC_CAUSE_MODERATE_WOUNDS)  // SPPR220.SPL (Cause Moderate Wounds)
+	See(NearestEnemyOf(Myself))
+	Global("Hardest","LOCALS",1)
+	Global("HardestSpell","LOCALS",5)
+THEN
+	RESPONSE #100
+		Help()
+		Spell(NearestEnemyOf(Myself),CLERIC_CAUSE_MODERATE_WOUNDS)  // SPPR220.SPL (Cause Moderate Wounds)
+		SetGlobal("HardestSpell","LOCALS",6)
+END
+
+IF
+	HaveSpell(CLERIC_HOLD_PERSON)  // SPPR208.SPL (Hold Person)
+	See(NearestEnemyOf(Myself))
+	Global("Hardest","LOCALS",1)
+	Global("HardestSpell","LOCALS",6)
+	!StateCheck(LastSeenBy(Myself),STATE_HELPLESS)
+THEN
+	RESPONSE #100
+		Help()
+		Spell(NearestEnemyOf(Myself),CLERIC_HOLD_PERSON)  // SPPR208.SPL (Hold Person)
+		SetGlobal("HardestSpell","LOCALS",7)
+END
+
+IF
+	HaveSpell(CLERIC_CAUSE_MODERATE_WOUNDS)  // SPPR220.SPL (Cause Moderate Wounds)
+	See(NearestEnemyOf(Myself))
+	Global("Hardest","LOCALS",1)
+	Global("HardestSpell","LOCALS",7)
+THEN
+	RESPONSE #100
+		Help()
+		Spell(NearestEnemyOf(Myself),CLERIC_CAUSE_MODERATE_WOUNDS)  // SPPR220.SPL (Cause Moderate Wounds)
+		SetGlobal("HardestSpell","LOCALS",8)
+END
+
+IF
+	HaveSpell(CLERIC_CURSE)  // SPPR112.SPL (Curse)
+	See(NearestEnemyOf(Myself))
+	Global("Hardest","LOCALS",1)
+	Global("HardestSpell","LOCALS",8)
+THEN
+	RESPONSE #100
+		Help()
+		Spell(NearestEnemyOf(Myself),CLERIC_CURSE)  // SPPR112.SPL (Curse)
+		SetGlobal("HardestSpell","LOCALS",9)
+END
+
+IF
+	HaveSpell(CLERIC_ENTANGLE)  // SPPR105.SPL (Entangle)
+	See(NearestEnemyOf(Myself))
+	Global("Hardest","LOCALS",1)
+	Global("HardestSpell","LOCALS",9)
+THEN
+	RESPONSE #100
+		Help()
+		Spell(NearestEnemyOf(Myself),CLERIC_ENTANGLE)  // SPPR105.SPL (Entangle)
+		SetGlobal("HardestSpell","LOCALS",10)
+END
+
+IF
+	HaveSpell(CLERIC_CAUSE_LIGHT_WOUNDS)  // SPPR114.SPL (Cause Light Wounds)
+	See(NearestEnemyOf(Myself))
+	Global("Hardest","LOCALS",1)
+	Global("HardestSpell","LOCALS",10)
+THEN
+	RESPONSE #100
+		Help()
+		Spell(NearestEnemyOf(Myself),CLERIC_CAUSE_LIGHT_WOUNDS)  // SPPR114.SPL (Cause Light Wounds)
+		SetGlobal("HardestSpell","LOCALS",11)
+END
+
+IF
+	HaveSpell(CLERIC_CAUSE_LIGHT_WOUNDS)  // SPPR114.SPL (Cause Light Wounds)
+	See(NearestEnemyOf(Myself))
+	Global("Hardest","LOCALS",1)
+	Global("HardestSpell","LOCALS",11)
+THEN
+	RESPONSE #100
+		Help()
+		Spell(NearestEnemyOf(Myself),CLERIC_CAUSE_LIGHT_WOUNDS)  // SPPR114.SPL (Cause Light Wounds)
+		SetGlobal("HardestSpell","LOCALS",12)
+END
+
+IF
+	HaveSpell(CLERIC_CAUSE_LIGHT_WOUNDS)  // SPPR114.SPL (Cause Light Wounds)
+	See(NearestEnemyOf(Myself))
+	Global("Hardest","LOCALS",1)
+	Global("HardestSpell","LOCALS",12)
+THEN
+	RESPONSE #100
+		Help()
+		Spell(NearestEnemyOf(Myself),CLERIC_CAUSE_LIGHT_WOUNDS)  // SPPR114.SPL (Cause Light Wounds)
+		SetGlobal("HardestSpell","LOCALS",13)
+END
+
+IF
+	HaveSpell(CLERIC_SPIRITUAL_HAMMER)  // SPPR213.SPL (Spiritual Hammer)
+	See(NearestEnemyOf(Myself))
+	Global("Hardest","LOCALS",1)
+	Global("HardestSpell","LOCALS",13)
+THEN
+	RESPONSE #100
+		Help()
+		Spell(Myself,CLERIC_SPIRITUAL_HAMMER)  // SPPR213.SPL (Spiritual Hammer)
+		SetGlobal("HardestSpell","LOCALS",14)
+END
+
+IF
+	Global("Hard","LOCALS",1)
+	Global("HardWand","LOCALS",0)
+	See(NearestEnemyOf(Myself))
+	HasItem("WAND02",Myself)  // Wand of Fear
+THEN
+	RESPONSE #100
+		UseItem("WAND02",NearestEnemyOf(Myself))  // Wand of Fear
+		DisplayString(Myself,41516)  // *Uses wand*
+		SetGlobal("HardWand","LOCALS",1)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	Global("Hard","LOCALS",1)
+	Global("HardPrep","LOCALS",0)
+	OR(13)
+		See([PC.0.0.MAGE])
+		See([PC.0.0.BARD])
+		See([PC.0.0.CLERIC])
+		See([PC.0.0.DRUID])
+		See([PC.0.0.SORCERER])
+		See([PC.0.0.CLERIC_MAGE])
+		See([PC.0.0.MAGE_THIEF])
+		See([PC.0.0.FIGHTER_MAGE])
+		See([PC.0.0.FIGHTER_MAGE_THIEF])
+		See([PC.0.0.FIGHTER_CLERIC])
+		See([PC.0.0.FIGHTER_MAGE_CLERIC])
+		See([PC.0.0.CLERIC_THIEF])
+		See([PC.0.0.FIGHTER_DRUID])
+	!StateCheck(LastSeenBy(Myself),STATE_SILENCED)
+THEN
+	RESPONSE #100
+		Spell(LastSeenBy(Myself),CLERIC_DISPEL_MAGIC)  // SPPR303.SPL (Dispel Magic)
+		SetGlobal("HardPrep","LOCALS",1)
+		Continue()
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	Global("Hard","LOCALS",1)
+	Global("HardHeal","LOCALS",0)
+	HPPercentLT(Myself,51)
+THEN
+	RESPONSE #100
+		ApplySpell(Myself,CLERIC_CURE_MEDIUM_WOUNDS)  // SPPR315.SPL (Cure Medium Wounds)
+		SetGlobal("HardHeal","LOCALS",1)
+END
+
+IF
+	HaveSpell(CLERIC_GLYPH_OF_WARDING)  // SPPR304.SPL (Glyph of Warding)
+	See(NearestEnemyOf(Myself))
+	Global("Hard","LOCALS",1)
+	Global("HardSpell","LOCALS",0)
+THEN
+	RESPONSE #100
+		Help()
+		Spell(NearestEnemyOf(Myself),CLERIC_GLYPH_OF_WARDING)  // SPPR304.SPL (Glyph of Warding)
+		SetGlobal("HardSpell","LOCALS",1)
+END
+
+IF
+	HaveSpell(CLERIC_UNHOLY_BLIGHT)  // SPPR314.SPL (Unholy Blight)
+	See(NearestEnemyOf(Myself))
+	Global("Hard","LOCALS",1)
+	Global("HardSpell","LOCALS",1)
+THEN
+	RESPONSE #100
+		Help()
+		Spell(NearestEnemyOf(Myself),CLERIC_UNHOLY_BLIGHT)  // SPPR314.SPL (Unholy Blight)
+		SetGlobal("HardSpell","LOCALS",2)
+END
+
+IF
+	HaveSpell(CLERIC_CAUSE_MEDIUM_WOUNDS)  // sppr330.SPL (Cause Medium Wounds)
+	See(NearestEnemyOf(Myself))
+	Global("Hard","LOCALS",1)
+	Global("HardSpell","LOCALS",2)
+THEN
+	RESPONSE #100
+		Help()
+		Spell(NearestEnemyOf(Myself),CLERIC_CAUSE_MEDIUM_WOUNDS)  // sppr330.SPL (Cause Medium Wounds)
+		SetGlobal("HardSpell","LOCALS",3)
+END
+
+IF
+	HaveSpell(CLERIC_HOLD_PERSON)  // SPPR208.SPL (Hold Person)
+	See(NearestEnemyOf(Myself))
+	Global("Hard","LOCALS",1)
+	Global("HardSpell","LOCALS",3)
+	!StateCheck(LastSeenBy(Myself),STATE_HELPLESS)
+THEN
+	RESPONSE #100
+		Help()
+		Spell(NearestEnemyOf(Myself),CLERIC_HOLD_PERSON)  // SPPR208.SPL (Hold Person)
+		SetGlobal("HardSpell","LOCALS",4)
+END
+
+IF
+	HaveSpell(CLERIC_CAUSE_MODERATE_WOUNDS)  // SPPR220.SPL (Cause Moderate Wounds)
+	See(NearestEnemyOf(Myself))
+	Global("Hard","LOCALS",1)
+	Global("HardSpell","LOCALS",4)
+THEN
+	RESPONSE #100
+		Help()
+		Spell(NearestEnemyOf(Myself),CLERIC_CAUSE_MODERATE_WOUNDS)  // SPPR220.SPL (Cause Moderate Wounds)
+		SetGlobal("HardSpell","LOCALS",5)
+END
+
+IF
+	HaveSpell(CLERIC_HOLD_PERSON)  // SPPR208.SPL (Hold Person)
+	See(NearestEnemyOf(Myself))
+	Global("Hard","LOCALS",1)
+	Global("HardSpell","LOCALS",5)
+	!StateCheck(LastSeenBy(Myself),STATE_HELPLESS)
+THEN
+	RESPONSE #100
+		Help()
+		Spell(NearestEnemyOf(Myself),CLERIC_HOLD_PERSON)  // SPPR208.SPL (Hold Person)
+		SetGlobal("HardSpell","LOCALS",6)
+END
+
+IF
+	HaveSpell(CLERIC_CAUSE_MODERATE_WOUNDS)  // SPPR220.SPL (Cause Moderate Wounds)
+	See(NearestEnemyOf(Myself))
+	Global("Hard","LOCALS",1)
+	Global("HardSpell","LOCALS",6)
+THEN
+	RESPONSE #100
+		Help()
+		Spell(NearestEnemyOf(Myself),CLERIC_CAUSE_MODERATE_WOUNDS)  // SPPR220.SPL (Cause Moderate Wounds)
+		SetGlobal("HardSpell","LOCALS",7)
+END
+
+IF
+	HaveSpell(CLERIC_CURSE)  // SPPR112.SPL (Curse)
+	See(NearestEnemyOf(Myself))
+	Global("Hard","LOCALS",1)
+	Global("HardSpell","LOCALS",7)
+THEN
+	RESPONSE #100
+		Help()
+		Spell(NearestEnemyOf(Myself),CLERIC_CURSE)  // SPPR112.SPL (Curse)
+		SetGlobal("HardSpell","LOCALS",8)
+END
+
+IF
+	HaveSpell(CLERIC_ENTANGLE)  // SPPR105.SPL (Entangle)
+	See(NearestEnemyOf(Myself))
+	Global("Hard","LOCALS",1)
+	Global("HardSpell","LOCALS",8)
+THEN
+	RESPONSE #100
+		Help()
+		Spell(NearestEnemyOf(Myself),CLERIC_ENTANGLE)  // SPPR105.SPL (Entangle)
+		SetGlobal("HardSpell","LOCALS",9)
+END
+
+IF
+	HaveSpell(CLERIC_CAUSE_LIGHT_WOUNDS)  // SPPR114.SPL (Cause Light Wounds)
+	See(NearestEnemyOf(Myself))
+	Global("Hard","LOCALS",1)
+	Global("HardSpell","LOCALS",9)
+THEN
+	RESPONSE #100
+		Help()
+		Spell(NearestEnemyOf(Myself),CLERIC_CAUSE_LIGHT_WOUNDS)  // SPPR114.SPL (Cause Light Wounds)
+		SetGlobal("HardSpell","LOCALS",10)
+END
+
+IF
+	HaveSpell(CLERIC_CAUSE_LIGHT_WOUNDS)  // SPPR114.SPL (Cause Light Wounds)
+	See(NearestEnemyOf(Myself))
+	Global("Hard","LOCALS",1)
+	Global("HardSpell","LOCALS",10)
+THEN
+	RESPONSE #100
+		Help()
+		Spell(NearestEnemyOf(Myself),CLERIC_CAUSE_LIGHT_WOUNDS)  // SPPR114.SPL (Cause Light Wounds)
+		SetGlobal("HardSpell","LOCALS",11)
+END
+
+IF
+	HaveSpell(CLERIC_CAUSE_LIGHT_WOUNDS)  // SPPR114.SPL (Cause Light Wounds)
+	See(NearestEnemyOf(Myself))
+	Global("Hard","LOCALS",1)
+	Global("HardSpell","LOCALS",11)
+THEN
+	RESPONSE #100
+		Help()
+		Spell(NearestEnemyOf(Myself),CLERIC_CAUSE_LIGHT_WOUNDS)  // SPPR114.SPL (Cause Light Wounds)
+		SetGlobal("HardSpell","LOCALS",12)
+END
+
+IF
+	HaveSpell(CLERIC_SPIRITUAL_HAMMER)  // SPPR213.SPL (Spiritual Hammer)
+	See(NearestEnemyOf(Myself))
+	Global("Hard","LOCALS",1)
+	Global("HardSpell","LOCALS",12)
+THEN
+	RESPONSE #100
+		Help()
+		Spell(Myself,CLERIC_SPIRITUAL_HAMMER)  // SPPR213.SPL (Spiritual Hammer)
+		SetGlobal("HardSpell","LOCALS",13)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	Global("Normal","LOCALS",1)
+	Global("NormalHeal","LOCALS",0)
+	HPPercentLT(Myself,51)
+THEN
+	RESPONSE #100
+		ApplySpell(Myself,CLERIC_CURE_LIGHT_WOUNDS)  // SPPR103.SPL (Cure Light Wounds)
+		SetGlobal("NormalHeal","LOCALS",1)
+END
+
+IF
+	HaveSpell(CLERIC_UNHOLY_BLIGHT)  // SPPR314.SPL (Unholy Blight)
+	See(NearestEnemyOf(Myself))
+	Global("Normal","LOCALS",1)
+	Global("NormalSpell","LOCALS",0)
+THEN
+	RESPONSE #100
+		Help()
+		Spell(NearestEnemyOf(Myself),CLERIC_UNHOLY_BLIGHT)  // SPPR314.SPL (Unholy Blight)
+		SetGlobal("NormalSpell","LOCALS",1)
+END
+
+IF
+	HaveSpell(CLERIC_CAUSE_MEDIUM_WOUNDS)  // sppr330.SPL (Cause Medium Wounds)
+	See(NearestEnemyOf(Myself))
+	Global("Normal","LOCALS",1)
+	Global("NormalSpell","LOCALS",1)
+THEN
+	RESPONSE #100
+		Help()
+		Spell(NearestEnemyOf(Myself),CLERIC_CAUSE_MEDIUM_WOUNDS)  // sppr330.SPL (Cause Medium Wounds)
+		SetGlobal("NormalSpell","LOCALS",2)
+END
+
+IF
+	HaveSpell(CLERIC_HOLD_PERSON)  // SPPR208.SPL (Hold Person)
+	See(NearestEnemyOf(Myself))
+	Global("Normal","LOCALS",1)
+	Global("NormalSpell","LOCALS",2)
+	!StateCheck(LastSeenBy(Myself),STATE_HELPLESS)
+THEN
+	RESPONSE #100
+		Help()
+		Spell(NearestEnemyOf(Myself),CLERIC_HOLD_PERSON)  // SPPR208.SPL (Hold Person)
+		SetGlobal("NormalSpell","LOCALS",3)
+END
+
+IF
+	HaveSpell(CLERIC_CAUSE_MODERATE_WOUNDS)  // SPPR220.SPL (Cause Moderate Wounds)
+	See(NearestEnemyOf(Myself))
+	Global("Normal","LOCALS",1)
+	Global("NormalSpell","LOCALS",3)
+THEN
+	RESPONSE #100
+		Help()
+		Spell(NearestEnemyOf(Myself),CLERIC_CAUSE_MODERATE_WOUNDS)  // SPPR220.SPL (Cause Moderate Wounds)
+		SetGlobal("NormalSpell","LOCALS",4)
+END
+
+IF
+	HaveSpell(CLERIC_CURSE)  // SPPR112.SPL (Curse)
+	See(NearestEnemyOf(Myself))
+	Global("Normal","LOCALS",1)
+	Global("NormalSpell","LOCALS",4)
+THEN
+	RESPONSE #100
+		Help()
+		Spell(NearestEnemyOf(Myself),CLERIC_CURSE)  // SPPR112.SPL (Curse)
+		SetGlobal("NormalSpell","LOCALS",5)
+END
+
+IF
+	HaveSpell(CLERIC_ENTANGLE)  // SPPR105.SPL (Entangle)
+	See(NearestEnemyOf(Myself))
+	Global("Normal","LOCALS",1)
+	Global("NormalSpell","LOCALS",5)
+THEN
+	RESPONSE #100
+		Help()
+		Spell(NearestEnemyOf(Myself),CLERIC_ENTANGLE)  // SPPR105.SPL (Entangle)
+		SetGlobal("NormalSpell","LOCALS",6)
+END
+
+IF
+	HaveSpell(CLERIC_CAUSE_LIGHT_WOUNDS)  // SPPR114.SPL (Cause Light Wounds)
+	See(NearestEnemyOf(Myself))
+	Global("Normal","LOCALS",1)
+	Global("NormalSpell","LOCALS",6)
+THEN
+	RESPONSE #100
+		Help()
+		Spell(NearestEnemyOf(Myself),CLERIC_CAUSE_LIGHT_WOUNDS)  // SPPR114.SPL (Cause Light Wounds)
+		SetGlobal("NormalSpell","LOCALS",7)
+END
+
+IF
+	HaveSpell(CLERIC_SPIRITUAL_HAMMER)  // SPPR213.SPL (Spiritual Hammer)
+	See(NearestEnemyOf(Myself))
+	Global("Normal","LOCALS",1)
+	Global("NormalSpell","LOCALS",7)
+THEN
+	RESPONSE #100
+		Help()
+		Spell(Myself,CLERIC_SPIRITUAL_HAMMER)  // SPPR213.SPL (Spiritual Hammer)
+		SetGlobal("NormalSpell","LOCALS",8)
+END
+
+IF
+	HaveSpell(CLERIC_HOLD_PERSON)  // SPPR208.SPL (Hold Person)
+	See(NearestEnemyOf(Myself))
+	Global("Easy","LOCALS",1)
+	Global("EasySpell","LOCALS",0)
+	!StateCheck(LastSeenBy(Myself),STATE_HELPLESS)
+THEN
+	RESPONSE #100
+		Help()
+		Spell(NearestEnemyOf(Myself),CLERIC_HOLD_PERSON)  // SPPR208.SPL (Hold Person)
+		SetGlobal("EasySpell","LOCALS",1)
+END
+
+IF
+	HaveSpell(CLERIC_CAUSE_MODERATE_WOUNDS)  // SPPR220.SPL (Cause Moderate Wounds)
+	See(NearestEnemyOf(Myself))
+	Global("Easy","LOCALS",1)
+	Global("EasySpell","LOCALS",1)
+THEN
+	RESPONSE #100
+		Help()
+		Spell(NearestEnemyOf(Myself),CLERIC_CAUSE_MODERATE_WOUNDS)  // SPPR220.SPL (Cause Moderate Wounds)
+		SetGlobal("EasySpell","LOCALS",2)
+END
+
+IF
+	HaveSpell(CLERIC_CURSE)  // SPPR112.SPL (Curse)
+	See(NearestEnemyOf(Myself))
+	Global("Easy","LOCALS",1)
+	Global("EasySpell","LOCALS",2)
+THEN
+	RESPONSE #100
+		Help()
+		Spell(NearestEnemyOf(Myself),CLERIC_CURSE)  // SPPR112.SPL (Curse)
+		SetGlobal("EasySpell","LOCALS",3)
+END
+
+IF
+	HaveSpell(CLERIC_ENTANGLE)  // SPPR105.SPL (Entangle)
+	See(NearestEnemyOf(Myself))
+	Global("Easy","LOCALS",1)
+	Global("EasySpell","LOCALS",3)
+THEN
+	RESPONSE #100
+		Help()
+		Spell(NearestEnemyOf(Myself),CLERIC_ENTANGLE)  // SPPR105.SPL (Entangle)
+		SetGlobal("EasySpell","LOCALS",4)
+END
+
+IF
+	HaveSpell(CLERIC_SPIRITUAL_HAMMER)  // SPPR213.SPL (Spiritual Hammer)
+	See(NearestEnemyOf(Myself))
+	Global("Easy","LOCALS",1)
+	Global("EasySpell","LOCALS",4)
+THEN
+	RESPONSE #100
+		Help()
+		Spell(Myself,CLERIC_SPIRITUAL_HAMMER)  // SPPR213.SPL (Spiritual Hammer)
+		SetGlobal("EasySpell","LOCALS",5)
+END
+
+IF
+	ActionListEmpty()
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		AttackReevaluate(NearestEnemyOf(Myself),30)
+END
+
+IF
+	ActionListEmpty()
+	Allegiance(Myself,ENEMY)
+THEN
+	RESPONSE #100
+		MoveToObject(NearestEnemyOf(Myself))
+END
+

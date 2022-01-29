@@ -1,5 +1,5 @@
 
-COPY ~%MOD_FOLDER%/scripts~    ~override~
+COMPILE EVALUATE_BUFFER ~%MOD_FOLDER%/scripts/5SCLER02.BAF~
 
 
 // Individual creature changes
