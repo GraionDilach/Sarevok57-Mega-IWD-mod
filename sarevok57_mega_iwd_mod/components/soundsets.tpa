@@ -38,3 +38,14 @@ ACTION_FOR_EACH CRE IN ~ADRAN~ BEGIN
 		SAY SELECT_COMMON2 ~Do not anger me.~ [GNFEM02]
 		BUT_ONLY
 END
+
+ACTION_FOR_EACH CRE IN ~ALBION~ BEGIN
+	COPY_EXISTING ~%CRE%.CRE~ ~override~
+		SAY INITIAL_MEETING ~You are welcome here.~ [GNMAL01]
+		SAY BATTLE_CRY1 ~Justice shall be swift and final!~ [GNMAL03]
+		SAY DAMAGE ~~ [GPRIM06] // [KAYLXX04] in BG2
+		SAY DYING ~~ [GPRIM07] // [MANCO04] in BG2
+		SAY SELECT_COMMON1 ~You are welcome here.~ [GNMAL01]
+		SAY SELECT_COMMON2 ~Good day to you.~ [GNMAL02]
+		BUT_ONLY
+END

@@ -14,8 +14,8 @@ COPY_EXISTING ~ACCALIA.CRE~ ~override~
 COPY_EXISTING ~ACOLYTE.CRE~ ~override~
 	WRITE_ASCII SCRIPT_GENERAL ~5SCLER02~
 	WRITE_BYTE 0x234 7
-	WRITE_BYTE 0x235 1 //was 6 in OG and 7 in Sarevok57 mod, but this is a single-class cleric, this makes no sense
-	WRITE_BYTE 0x236 1 //was 6 in OG and 7 in Sarevok57 mod, but this is a single-class cleric, this makes no sense
+	WRITE_BYTE 0x235 1 //was 6 in OG and 7 in Sarevok57 mod, but this is a single-class cleric
+	WRITE_BYTE 0x236 1 //was 6 in OG and 7 in Sarevok57 mod, but this is a single-class cleric
 	ADD_CRE_ITEM ~BLUN01~ #0 #0 #0 ~IDENTIFIED~ ~WEAPON~ ~EQUIP~
 	// ADD_CRE_ITEM ~RNDTRE9A~ #0 #0 #0 ~NONE~ ~QITEM~ //TO-DO
 	ADD_KNOWN_SPELL ~SPPR114~ #0 ~priest~
@@ -45,7 +45,8 @@ COPY_EXISTING ~ACOLYTED.CRE~ ~override~
 COMPILE EVALUATE_BUFFER ~%MOD_FOLDER%/scripts/5SADRAN.BAF~
 
 COPY_EXISTING ~ADRAN.CRE~ ~override~
-	WRITE_ASCII SCRIPT_OVERRIDE ~5SADRAN~ // general is set in AR9708.ARE
+	WRITE_LONG CRE_XP_value 12000
+	WRITE_ASCII SCRIPT_OVERRIDE ~5SADRAN~ // TO-DO general is set in AR9708.ARE
 	ADD_KNOWN_SPELL ~SPWI119~ #0 ~wizard~
 	ADD_KNOWN_SPELL ~SPWI211~ #1 ~wizard~
 	ADD_KNOWN_SPELL ~SPWI205~ #1 ~wizard~
@@ -101,4 +102,26 @@ COPY_EXISTING ~ADRAN.CRE~ ~override~
 	ADD_MEMORIZED_SPELL ~SPWI813~ #7 ~wizard~ (1)
 	BUT_ONLY
 
+COMPILE EVALUATE_BUFFER ~%MOD_FOLDER%/scripts/5SALBION.BAF~
 
+COPY_EXISTING ~ALBION.CRE~ ~override~
+	WRITE_SHORT CRE_maximum_HP 56
+	WRITE_SHORT CRE_current_HP 56
+	WRITE_ASCII SCRIPT_OVERRIDE ~5SALBION~ // TO-DO general and class is set in AR4004.ARE
+	WRITE_BYTE 0x234 7
+	ADD_KNOWN_SPELL ~SPPR106~ #0 ~priest~
+	ADD_KNOWN_SPELL ~SPPR115~ #0 ~priest~
+	ADD_KNOWN_SPELL ~SPPR218~ #1 ~priest~
+	ADD_KNOWN_SPELL ~SPPR220~ #1 ~priest~
+	ADD_KNOWN_SPELL ~SPPR325~ #2 ~priest~
+	ADD_KNOWN_SPELL ~SPPR314~ #2 ~priest~
+	ADD_KNOWN_SPELL ~SPPR426~ #3 ~priest~
+	REMOVE_MEMORIZED_SPELLS
+	ADD_MEMORIZED_SPELL ~SPPR106~ #0 ~priest~ (2)
+	ADD_MEMORIZED_SPELL ~SPPR115~ #0 ~priest~ (2)
+	ADD_MEMORIZED_SPELL ~SPPR218~ #1 ~priest~ (2)
+	ADD_MEMORIZED_SPELL ~SPPR220~ #1 ~priest~ (1)
+	ADD_MEMORIZED_SPELL ~SPPR325~ #2 ~priest~ (1)
+	ADD_MEMORIZED_SPELL ~SPPR314~ #2 ~priest~ (1)
+	ADD_MEMORIZED_SPELL ~SPPR426~ #3 ~priest~ (1)
+	BUT_ONLY

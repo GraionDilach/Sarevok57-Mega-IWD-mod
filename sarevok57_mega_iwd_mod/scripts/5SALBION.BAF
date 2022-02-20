@@ -1,0 +1,449 @@
+IF
+	Global("CREATURE_STATE_VARBit3","LOCALS",1)
+	!Global("CREATURE_STATE_VARBit5","LOCALS",1)
+	HPPercentLT(Myself,50)
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		IncrementGlobal("CREATURE_STATE_VARBit3","LOCALS",1)
+		Continue()
+END
+
+IF
+	Global("CREATURE_STATE_VARBit3","LOCALS",1)
+	HPPercentLT(Myself,15)
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		IncrementGlobal("CREATURE_STATE_VARBit3","LOCALS",1)
+		Continue()
+END
+
+IF
+	Difficulty(HARDEST)
+	Global("Hardest","LOCALS",0)
+THEN
+	RESPONSE #100
+		SetGlobal("Hardest","LOCALS",1)
+		SetGlobal("Hard","LOCALS",2)
+		SetGlobal("Normal","LOCALS",2)
+		SetGlobal("Easy","LOCALS",2)
+END
+
+IF
+	Difficulty(HARD)
+	Global("Hard","LOCALS",0)
+THEN
+	RESPONSE #100
+		SetGlobal("Hardest","LOCALS",2)
+		SetGlobal("Hard","LOCALS",1)
+		SetGlobal("Normal","LOCALS",2)
+		SetGlobal("Easy","LOCALS",2)
+END
+
+IF
+	Difficulty(NORMAL)
+	Global("Normal","LOCALS",0)
+THEN
+	RESPONSE #100
+		SetGlobal("Hardest","LOCALS",2)
+		SetGlobal("Hard","LOCALS",2)
+		SetGlobal("Normal","LOCALS",1)
+		SetGlobal("Easy","LOCALS",2)
+END
+
+IF
+	DifficultyLT(NORMAL)
+	Global("Easy","LOCALS",0)
+THEN
+	RESPONSE #100
+		SetGlobal("Hardest","LOCALS",2)
+		SetGlobal("Hard","LOCALS",2)
+		SetGlobal("Normal","LOCALS",2)
+		SetGlobal("Easy","LOCALS",1)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	Global("Hardest","LOCALS",1)
+	Global("HardestPrep","LOCALS",0)
+THEN
+	RESPONSE #100
+		ApplySpell(Myself,CLERIC_BLESS)  // SPPR101.SPL (Bless)
+		ApplySpell(Myself,CLERIC_RECITATION)  // SPPR421.SPL (Recitation)
+		ApplySpell(Myself,CLERIC_PRAYER)  // SPPR316.SPL (Prayer)
+		ApplySpell(Myself,CLERIC_DEFENSIVE_HARMONY)  // SPPR406.SPL (Defensive Harmony)
+		SetGlobal("HardestPrep","LOCALS",1)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	Global("Hard","LOCALS",1)
+	Global("HardPrep","LOCALS",0)
+THEN
+	RESPONSE #100
+		ApplySpell(Myself,CLERIC_BLESS)  // SPPR101.SPL (Bless)
+		ApplySpell(Myself,CLERIC_RECITATION)  // SPPR421.SPL (Recitation)
+		ApplySpell(Myself,CLERIC_PRAYER)  // SPPR316.SPL (Prayer)
+		SetGlobal("HardPrep","LOCALS",1)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	Global("Normal","LOCALS",1)
+	Global("NormalPrep","LOCALS",0)
+THEN
+	RESPONSE #100
+		ApplySpell(Myself,CLERIC_RECITATION)  // SPPR421.SPL (Recitation)
+		ApplySpell(Myself,CLERIC_PRAYER)  // SPPR316.SPL (Prayer)
+		SetGlobal("NormalPrep","LOCALS",1)
+END
+
+IF
+	HaveSpell(INNATE_ANIMAL_AFFINITY)  // SPIN197.SPL (Animal Affinity)
+	!Global("YUANTI_INFERNO","GLOBAL",0)
+THEN
+	RESPONSE #100
+		ApplySpell(Myself,INNATE_ANIMAL_AFFINITY)  // SPIN197.SPL (Animal Affinity)
+		ApplySpell(Myself,INNATE_CHAMELEON_POWER)  // SPIN196.SPL (Chameleon Power)
+		Continue()
+END
+
+IF
+	!Global("CREATURE_STATE_VARBit4","LOCALS",1)
+	HPPercentLT(Myself,75)
+THEN
+	RESPONSE #100
+		SetGlobal("CREATURE_STATE_VARBit4","LOCALS",1)
+		SetGlobal("CREATURE_STATE_VARBit3","LOCALS",1)
+		ApplySpell(Myself,INNATE_CHAMELEON_POWER)  // SPIN196.SPL (Chameleon Power)
+		Continue()
+END
+
+IF
+	!Global("CREATURE_STATE_VARBit5","LOCALS",1)
+	!Global("CREATURE_STATE_VARBit3","LOCALS",1)
+	HPPercentLT(Myself,25)
+THEN
+	RESPONSE #100
+		SetGlobal("CREATURE_STATE_VARBit5","LOCALS",1)
+		SetGlobal("CREATURE_STATE_VARBit3","LOCALS",1)
+		ApplySpell(Myself,INNATE_CHAMELEON_POWER)  // SPIN196.SPL (Chameleon Power)
+		Continue()
+END
+
+IF
+	Global("HardestPrep","LOCALS",1)
+	HaveSpell(CLERIC_SMASHING_WAVE)  // SPPR426.SPL (Smashing Wave)
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		Spell(LastSeenBy(Myself),CLERIC_SMASHING_WAVE)  // SPPR426.SPL (Smashing Wave)
+		SetGlobal("HardestPrep","LOCALS",2)
+END
+
+IF
+	Global("HardestPrep","LOCALS",2)
+	HaveSpell(CLERIC_CLOUDBURST)  // SPPR325.SPL (Cloudburst)
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		Spell(LastSeenBy(Myself),CLERIC_CLOUDBURST)  // SPPR325.SPL (Cloudburst)
+		SetGlobal("HardestPrep","LOCALS",3)
+END
+
+IF
+	Global("HardestPrep","LOCALS",3)
+	HaveSpell(CLERIC_UNHOLY_BLIGHT)  // SPPR314.SPL (Unholy Blight)
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		Spell(LastSeenBy(Myself),CLERIC_UNHOLY_BLIGHT)  // SPPR314.SPL (Unholy Blight)
+		SetGlobal("HardestPrep","LOCALS",4)
+END
+
+IF
+	Global("HardestPrep","LOCALS",4)
+	HaveSpell(CLERIC_ALICORN_LANCE)  // SPPR218.SPL (Alicorn Lance)
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		Spell(LastSeenBy(Myself),CLERIC_ALICORN_LANCE)  // SPPR218.SPL (Alicorn Lance)
+		SetGlobal("HardestPrep","LOCALS",5)
+END
+
+IF
+	Global("HardestPrep","LOCALS",5)
+	HaveSpell(CLERIC_ALICORN_LANCE)  // SPPR218.SPL (Alicorn Lance)
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		Spell(LastSeenBy(Myself),CLERIC_ALICORN_LANCE)  // SPPR218.SPL (Alicorn Lance)
+		SetGlobal("HardestPrep","LOCALS",6)
+END
+
+IF
+	Global("HardestPrep","LOCALS",6)
+	HaveSpell(CLERIC_CAUSE_MODERATE_WOUNDS)  // SPPR220.SPL (Cause Moderate Wounds)
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		Spell(LastSeenBy(Myself),CLERIC_CAUSE_MODERATE_WOUNDS)  // SPPR220.SPL (Cause Moderate Wounds)
+		SetGlobal("HardestPrep","LOCALS",7)
+END
+
+IF
+	Global("HardestPrep","LOCALS",7)
+	HaveSpell(CLERIC_SUNSCORCH)  // SPPR115.SPL (Sunscorch)
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		Spell(LastSeenBy(Myself),CLERIC_SUNSCORCH)  // SPPR115.SPL (Sunscorch)
+		SetGlobal("HardestPrep","LOCALS",8)
+END
+
+IF
+	Global("HardestPrep","LOCALS",8)
+	HaveSpell(CLERIC_MAGIC_STONE)  // SPPR106.SPL (Magical Stone)
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		Spell(LastSeenBy(Myself),CLERIC_MAGIC_STONE)  // SPPR106.SPL (Magical Stone)
+		SetGlobal("HardestPrep","LOCALS",9)
+END
+
+IF
+	Global("HardestPrep","LOCALS",9)
+	HaveSpell(CLERIC_SUNSCORCH)  // SPPR115.SPL (Sunscorch)
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		Spell(LastSeenBy(Myself),CLERIC_SUNSCORCH)  // SPPR115.SPL (Sunscorch)
+		SetGlobal("HardestPrep","LOCALS",10)
+END
+
+IF
+	Global("HardestPrep","LOCALS",10)
+	HaveSpell(CLERIC_MAGIC_STONE)  // SPPR106.SPL (Magical Stone)
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		Spell(LastSeenBy(Myself),CLERIC_MAGIC_STONE)  // SPPR106.SPL (Magical Stone)
+		SetGlobal("HardestPrep","LOCALS",11)
+END
+
+IF
+	Global("HardPrep","LOCALS",1)
+	HaveSpell(CLERIC_CLOUDBURST)  // SPPR325.SPL (Cloudburst)
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		Spell(LastSeenBy(Myself),CLERIC_CLOUDBURST)  // SPPR325.SPL (Cloudburst)
+		SetGlobal("HardPrep","LOCALS",2)
+END
+
+IF
+	Global("HardPrep","LOCALS",2)
+	HaveSpell(CLERIC_UNHOLY_BLIGHT)  // SPPR314.SPL (Unholy Blight)
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		Spell(LastSeenBy(Myself),CLERIC_UNHOLY_BLIGHT)  // SPPR314.SPL (Unholy Blight)
+		SetGlobal("HardPrep","LOCALS",3)
+END
+
+IF
+	Global("HardPrep","LOCALS",3)
+	HaveSpell(CLERIC_ALICORN_LANCE)  // SPPR218.SPL (Alicorn Lance)
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		Spell(LastSeenBy(Myself),CLERIC_ALICORN_LANCE)  // SPPR218.SPL (Alicorn Lance)
+		SetGlobal("HardPrep","LOCALS",4)
+END
+
+IF
+	Global("HardPrep","LOCALS",4)
+	HaveSpell(CLERIC_ALICORN_LANCE)  // SPPR218.SPL (Alicorn Lance)
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		Spell(LastSeenBy(Myself),CLERIC_ALICORN_LANCE)  // SPPR218.SPL (Alicorn Lance)
+		SetGlobal("HardPrep","LOCALS",5)
+END
+
+IF
+	Global("HardPrep","LOCALS",5)
+	HaveSpell(CLERIC_CAUSE_MODERATE_WOUNDS)  // SPPR220.SPL (Cause Moderate Wounds)
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		Spell(LastSeenBy(Myself),CLERIC_CAUSE_MODERATE_WOUNDS)  // SPPR220.SPL (Cause Moderate Wounds)
+		SetGlobal("HardPrep","LOCALS",6)
+END
+
+IF
+	Global("HardPrep","LOCALS",6)
+	HaveSpell(CLERIC_SUNSCORCH)  // SPPR115.SPL (Sunscorch)
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		Spell(LastSeenBy(Myself),CLERIC_SUNSCORCH)  // SPPR115.SPL (Sunscorch)
+		SetGlobal("HardPrep","LOCALS",7)
+END
+
+IF
+	Global("HardPrep","LOCALS",7)
+	HaveSpell(CLERIC_MAGIC_STONE)  // SPPR106.SPL (Magical Stone)
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		Spell(LastSeenBy(Myself),CLERIC_MAGIC_STONE)  // SPPR106.SPL (Magical Stone)
+		SetGlobal("HardPrep","LOCALS",8)
+END
+
+IF
+	Global("HardPrep","LOCALS",8)
+	HaveSpell(CLERIC_SUNSCORCH)  // SPPR115.SPL (Sunscorch)
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		Spell(LastSeenBy(Myself),CLERIC_SUNSCORCH)  // SPPR115.SPL (Sunscorch)
+		SetGlobal("HardPrep","LOCALS",9)
+END
+
+IF
+	Global("HardPrep","LOCALS",9)
+	HaveSpell(CLERIC_MAGIC_STONE)  // SPPR106.SPL (Magical Stone)
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		Spell(LastSeenBy(Myself),CLERIC_MAGIC_STONE)  // SPPR106.SPL (Magical Stone)
+		SetGlobal("HardPrep","LOCALS",10)
+END
+
+IF
+	Global("NormalPrep","LOCALS",1)
+	HaveSpell(CLERIC_UNHOLY_BLIGHT)  // SPPR314.SPL (Unholy Blight)
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		Spell(LastSeenBy(Myself),CLERIC_UNHOLY_BLIGHT)  // SPPR314.SPL (Unholy Blight)
+		SetGlobal("NormalPrep","LOCALS",2)
+END
+
+IF
+	Global("NormalPrep","LOCALS",2)
+	HaveSpell(CLERIC_ALICORN_LANCE)  // SPPR218.SPL (Alicorn Lance)
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		Spell(LastSeenBy(Myself),CLERIC_ALICORN_LANCE)  // SPPR218.SPL (Alicorn Lance)
+		SetGlobal("NormalPrep","LOCALS",3)
+END
+
+IF
+	Global("NormalPrep","LOCALS",3)
+	HaveSpell(CLERIC_CAUSE_MODERATE_WOUNDS)  // SPPR220.SPL (Cause Moderate Wounds)
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		Spell(LastSeenBy(Myself),CLERIC_CAUSE_MODERATE_WOUNDS)  // SPPR220.SPL (Cause Moderate Wounds)
+		SetGlobal("NormalPrep","LOCALS",4)
+END
+
+IF
+	Global("NormalPrep","LOCALS",4)
+	HaveSpell(CLERIC_SUNSCORCH)  // SPPR115.SPL (Sunscorch)
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		Spell(LastSeenBy(Myself),CLERIC_SUNSCORCH)  // SPPR115.SPL (Sunscorch)
+		SetGlobal("NormalPrep","LOCALS",5)
+END
+
+IF
+	Global("NormalPrep","LOCALS",5)
+	HaveSpell(CLERIC_MAGIC_STONE)  // SPPR106.SPL (Magical Stone)
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		Spell(LastSeenBy(Myself),CLERIC_MAGIC_STONE)  // SPPR106.SPL (Magical Stone)
+		SetGlobal("NormalPrep","LOCALS",6)
+END
+
+IF
+	Global("CREATURE_STATE_VARBit3","LOCALS",1)
+	!Global("SPRITE_IS_DEADHEALER","GLOBAL",0)
+THEN
+	RESPONSE #100
+		IncrementGlobal("CREATURE_STATE_VARBit3","LOCALS",1)
+		Continue()
+END
+
+IF
+	Global("CREATURE_STATE_VARBit3","LOCALS",1)
+	TargetUnreachable("ELDATHYNHEALER")
+THEN
+	RESPONSE #100
+		IncrementGlobal("CREATURE_STATE_VARBit3","LOCALS",1)
+		Continue()
+END
+
+IF
+	!Global("CREATURE_STATE_VARBit2","LOCALS",1)
+	!Global("YUANTI_INFERNO","GLOBAL",0)
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #75
+		SetGlobal("CREATURE_STATE_VARBit2","LOCALS",1)
+		SetSequence(HEAD_TURN)
+		Continue()
+	RESPONSE #25
+		SetGlobal("CREATURE_STATE_VARBit2","LOCALS",1)
+		Continue()
+END
+
+IF
+	!Global("YUANTI_INFERNO","GLOBAL",0)
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		Help()
+		AttackReevaluate(LastSeenBy(Myself),75)
+END
+
+IF
+	!Global("YUANTI_INFERNO","GLOBAL",0)
+	AttackedBy(NearestEnemyOf(Myself),DEFAULT)
+THEN
+	RESPONSE #100
+		MoveToObject(LastAttackerOf(Myself))
+END
+
+IF
+	!Global("CREATURE_STATE_VARBit3","LOCALS",1)
+	!Global("YUANTI_INFERNO","GLOBAL",0)
+	ActionListEmpty()
+	!See([PC])
+THEN
+	RESPONSE #100
+		MoveToObject(Player1)
+END
+
+IF
+	Global("CREATURE_STATE_VARBit3","LOCALS",1)
+	!HPPercentLT(Myself,75)
+THEN
+	RESPONSE #100
+		IncrementGlobal("CREATURE_STATE_VARBit3","LOCALS",1)
+END
+
+IF
+	Global("CREATURE_STATE_VARBit3","LOCALS",1)
+	!See("ELDATHYNHEALER")
+THEN
+	RESPONSE #100
+		MoveToObject("ELDATHYNHEALER")
+END
+
