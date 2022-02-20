@@ -49,3 +49,21 @@ ACTION_FOR_EACH CRE IN ~ALBION~ BEGIN
 		SAY SELECT_COMMON2 ~Good day to you.~ [GNMAL02]
 		BUT_ONLY
 END
+
+ACTION_FOR_EACH CRE IN ~ALDWIN~ BEGIN
+	COPY_EXISTING ~%CRE%.CRE~ ~override~
+		SAY INITIAL_MEETING ~You're rather outlandish folk to be wanderin' 'round here.~ [HALFL02]
+		SAY BATTLE_CRY1 ~Nasty times are comin', I reckon.~ [HALFL01]
+		SAY DAMAGE ~~ [HALFL05]
+		SAY DYING ~~ [HALFL06]
+		SAY SELECT_COMMON1 ~You're rather outlandish folk to be wanderin' 'round here.~ [HALFL02]
+		SAY SELECT_COMMON2 ~Queer things have been afoot lately.~ [HALFL03]
+		SAY SELECT_COMMON3 ~I wish I had my old tobacco pipe.~ [HALFL04]
+		BUT_ONLY
+END
+
+
+
+
+
+
